@@ -1,4 +1,4 @@
--- The mean is affected by outier field entries that contain 23+ hours. No dynamic version, as its end result was consistently wrong. 
+-- The mean is affected by outlier field entries that contain 23+ hours. No dynamic version, as its end result was consistently wrong.
 
 SELECT AVG(CONVERT(BIGINT, DATEDIFF(SECOND, CAST('00:00:00' AS TIME), ride_length))) AS MeanRL FROM (
     SELECT ride_length FROM [202205-divvy-tripdata]
