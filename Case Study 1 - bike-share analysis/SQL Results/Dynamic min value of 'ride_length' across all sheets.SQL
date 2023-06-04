@@ -1,5 +1,5 @@
 -- More investigation is required to answer how a customer may only use the bike for :01 second. 
--- However, when querying further, I found MIN(ride_length) at :02, :03, :04, and on. Dynamic synax option presented. 
+-- However, when querying further, I found MIN(ride_length) at :02, :03, :04, and on. Dynamic syntax option presented. 
 
 SELECT MIN(ride_length) AS MinRL FROM (
     SELECT ride_length FROM [202205-divvy-tripdata]
