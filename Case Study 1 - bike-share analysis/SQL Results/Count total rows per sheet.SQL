@@ -1,4 +1,4 @@
-```
+
 SELECT COUNT(*) AS TotalRows FROM [202205-divvy-tripdata];
 SELECT COUNT(*) AS TotalRows FROM [202206-divvy-tripdata];
 SELECT COUNT(*) AS TotalRows FROM [202207-divvy-tripdata];
@@ -11,4 +11,4 @@ SELECT COUNT(*) AS TotalRows FROM [202301-divvy-tripdata];
 SELECT COUNT(*) AS TotalRows FROM [202302-divvy-tripdata];
 SELECT COUNT(*) AS TotalRows FROM [202303-divvy-tripdata];
 SELECT COUNT(*) AS TotalRows FROM [202304-divvy-tripdata];
-``` 
+
