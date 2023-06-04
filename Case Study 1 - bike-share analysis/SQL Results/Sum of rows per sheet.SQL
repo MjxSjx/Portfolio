@@ -34,4 +34,4 @@ TotalRows
 258678
 SELECT COUNT(*) AS TotalRows FROM [202304-divvy-tripdata];
 TotalRows
-426590
+426590 
