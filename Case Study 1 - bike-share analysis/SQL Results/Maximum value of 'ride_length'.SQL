@@ -1,0 +1,12 @@
+SELECT MAX(ride_length) AS MaxRL FROM [202205-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202206-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202207-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202208-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202209-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202210-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202211-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202212-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202301-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202302-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202303-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202304-divvy-tripdata];
