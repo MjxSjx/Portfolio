@@ -1,6 +1,6 @@
  -- The results surprise no one, as more investigation is needed. Pedantic free dynamic version as well.
 
-SELECT MAX(ride_length) AS MaxRideLength FROM (
+SELECT MAX(ride_length) AS MaxRL FROM (
     SELECT ride_length FROM [202205-divvy-tripdata]
 		UNION
     SELECT ride_length FROM [202206-divvy-tripdata]
@@ -24,14 +24,14 @@ SELECT MAX(ride_length) AS MaxRideLength FROM (
 	SELECT ride_length FROM [202303-divvy-tripdata]
 		UNION
     SELECT ride_length FROM [202304-divvy-tripdata]
-) AS CombinedData;
-MaxRideLength
+) AS AnnualData;
+MaxRL
 23:59:56
 
 ------------------------------------------------------------------------------------
 
 DECLARE @sql NVARCHAR(MAX);
-SET @sql = N'SELECT MAX(ride_length) AS MaxRideLength FROM (';
+SET @sql = N'SELECT MAX(ride_length) AS MaxRL FROM (';
 
 SELECT @sql = @sql + N'
     SELECT ride_length FROM ' + QUOTENAME(name) + N' -- Ride lengths for table ' + name + '
@@ -46,8 +46,8 @@ WHERE name IN (
 
 SET @sql = LEFT(@sql, LEN(@sql) - LEN('UNION')); 
 
-SET @sql = @sql + N') AS CombinedData;'
+SET @sql = @sql + N') AS AnnualData;'
 
 EXEC sp_executesql @sql;
-MaxRideLength
+MaxRL
 23:59:56
