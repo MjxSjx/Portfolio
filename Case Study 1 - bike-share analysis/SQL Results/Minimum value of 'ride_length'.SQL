@@ -1,4 +1,5 @@
--- Coercion was required to get the ride_length data type to operate in SQL. More investigation is required to answer how a customer may only use the bike for :01 second. 
+-- Coercion was required to get the ride_length data type to operate in SQL. More investigation is required to answer 
+--- how a customer may only use the bike for :01 second. 
 -- However, when querying further, I found MIN(ride_length) at :02, :03, :04, and on.
 SELECT 
 	MIN(ride_length) AS MinRL 
