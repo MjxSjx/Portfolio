@@ -1,4 +1,4 @@
--- I'm here to report the data, not judge. That being said; the bikes were rented out all 7 days of the week every month.
+-- I'm here to report the data, not judge. That being said, the bikes were rented out all seven days of the week every month.
 SELECT COUNT(DISTINCT day_of_week) AS DistinctDoW FROM [202205-divvy-tripdata];
 DistinctDoW
 7
