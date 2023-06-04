@@ -1,4 +1,4 @@
---More investigation into the data is required to answer why the max times are so consistent-- 
+--More investigation into the data is required to answer why the max times are so consistent.
 
 SELECT MAX(ride_length) AS MaxRL FROM [202205-divvy-tripdata];
 MaxRL
