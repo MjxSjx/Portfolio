@@ -1,4 +1,5 @@
 -- Another situation where the variable data type needed to be coerced for SQL to operate, May had the longest ride length at 18:33.
+
 SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202205-divvy-tripdata];
 MeanRL
 1113
