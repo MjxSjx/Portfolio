@@ -1,4 +1,4 @@
--- As the data shows; Customer usage was peak in July and worst in January.
+-- As the data shows, customer usage peaked in July and was worst in January.
 
 SELECT COUNT(*) AS TotalRows FROM [202205-divvy-tripdata];
 TotalRows
