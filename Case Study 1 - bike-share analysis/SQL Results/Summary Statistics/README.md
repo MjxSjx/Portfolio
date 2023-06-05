@@ -5,6 +5,6 @@ This is meant to clear some of the potentially overwhelming amount of data prese
 
 * The distribution of member vs. casual users
 * Most popular bikes among casual and member types
-* Ride length difference between cusual and member types
+* Ride length difference between casual and member types
 * Peak usage hours and days for casual and member types
 * Peak casual users vs. peak member users
