@@ -46,15 +46,15 @@ ORDER BY peak_rides DESC;
 
 
 day_of_week peak_hour member_casual peak_rides
-    4	       17	  member     67665
-    3	       17	  member     65823
-    5	17	member	64516
-    2	17	member	58100
-    4	16	member	52287
-    3	16	member	51537
-    4	18	member	51204
-    5	18	member	50662
-    5	16	member	50533
+    4	       17	  member      67665
+    3	       17	  member      65823
+    5	       17	member	64516
+    2	       17	member	58100
+    4	       16	member	52287
+    3	       16	member	51537
+    4	       18	member	51204
+    5	       18	member	50662
+    5	       16	member	50533
     6	17	member	49757
     3	18	member	49472
     2	18	member	45411
