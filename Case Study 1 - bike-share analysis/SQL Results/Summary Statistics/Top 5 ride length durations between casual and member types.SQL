@@ -2,21 +2,21 @@
 -- Members use the bikes more often but in a shorter duration.
 -- Casuals use the bikes less but for an average duration of 33% longer.
 
-ride_length	member_casual	totalRides
-00:05:00	member	55141
-00:06:00	member	53804
-00:04:00	member	52544
-00:07:00	member	51019
-00:08:00.	member	46621
+ride_length  member_casual totalRides
+00:05:00      member	     55141
+00:06:00      member	     53804
+00:04:00      member	     52544
+00:07:00      member	     51019
+00:08:00      member	     46621
 Average member ride duration for top 5 is: 6 minutes 
 Total members for top 5: 51,825 63.5% 
 
-ride_length	member_casual	totalRides
-00:08:00	casual	31041
-00:09:00	casual	30204
-00:07:00  casual	30092
-00:10:00  casual	29134
-00:06:00	casual	28726
+ride_length  member_casual totalRides
+00:08:00      casual	     31041
+00:09:00      casual	     30204
+00:07:00      casual	     30092
+00:10:00      casual	     29134
+00:06:00      casual	     28726
 Average casual ride duration for top 5 is: 8 minutes
 Total members for top 5: 29,839 36.5%
 
