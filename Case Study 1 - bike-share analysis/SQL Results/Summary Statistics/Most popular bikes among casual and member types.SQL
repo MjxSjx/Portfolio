@@ -37,5 +37,5 @@ classic_bike	  casual	  891246	    37.79
 classic_bike	  member	  751339	     50.02
 docked_bike	  casual	  170518   	7.23
 docked_bike       member          0               0
-electric_bike 	  casual	 1296543  	54.98
-electric_bike	  member	 749415  	49.97
+electric_bike 	  casual	  1296543  	54.98
+electric_bike	  member	  749415  	49.97
