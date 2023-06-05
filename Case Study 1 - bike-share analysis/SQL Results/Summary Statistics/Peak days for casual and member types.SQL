@@ -42,7 +42,7 @@ Saturday	 member	       454431
 Sunday	         member	       402081
 Sunday	         casual	       388836
 Friday	         casual	       350084
-Thursday	  casual	       318471
-Wednesday	  casual	       284575
+Thursday	 casual	       318471
+Wednesday	 casual	       284575
 Monday	         casual	       275752
 Tuesday	         casual	       272663
