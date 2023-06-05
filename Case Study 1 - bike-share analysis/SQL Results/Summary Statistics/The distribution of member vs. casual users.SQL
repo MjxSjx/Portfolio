@@ -32,5 +32,5 @@ FROM (
 GROUP BY  member_casual;
 
 member_casual	totalRides	percentage
-casual	         2358307	       40.25%
-member	         3500754	       59.75%
+casual	         2358307	      40.25%
+member	         3500754	      59.75%
