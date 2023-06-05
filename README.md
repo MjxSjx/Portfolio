@@ -6,8 +6,6 @@ Experienced data entry and visualization with 2 years in finance. Skilled in ana
 
 Email: matt.johnson0304@gmail.com
 
-https://www.linkedin.com/in/matt-johnson0304/
-
 ## Case Studies
 
 Case Study 1: How Does a Bike-Share Navigate Speedy Success?
