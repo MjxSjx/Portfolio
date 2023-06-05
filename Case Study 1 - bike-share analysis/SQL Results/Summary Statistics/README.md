@@ -9,3 +9,4 @@ This is meant to clear some of the potentially overwhelming amount of data prese
 * Peak days for casual and member types
 * Peak hours for casual and member types
 * Peak casual users vs. peak member users
+* Peak rides in DESC order by day-hour-user
