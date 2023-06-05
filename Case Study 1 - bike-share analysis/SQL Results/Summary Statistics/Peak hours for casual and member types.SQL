@@ -66,8 +66,8 @@ hour	member_casual	totalRides
 10am	    casual	  94619
 10pm	    member	  89837
 10pm	    casual	  86600
-9am	    casual	   74458
-8am	    casual	    72823
+9am	    casual	  74458
+8am	    casual	  72823
 11pm	    casual	  64362
 11pm	    member	  58585
 7am	    casual	  54059
