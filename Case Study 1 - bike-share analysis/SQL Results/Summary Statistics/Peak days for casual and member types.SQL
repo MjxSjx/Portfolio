@@ -32,17 +32,17 @@ GROUP BY day_of_week, member_casual
 ORDER BY totalRides DESC;
 
 day_of_week  member_casual totalRides
-Thursday	     member	       560884
-Wednesday	     member	       556916
+Thursday	    member	       560884
+Wednesday	    member	       556916
 Tuesday	         member	       544402
 Friday	         member	       497476
 Monday	         member	       484564
-Saturady	     casual	       467926
-Saturday	     member	       454431
+Saturady	    casual	       467926
+Saturday	    member	       454431
 Sunday	         member	       402081
 Sunday	         casual	       388836
 Friday	         casual	       350084
-Thursday	     casual	       318471
-Wednesday	     casual	       284575
+Thursday	    casual	       318471
+Wednesday	    casual	       284575
 Monday	         casual	       275752
 Tuesday	         casual	       272663
