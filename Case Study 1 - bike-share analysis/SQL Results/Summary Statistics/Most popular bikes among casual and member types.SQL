@@ -33,9 +33,9 @@ FROM (
 GROUP BY rideable_type, member_casual;
 
 rideable_type 	member_casual	totalRides	percentage
-classic_bike	  casual	       891246	    37.791771809183
-classic_bike	  member	       1751339	  50.027479794352
-docked_bike	  casual	       170518   	7.230525966297
-docked_bike       member         0          0
-electric_bike 	  casual	       1296543  	54.977702224519
-electric_bike	  member	       1749415  	49.972520205647
+classic_bike	  casual	       891246	    37.79
+classic_bike	  member	       1751339	     50.02
+docked_bike	  casual	       170518   	7.23
+docked_bike       member                 0          0
+electric_bike 	  casual	       1296543  	54.98
+electric_bike	  member	       1749415  	49.97
