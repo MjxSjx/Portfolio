@@ -8,6 +8,8 @@ Email: matt.johnson0304@gmail.com
 
 https://www.linkedin.com/in/matt-johnson0304/
 
+## Case Studies
+
 Case Study 1: How Does a Bike-Share Navigate Speedy Success?
 
 Case Study 2: TBA
