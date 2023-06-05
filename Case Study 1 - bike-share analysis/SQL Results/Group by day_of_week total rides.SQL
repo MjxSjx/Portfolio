@@ -1,4 +1,4 @@
--- Using GROUP BY to sort by days of the week 1 = Sunday, 7 = Saturday. Saturday is the most popular day to rent a bike.
+-- Using GROUP BY to sort by days of the week. Saturday is the most popular day to rent a bike.
 
 SELECT day_of_week, COUNT(*) AS totalRides
 FROM (
@@ -29,14 +29,14 @@ FROM (
 GROUP BY day_of_week;
 
 
-day_of_week totalRides
-1            790917
-2            760316
-3            817065
-4            841491
-5            879355
-6            847560
-7            922357
+day_of_week   totalRides
+Sunday          790917
+Monday          760316
+Tuesday         817065
+Wednesday       841491
+Thursday        879355
+Friday          847560
+Saturday        922357
 
 
 
