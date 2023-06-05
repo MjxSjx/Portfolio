@@ -10,7 +10,7 @@ Friday        	56868	          72330
 Saturday       	95230	          68869
 
 peak_casual_users	peak_member_users
-    Saturday              Tuesday
+    Saturday               Tuesday
      95230	            76718
 
 SELECT
