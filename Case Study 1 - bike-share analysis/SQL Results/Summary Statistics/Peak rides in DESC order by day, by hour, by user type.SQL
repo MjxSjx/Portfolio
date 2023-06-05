@@ -48,13 +48,13 @@ ORDER BY peak_rides DESC;
 day_of_week peak_hour member_casual peak_rides
     4	       17	  member      67665
     3	       17	  member      65823
-    5	       17	member	64516
-    2	       17	member	58100
-    4	       16	member	52287
-    3	       16	member	51537
-    4	       18	member	51204
-    5	       18	member	50662
-    5	       16	member	50533
+    5	       17	  member	64516
+    2	       17	  member	58100
+    4	       16	  member	52287
+    3	       16	  member	51537
+    4	       18	  member	51204
+    5	       18	  member	50662
+    5	       16	  member	50533
     6	17	member	49757
     3	18	member	49472
     2	18	member	45411
@@ -64,29 +64,29 @@ day_of_week peak_hour member_casual peak_rides
     5	8	member	42713
     4	8	member	42279
     6	18	member	42051
-    7	15	casual	39387
+Saturday	15	casual	39387
     3	7	member	37848
     7	16	casual	37738
     7	14	casual	37133
     6	15	member	36673
-4	7	member	36578
-4	19	member	36158
-5	19	member	35821
-5	7	member	35748
-7	13	casual	35691
-5	17	casual	35490
-7	17	casual	35305
-3	19	member	34861
-5	15	member	34184
-7	12	casual	34073
-1	15	casual	34057
-7	16	member	33635
-6	17	casual	33509
-7	15	member	33509
-7	14	member	33454
-7	17	member	33336
-1	14	casual	33091
-4	15	member	33018
+    4	7	member	36578
+    4	19	member	36158
+    5	19	member	35821
+    5	7	member	35748
+    7	13	casual	35691
+    5	17	casual	35490
+    7	17	casual	35305
+    3	19	member	34861
+    5	15	member	34184
+    7	12	casual	34073
+    1	15	casual	34057
+    7	16	member	33635
+    6	17	casual	33509
+    7	15	member	33509
+    7	14	member	33454
+    7	17	member	33336
+    1	14	casual	33091
+    4	15	member	33018
 7	12	member	32952
 4	17	casual	32912
 2	8	member	32852
