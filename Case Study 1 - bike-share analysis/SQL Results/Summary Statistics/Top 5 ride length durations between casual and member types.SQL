@@ -8,7 +8,8 @@ ride_length  member_casual totalRides
 00:04:00      member	     52544
 00:07:00      member	     51019
 00:08:00      member	     46621
-### Average member ride duration for top 5 is: 6 minutes 
+
+* Average member ride duration for top 5 is: 6 minutes 
 * Total number members for top 5: 51,825 
 * 63.5% 
 
@@ -18,7 +19,8 @@ ride_length  member_casual totalRides
 00:07:00      casual	     30092
 00:10:00      casual	     29134
 00:06:00      casual	     28726
-### Average casual ride duration for top 5 is: 8 minutes
+
+* Average casual ride duration for top 5 is: 8 minutes
 * Total number members for top 5: 29,839 
 * 36.5%
 
