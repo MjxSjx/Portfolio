@@ -1,7 +1,7 @@
 
 # Summary Statical information:
 
-this is meant to clear some of the overwhelming amount of data presented in the previous folder.
+This is meant to clear some of the potentially overwhelming amount of data presented in the previous folder.
 
 * The distribution of member vs. casual users
 * Most popular bikes among casual and member types
