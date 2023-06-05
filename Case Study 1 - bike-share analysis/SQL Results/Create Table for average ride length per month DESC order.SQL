@@ -72,14 +72,14 @@ GROUP BY LEFT(table_name, 6);
 
 Month    AvgRL
 May-22   1113
-June-22   1099
-July-22   1093
+June-22  1099
+July-22  1093
 Aug-22   1014
-Sept-22    945
-Apr-23    878
-Oct-22    847
-Nov-22    735
-Feb-23    702
-Mar-23    685
-Dec-22    665
-Jan-23    649
+Sept-22  945
+Apr-23   878
+Oct-22   847
+Nov-22   735
+Feb-23   702
+Mar-23   685
+Dec-22   665
+Jan-23   649
