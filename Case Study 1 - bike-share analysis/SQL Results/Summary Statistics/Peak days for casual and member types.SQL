@@ -31,7 +31,7 @@ WHERE member_casual IN ('member', 'casual')
 GROUP BY day_of_week, member_casual
 ORDER BY totalRides DESC;
 
-day_of_week member_casual	totalRides
+day_of_week  member_casual	totalRides
 Thursday	     member	       560884
 Wednesday	     member	       556916
 Tuesday	         member	       544402
