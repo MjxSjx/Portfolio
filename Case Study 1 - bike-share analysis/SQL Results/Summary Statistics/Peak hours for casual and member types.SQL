@@ -36,11 +36,11 @@ GROUP BY DATEPART(HOUR, started_at), member_casual
 ORDER BY totalRides DESC;
 
 hour	member_casual	totalRides
-5pm	    member	      369308
-4pm	    member	      309434
-6pm	    member	      297032
-3pm	    member	      233464
-5pm	    casual	      225217
+5pm	    member	  369308
+4pm	    member	  309434
+6pm	    member	  297032
+3pm	    member	  233464
+5pm	    casual	  225217
 8am	    member	      217011
 7pm	    member	      215124
 4pm	    casual	      202483
