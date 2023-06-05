@@ -1,5 +1,5 @@
 
-# Summary Statical information:
+# Summary Statistical information:
 
 This is meant to clear some of the potentially overwhelming amount of data presented in the previous folder.
 
