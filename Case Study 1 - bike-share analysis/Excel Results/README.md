@@ -3,7 +3,7 @@
 * Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder for usability and transferability.
 * Place that folder in a location relevant to the material.
-* There is no reason to convert the files to XLSX, ignore the dulplication and alterations steps in the PDF.
+* There is no reason to convert the files to XLSX, ignore the dulplication and format alteration steps in the PDF.
 
 
 ### *If* the sheets have any missing data, remove the entire row.
