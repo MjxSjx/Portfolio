@@ -1,5 +1,11 @@
 # The Excel Process: From Dirty To Clean:
 
+### Start
+* Download the newest annual data from here: https://divvy-tripdata.s3.amazonaws.com/index.html.
+* Unzip all 12 files and place them in a specfically named folder for userablity and transferablity.
+* Place that folder in a location apt relevent to the material.
+
+
 ### *If* the sheets have any missing data, you must remove the entire row.
 <details>
 <summary>Cleaning the data</summary>
