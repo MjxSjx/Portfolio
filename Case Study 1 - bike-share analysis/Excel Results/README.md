@@ -9,6 +9,7 @@
 <details>
 <summary>Cleaning the data</summary>
   
+  
 *This process is per situation and normally stakeholders are involved with the decison on what to do with empty cells.*
 
 <ol>  
