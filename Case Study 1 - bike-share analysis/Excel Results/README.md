@@ -1,5 +1,7 @@
 # The Excel Process: From Dirty To Clean:
 
+<details>
+<summary> Cleaning the data</summary>
 1st I downloaded the most recent annual data from here: https://divvy-tripdata.s3.amazonaws.com/index.html
 2nd I unzipped all 12 files and placed them in a specfically named folder for userablity and transferablity.
 3rd I placed that folder in a location I would remember that held relevence to the material.
@@ -11,7 +13,7 @@ Xth I deleted all blank cells by selecting all fields (including column names) b
   After selecting all fields I held down CTRL G: A Go To window popups > Select "Special" > Click "Blanks". This will take literal minutes to finish running. Once finished I scroll down until I see a highlight cell or chunk of cells, right click when hovered over a highlighted cell and choose "Delete" then choose "Entire row" (You may get a warning; hit OK) THis to will take actual minutes and you sheet may freeze, that's normal. Sadly, you must run all of these steps twice. 
  
  Now that you data is clean and consistent, its time to add 2 new columns by combining columns using functions
-  
+</details>  
   
   
 # For
