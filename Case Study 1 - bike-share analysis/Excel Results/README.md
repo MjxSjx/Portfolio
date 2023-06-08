@@ -29,6 +29,11 @@
  <li> Your result will be a Float. Change that into the time format of HH:MM:SS.</li> 
  <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze)</li> 
  <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK</li>
+ <li> Select N2 > press CTRL+C > use macros to autofill the column or in N3 hold CTRL+SHIFT+ the down key</li>  
+ <li></li>  
+ <li></li>
+ <li></li>
+ <li></li>
   </ol>
 </details>  
 
