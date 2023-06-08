@@ -43,6 +43,13 @@
 </ol>
 </details>  
   
-  
-# For
+# The Excel Process: Time to Analyze:
+<details>
+<summary>Conduct descriptive analysis</summary>
+</details>  
+
+
+
+
+# Fin
 Due to the amount of content, the file is too large to post on GitHub; a PNG image has to do.
