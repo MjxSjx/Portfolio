@@ -1,6 +1,6 @@
 # The Excel Process: From Dirty To Clean:
 
-## *If the sheets have any missing data, you must remove the entire row of any singluar missing fields.*
+### *If* the sheets have any missing data, you must remove the entire row.
 <details>
 <summary>Cleaning the data</summary>
 <ol>
