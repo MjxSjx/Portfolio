@@ -1,6 +1,6 @@
 # The Excel Process: From Dirty To Clean:
 
-* Download the newest annual data from here: https://divvy-tripdata.s3.amazonaws.com/index.html.
+* Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder for usability and transferability.
 * Place that folder in a location relevant to the material.
 
