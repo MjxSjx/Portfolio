@@ -13,13 +13,13 @@
 
 <ol>  
 <li>  Select all fields (including column names) by clicking and dragging over all columns OR by clicking the upmost upper-left of the field section of the sheet. Aka above row 1 and to the left of column A.</li>
-<li> I unzipped all 12 files and placed them in a specfically named folder for userablity and transferablity. </li>
+  
+<li> After selecting all fields holdd down CTRL+G a "Go To" window popups > Select "Special" > Click "Blanks".</li>
 <li> I placed that folder in a location I would remember that held relevence to the material.</li>
 <li> I </li>
 
 
 
-Xth I deleted all blank cells by selecting all fields (including column names) by clicking and dragging on all columns OR clicking the upmost upper left of the field section of the sheet. aka above the row 1 and to the left of column A.
   After selecting all fields I held down CTRL G: A Go To window popups > Select "Special" > Click "Blanks". This will take literal minutes to finish running. Once finished I scroll down until I see a highlight cell or chunk of cells, right click when hovered over a highlighted cell and choose "Delete" then choose "Entire row" (You may get a warning; hit OK) THis to will take actual minutes and you sheet may freeze, that's normal. Sadly, you must run all of these steps twice. 
  
 
