@@ -29,7 +29,8 @@
  <li> Your result will be a Float. Change that into the time format of HH:MM:SS.</li> 
  <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze)</li> 
  <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK</li>
- <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN).</li>  
+ <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
+<li>Now repeat these steps for all 12 sheets</li>
   </ol>
 </details>  
 <details>
@@ -37,8 +38,9 @@
  <ol>
  <li>In your spreadsheet create a column called “day_of_week.” in Column O row 1.</li>  
  <li>In O2 enter "=WEEKDAY(C2,1)", Later if you prefer your Excel visuals to have the actual weekday name use "=TEXT(C2, "dddd")"</li>
- <li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or in O3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN).</li>
-  </ol>
+ <li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or in O3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
+<li>Now repeat these steps for all 12 sheets</li>
+</ol>
 </details>  
   
   
