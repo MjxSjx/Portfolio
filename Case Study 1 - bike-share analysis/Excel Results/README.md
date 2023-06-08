@@ -20,7 +20,7 @@
 </ol>
 </details>  
 
-### Now that you data is clean and consistent, its time to add new columns by combining columns using functions
+### Now that the data is clean and consistent, time to add new columns by combining columns using functions
 <details>
 <summary>Adding Columns</summary>
 </details>  
