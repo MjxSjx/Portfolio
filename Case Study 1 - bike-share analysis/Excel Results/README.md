@@ -36,8 +36,7 @@
 <summary>Adding day_of_week</summary>
  <ol>
  <li>In your spreadsheet create a column called “day_of_week.” in Column O row 1.</li>  
- <li>In O2 enter "=WEEKDAY(C2,1)", Later if you prefer your Excel visuals to have the actual weekday name use this "=TEXT(C2, "dddd")"
-</li>
+ <li>In O2 enter "=WEEKDAY(C2,1)", Later if you prefer your Excel visuals to have the actual weekday name use "=TEXT(C2, "dddd")"</li>
  <li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or in O3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN).</li>
   </ol>
 </details>  
