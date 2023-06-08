@@ -17,7 +17,7 @@ Xth I deleted all blank cells by selecting all fields (including column names) b
 </ol>
 </details>  
 
-## Now that you data is clean and consistent, its time to add 2 new columns by combining columns using functions
+### Now that you data is clean and consistent, its time to add 2 new columns by combining columns using functions
 <details>
 <summary>Adding Columns</summary>
 </details>  
