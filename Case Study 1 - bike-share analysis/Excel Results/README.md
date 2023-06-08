@@ -26,9 +26,9 @@
  <ol>
  <li> In your spreadsheet create a column called “ride_length.” in Column N row 1.</li> 
  <li> Calculate the length of each ride using the minus operator. Enter "=D2-C2" in cell N2 </li> 
- <li> Your result will be a Float. Lets change that into the "Time"format of  HH:MM:SS.</li> 
- <li> Select N2 > right click on it (Again Excel will freeze) > A window pop up will appear select "Format Cell"</li> 
- <li>  While under the Number tab Find "Category:" > Time > Type > 37:30:55 > hit OK</li>
+ <li> Your result will be a Float. Change that into the time format of HH:MM:SS.</li> 
+ <li> Select N2 > right click (Again Excel will freeze) > A window pop up will appear select "Format Cells"</li> 
+ <li> While in the Number tab find Category: > Time > Type > 37:30:55 > hit OK</li>
   </ol>
 </details>  
 
