@@ -12,7 +12,7 @@
 *This process is per situation and normally stakeholders are involved with the decison on what to do with empty cells.*
 
 <ol>  
-<li>  Select all fields (including column names) by clicking and dragging over all columns OR by clicking the upmost upper-left of the field section of the sheet. Aka above row 1 and to the left of column A.</li>
+<li>  Select all fields (including column names) by clicking and dragging over all columns OR by clicking the utmost upper-left of the field section of the sheet. Aka above row 1 and to the left of column A.</li>
 <li> After selecting all fields hold down CTRL+G a "Go To" window popups > Select "Special" > Click "Blanks". This may take literal minutes to finish running.</li>
   
 <li>Once finished I scroll down until I see a highlight cell or chunk of cells, right click when hovered over a highlighted cell and choose "Delete" then choose "Entire row" (You may get a warning; hit OK) THis to will take actual minutes and you sheet may freeze, that's normal.</li>
