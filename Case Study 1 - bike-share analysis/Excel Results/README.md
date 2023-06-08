@@ -8,11 +8,8 @@
 ### *If* the sheets have any missing data, remove the entire row.
 <details>
 <summary>Cleaning the data</summary>
-<ol>
----*This process is per situation and normally stakeholders are involved with the decison on what to do with empty cells.*
-
-
-  
+*This process is per situation and normally stakeholders are involved with the decison on what to do with empty cells.*
+<ol>  
 <li> I downloaded the most recent annual data from here: https://divvy-tripdata.s3.amazonaws.com/index.html. </li>
 <li> I unzipped all 12 files and placed them in a specfically named folder for userablity and transferablity. </li>
 <li> I placed that folder in a location I would remember that held relevence to the material.</li>
