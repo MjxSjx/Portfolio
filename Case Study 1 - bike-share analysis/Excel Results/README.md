@@ -5,7 +5,7 @@
 * Place that folder in a location relevent to the material.
 
 
-### *If* the sheets have any missing data, you must remove the entire row.
+### *If* the sheets have any missing data, remove the entire row.
 <details>
 <summary>Cleaning the data</summary>
 <ol>
