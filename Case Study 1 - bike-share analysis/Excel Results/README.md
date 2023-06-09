@@ -85,8 +85,8 @@
 *<strong>NOW</strong> we are going to copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
 
   <ol>
-<li></li> 
-<li></li> 
+<li>Open the first clean CSV file.</li> 
+<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this to all twelve. </li> 
 <li></li> 
 </ol>
 </details>  
