@@ -89,6 +89,8 @@
 <li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all twelve. </li> 
 <li></li> 
 </ol>
+  
+  *Notice all your files sizes are smaller :clap:.*
 </details>  
 
 
