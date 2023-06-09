@@ -36,7 +36,7 @@
 -- That is not part of this particular case study. As this data is much cleaner than normal situations, but we will see once instance it needs to be applied. 
 </details>  
 
-### Now the data is clean and consistent, it's time to add new columns by using formulas:small_red_triangle_down:
+### Now the data is clean and consistent, it's time to add new columns by using formulas :black_medium_square:
 <details>
 <summary>Adding ride_length</summary>
   
