@@ -51,17 +51,18 @@
  <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
 
    
-### Unfortunately, some months will have faulty "ride_length" data. You need to check each month using "Sort".
+### Some months will have faulty "ride_length" data. Each month needs to be checked using "Sort".
  
    
 <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
   Any cells filled with ##### forever need their whole row deleted (mind your header row).</li>
    
-   * Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields by one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong.
+* Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields by one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong.
    
 <li>Now repeat these steps for all 12 sheets</li>
 </ol>
 </details>  
+
 
 <details>
 <summary>Adding day_of_week</summary>
