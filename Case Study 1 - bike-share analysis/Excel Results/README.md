@@ -40,7 +40,7 @@
 <details>
 <summary>Adding ride_length</summary>
   
-  *In truth, normally we would also touch base with the stakeholders or remove ride_length durations lower and higher than certain thresholds as they are anomalies and throw off the data.*
+  *In truth, normally we would also touch base with the stakeholders to ask about removing ride_length duration ranges; lower and higher than certain thresholds are anomalies, offer little insight, and skew most results, outside of rare instances.*
   
  <ol>
  <li> In your spreadsheet create a column called “ride_length.” in Column N row 1.</li> 
@@ -50,7 +50,7 @@
  <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK</li>
  <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
 <li>Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort". Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
-  Any cells filled with ##### forever need their whole row deleted (mind your header row). I would check with stakeholders and ask about the range acceptable for this column. ride_length time durations of under a minute or over 17 hours offer little insight and skew the most results of outside rare instances.</li>
+  Any cells filled with ##### forever need their whole row deleted (mind your header row).</li>
    
    * Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields by one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong.
    
