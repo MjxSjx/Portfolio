@@ -30,6 +30,3 @@ GROUP BY  member_casual;
 member_casual   totalRides
 casual           2358307
 member           3500754
-
-
-
