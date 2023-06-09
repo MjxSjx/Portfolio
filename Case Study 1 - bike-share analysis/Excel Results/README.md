@@ -1,6 +1,6 @@
 # The Excel Process: From Dirty To Clean:
 
-*Google Sheets won't open files of these sizes. The instructions for Google Sheets are unfortunately pointless.*
+*Google Sheets won't open files of these sizes. The instructions for Google Sheets are unfortunately pointless:frowning:.*
 
 * Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder with CSV in the title for clarification.
