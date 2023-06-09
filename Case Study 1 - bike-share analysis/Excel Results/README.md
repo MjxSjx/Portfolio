@@ -54,7 +54,7 @@
  *Run a few calculations in one file to get a better sense of the data layout* 
   
 <ol>
-<li>Calculate the mean of ride_length: in cell Q1 type =AVERAGE(N:N) then format to time just like when we made the column N</li>
+<li>Calculate the mean of ride_length: in cell Q1 type =AVERAGE(N:N) then format to time just like when we made column N ride_length</li>
 <li>Calculate the max ride_length: in cell Q4 enter =MAX(N:N) then format to time again.</li>
 <li></li>
 <li></li>
