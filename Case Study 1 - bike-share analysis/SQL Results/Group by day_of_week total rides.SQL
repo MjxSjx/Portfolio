@@ -37,10 +37,3 @@ Wednesday       841491
 Thursday        879355
 Friday          847560
 Saturday        922357
-
-
-
-
-
-
-
