@@ -87,7 +87,7 @@
   <ol>
 <li>Open the first clean CSV file.</li> 
 <li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all twelve. </li> 
-<li>Use Power Query(google search) or simply copy and paste with CTRL+A > CTRL+C > then in original first sheet CTRL+V. Do this for all 12.</li>
+<li>Use Power Query (Google search) or simply copy and paste with CTRL+A > CTRL+C > then in original first sheet CTRL+V. Do this for all 12.</li>
 </ol>
   
   *Notice all your files sizes are smaller now and you now have a mega file too :clap:.*
