@@ -1,2 +1,2 @@
-Per stakeholder request, I utilized SQL while showing my work and answered every and all possible question using data-driven decisions-making.
+Per stakeholder request, I utilized SQL while showing my work and answered every possible question using data-driven decision-making.
 * Individual Statistical Details: A collection of simpler facts about the data.
