@@ -52,7 +52,7 @@
 
    
 
-- Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort".
+-- Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort".
  
 
 <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
