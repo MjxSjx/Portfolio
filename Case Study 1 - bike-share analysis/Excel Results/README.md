@@ -22,16 +22,16 @@
   
 <ul>
  <li> Normally you sort and filter each column and depending on the data type look for anomalies or any number of error values</li>
-  </ul>
   
+  <ul>
   * Currency: currency types that are out of range.
   * Date: dates that are out of range.
   * Number: numbers that are out of range.
   * Percentage: percentages that are out of range.
   * Text: letters or word lengths that are out of range.
   * Time: times that are out of range.
-
-
+  </ul>
+  </ul>
 </details>  
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas
