@@ -49,9 +49,9 @@
   
 # The Excel Process: Time to Analyze:
 <details>
-<summary>Conduct descriptive analysis</summary>
+<summary>Run a few calculations</summary>
   
- *Run a few calculations in one file to get a better sense of the data layout* 
+ *Run a few calculations in two files of opposite seaons to get a better sense of the data layout* 
   
 <ol>
 <li>Calculate the mean of ride_length: in cell Q1 type =AVERAGE(N:N) then format to time just like when we made column N "ride_length"</li>
