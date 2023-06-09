@@ -78,10 +78,21 @@
 <li>Now repeat these steps for all 12 sheets</li>
 </ol>
   
-*<strong>NOW</strong> we copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
+*<strong>NOW</strong> we are going to copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
   
 </details>  
-  
+
+
+<details>
+<summary>Combining all files</summary>
+<ol>
+<li></li> 
+<li></li> 
+<li></li> 
+</ol>
+</details>  
+
+
 # The Excel Process: Time to Analyze:
 <details>
 <summary>Run a few calculations</summary>
