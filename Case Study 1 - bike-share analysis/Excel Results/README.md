@@ -36,7 +36,7 @@
   </ul>
   </ul>
   
-*This data is much cleaner than normal situations, but we will see onc instance where it needs to be applied.*
+*This data is much cleaner than normal situations, but we will see one instance where it needs to be applied.*
   
 </details>  
 
