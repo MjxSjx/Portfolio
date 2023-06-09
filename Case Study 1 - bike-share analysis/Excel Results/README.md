@@ -90,7 +90,7 @@
 <li></li> 
 </ol>
   
-  *Notice all your files sizes are smaller :clap:.*
+  *Notice all your files sizes are smaller now and have a mega file :clap:.*
 </details>  
 
 
