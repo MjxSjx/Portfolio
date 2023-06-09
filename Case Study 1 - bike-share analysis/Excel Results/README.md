@@ -39,6 +39,9 @@
 ### Now the data is clean and consistent, it's time to add new columns by using formulas
 <details>
 <summary>Adding ride_length</summary>
+  
+  *In truth, normally we would also touch base with the stakeholders or remove ride_length durations lower and higher than certain thresholds as they are anomalies and throw off the data.*
+  
  <ol>
  <li> In your spreadsheet create a column called “ride_length.” in Column N row 1.</li> 
  <li> Calculate the length of each ride using the minus operator from columns C (started_at) & D (ended_at) Enter "=D2-C2" in cell N2 </li> 
@@ -51,10 +54,9 @@
    * Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields by one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong.
    
 <li>Now repeat these steps for all 12 sheets</li>
-   
-*In truth, normally we would also touch base with the stakeholders or remove ride_length durations lower and higher than certain thresholds as they are anomalies and throw off the data.*
-  </ol>
+</ol>
 </details>  
+
 <details>
 <summary>Adding day_of_week</summary>
  <ol>
