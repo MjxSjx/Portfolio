@@ -77,6 +77,7 @@
  <li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or in O3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
 <li>Now repeat these steps for all 12 sheets</li>
 </ol>
+*<strong>NOW</strong> we copy and convert all the files to XLSX inside a new folder with XLSX in the title.
 </details>  
   
 # The Excel Process: Time to Analyze:
