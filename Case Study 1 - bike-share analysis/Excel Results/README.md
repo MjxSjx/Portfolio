@@ -33,7 +33,7 @@
  <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
 <li>Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort". Select column N and click on the "Data" tab at the top of the sheet > click Sort > Continue with the current selection > Sort by ride_length > Order Largest to Smallest. Any cells filled with ################################## forever need their whole row deleted.</li>
 <li>Now repeat these steps for all 12 sheets</li>
-<li>In truth normally we would also touch base with the stakeholders or remove ride_length durations lower & higher than certain therseholds as they are anomalies and throw off the data.</li>
+*In truth, normally we would also touch base with the stakeholders or remove ride_length durations lower and higher than certain thresholds as they are anomalies and throw off the data.*
   </ol>
 </details>  
 <details>
