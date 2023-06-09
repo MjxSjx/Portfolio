@@ -33,7 +33,7 @@
   </ul>
   </ul>
   
- -- That is not part of this particular case study. As this data is much cleaner than normal situations, but we will see once instance it needs to be applied. 
+-- That is not part of this particular case study. As this data is much cleaner than normal situations, but we will see once instance it needs to be applied. 
 </details>  
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas
@@ -50,11 +50,8 @@
  <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK</li>
  <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
 
-   
-
 -- Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort".
  
-
 <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
   Any cells filled with ##### forever need their whole row deleted (mind your header row).</li>
    
