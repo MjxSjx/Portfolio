@@ -31,8 +31,3 @@ rideable_type      totalRides
 classic_bike        2642585
 docked_bike         170518
 electric_bike       3045958
-
-
-
-
-
