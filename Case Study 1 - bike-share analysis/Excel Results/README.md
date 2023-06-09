@@ -20,7 +20,9 @@
 <li>Sadly, you must do all of these steps twice:weary:.</li>
   
   
-<ul>Normally you sort and filter each column and depending on the data type look for anomalies or any number of error values</ul>
+<ul>
+ <li> Normally you sort and filter each column and depending on the data type look for anomalies or any number of error values</li>
+  </ul>
   
   * Currency: currency types that are out of range.
   * Date: dates that are out of range.
