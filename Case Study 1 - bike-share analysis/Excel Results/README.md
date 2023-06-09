@@ -63,7 +63,7 @@
 <details>
 <summary>Pivot tables and Graphs</summary>
 <ol>
-<li></li>
+<li>Calculate the average ride_length for members and casual riders: in cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M & N > Existing Worksheet then OK. Place member_casual in the Rows area and ride_length in the Values area then change Values type to Average.</li>
 <li></li>
 <li></li>
 <li></li>
