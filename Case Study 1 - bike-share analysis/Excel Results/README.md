@@ -86,7 +86,7 @@
 
   <ol>
 <li>Open the first clean CSV file.</li> 
-<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this to all twelve. </li> 
+<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all twelve. </li> 
 <li></li> 
 </ol>
 </details>  
