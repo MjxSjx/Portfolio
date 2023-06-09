@@ -46,7 +46,10 @@
  <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze)</li> 
  <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK</li>
  <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
-<li>Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort". Select <strong>all</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Continue with the current selection > Sort by ride_length > Order Largest to Smallest. Any cells filled with ################################## forever need their whole row deleted. I would check with stakeholders and ask about the range acceptable for this column. ride_length time durations of under a minute offer little insight and skew the majority of outside rare instances.</li>
+<li>Unfortunately, some months at random will have faulty "ride_length" data. You need to check each month using "Sort". Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Continue with the current selection > Sort by ride_length > Order Largest to Smallest. Any cells filled with ################################## forever need their whole row deleted. I would check with stakeholders and ask about the range acceptable for this column. ride_length time durations of under a minute offer little insight and skew the majority of outside rare instances.</li>
+   
+   * Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields by one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong.
+   
 <li>Now repeat these steps for all 12 sheets</li>
    
 *In truth, normally we would also touch base with the stakeholders or remove ride_length durations lower and higher than certain thresholds as they are anomalies and throw off the data.*
