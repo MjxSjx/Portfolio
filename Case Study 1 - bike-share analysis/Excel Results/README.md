@@ -7,6 +7,7 @@
 * Place that folder in a location relevant to the material. The CSV files will be used for SQL and R.
 * Copy and connvert the files to XLSX inside a new folder with XLSX in the title: CSV files cannot saves multiple sheets in one file.
 
+*XLSX files can store more data and have a better compression algorithm, saving you space.*
 
 ### *If* the sheets have any missing data, remove the entire row :black_medium_square:
 <details>
