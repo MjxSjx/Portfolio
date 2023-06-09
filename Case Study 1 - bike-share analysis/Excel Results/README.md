@@ -78,7 +78,7 @@
 <li>Now repeat these steps for all 12 sheets</li>
 </ol>
   
-*<strong>NOW</strong> we copy and convert all the files to XLSX inside a new folder with XLSX in the title.
+*<strong>NOW</strong> we copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
   
 </details>  
   
