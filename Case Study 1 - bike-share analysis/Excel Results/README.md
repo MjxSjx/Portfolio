@@ -21,7 +21,7 @@
 </ol>
   
 <ul>
- <li> Normally you sort and filter each column and depending on the data type look for anomalies or any number of error values</li>
+ <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values</li>
   
   <ul>
    <li> Currency: currency types that are out of range.</li>
