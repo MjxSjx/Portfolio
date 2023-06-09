@@ -24,12 +24,12 @@
  <li> Normally you sort and filter each column and depending on the data type look for anomalies or any number of error values</li>
   
   <ul>
-  * Currency: currency types that are out of range.
-  * Date: dates that are out of range.
-  * Number: numbers that are out of range.
-  * Percentage: percentages that are out of range.
-  * Text: letters or word lengths that are out of range.
-  * Time: times that are out of range.
+   <li> Currency: currency types that are out of range.</li>
+   <li> Date: dates that are out of range.</li>
+   <li> Number: numbers that are out of range.</li>
+   <li> Percentage: percentages that are out of range.</li>
+   <li> Text: letters or word lengths that are out of range.</li>
+   <li> Time: times that are out of range.</li>
   </ul>
   </ul>
 </details>  
