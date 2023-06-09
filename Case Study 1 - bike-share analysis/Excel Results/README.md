@@ -55,7 +55,7 @@
 <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
   Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row).</li>
    
-* *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless. Aka "This is the way":cinema:.*
+* *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless. Aka "This is the way".*
    
 <li>Now repeat these steps for all 12 sheets</li>
 </ol>
