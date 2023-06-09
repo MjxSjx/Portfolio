@@ -33,7 +33,7 @@
   </ul>
   </ul>
   
- -- That is not part of this particuar case study.
+ -- That is not part of this particular case study.
 </details>  
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas
