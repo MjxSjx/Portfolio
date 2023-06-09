@@ -1,5 +1,7 @@
 # The Excel Process: From Dirty To Clean:
 
+*Google sheets won't open files of these sizes, the instructions for Sheets is unfortunately pointless.*
+
 * Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder with CSV in the title for clarification.
 * Place that folder in a location relevant to the material. The CSV will be used for SQL and R.
