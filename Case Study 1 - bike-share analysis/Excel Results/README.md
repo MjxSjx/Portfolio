@@ -1,7 +1,7 @@
 # The Excel Process: From Dirty To Clean:
 
 * Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
-* Unzip all 12 files and place them in a specially named folder with CSV in the title for usability and transferability.
+* Unzip all 12 files and place them in a specially named folder with CSV in the title for clarification.
 * Place that folder in a location relevant to the material.
 * Convert the files to XLSX: CSV files cannot saves multiple sheets in one file.
 
