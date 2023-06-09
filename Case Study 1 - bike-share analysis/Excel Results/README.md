@@ -48,6 +48,20 @@
 # The Excel Process: Time to Analyze:
 <details>
 <summary>Conduct descriptive analysis</summary>
+  
+ *Run a few calculations in one file to get a better sense of the data layout* 
+  
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>  
+</ol>
 </details>  
 
 
