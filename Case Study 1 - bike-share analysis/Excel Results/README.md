@@ -104,5 +104,5 @@
 </details>
 
 
-# Fin :icecream:
+# Fin 
 Due to the amount of content, the file is too large to post on GitHub; a PNG image has to do.
