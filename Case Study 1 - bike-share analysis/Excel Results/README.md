@@ -5,7 +5,7 @@
 * Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder with CSV in the title for clarification.
 * Place that folder in a location relevant to the material. The CSV files will be used for SQL and R.
-* Convert the files to XLSX: CSV files cannot saves multiple sheets in one file.
+* Copy and connvert the files to XLSX inside a new folder with XLSX in the title: CSV files cannot saves multiple sheets in one file.
 
 
 ### *If* the sheets have any missing data, remove the entire row :black_medium_square:
