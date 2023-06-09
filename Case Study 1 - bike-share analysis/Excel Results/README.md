@@ -6,7 +6,7 @@
 * There is no reason to convert the files to XLSX, ignore the dulplication and format alteration steps in the PDF.
 
 
-### *If* the sheets have any missing data, remove the entire row.
+### *If* the sheets have any missing data, remove the entire row :black_medium_square:
 <details>
 <summary>Cleaning the data</summary>
   
