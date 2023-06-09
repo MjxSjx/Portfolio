@@ -18,6 +18,15 @@
   
 <li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal.</li>
 <li>Sadly, you must do all of these steps twice:weary:.</li>
+<ul>Normally you sort and filter each column and depending on the data type look for anomalies or any number of error values</ul>
+  
+  * Currency: currency types that are out of range.
+  * Date: dates that are out of range.
+  * Number: numbers that are out of range.
+  * Percentage: percentages that are out of range.
+  * Text: letters or word lengths that are out of range.
+  * Time: times that are out of range.
+
 </ol>
 </details>  
 
