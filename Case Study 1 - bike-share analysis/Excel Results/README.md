@@ -32,6 +32,8 @@
    <li> Time: times that are out of range.</li>
   </ul>
   </ul>
+  
+ -- That is not part of this particuar case study.
 </details>  
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas
