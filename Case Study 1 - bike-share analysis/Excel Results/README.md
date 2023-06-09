@@ -59,6 +59,9 @@
 
 <details>
 <summary>Adding day_of_week</summary>
+  
+*This one is straight forward :smile:.*
+  
  <ol>
  <li>In your spreadsheet create a column called “day_of_week.” in Column O row 1.</li>  
  <li>In O2 enter "=WEEKDAY(C2,1)", 1 = Sunday and 7 = Saturday. Later if you prefer your Excel visuals to have the actual weekday name use "=TEXT(C2, "dddd")"</li>
