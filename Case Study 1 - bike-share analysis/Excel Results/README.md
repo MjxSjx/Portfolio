@@ -52,7 +52,7 @@
  *Run a few calculations in one file to get a better sense of the data layout* 
   
 <ol>
-<li></li>
+<li>Calculate the mean of ride_length: in cell Q1 type =AVERAGE(N:N) then format to time just like when we made the column N</li>
 <li></li>
 <li></li>
 <li></li>
