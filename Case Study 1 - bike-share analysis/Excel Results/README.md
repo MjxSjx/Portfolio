@@ -102,7 +102,7 @@
  *Switch to the XLSX mega file now. Run a few calculations in two tabs of opposite seasons to get a better sense of the data layout* 
   
 <ol>
-<li>Calculate the mean of ride_length: in cell Q1 type =AVERAGE(N:N) then format to time just like when we made column N "ride_length"</li>
+<li>Calculate the mean of ride_length: in cell Q2 type =AVERAGE(N:N) then format to time just like when we made column N "ride_length"</li>
 <li>Calculate the max ride_length: in cell Q4 enter =MAX(N:N) then format to time again.</li>
 <li>Calculate the mode for day_of_week: in cell Q8 enter =MODE(O:O)</li> 
 </ol>
