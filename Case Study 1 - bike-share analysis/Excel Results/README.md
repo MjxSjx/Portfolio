@@ -74,7 +74,9 @@
   </ol>
 </details>  
 
+
 # The Excel Process: Time to Analyze:
+
 <details>
 <summary> Run a few calculations </summary>
   
