@@ -174,6 +174,7 @@ I hope you've found this Excel section guide helpful! Be sure to check out my SQ
 
 I am open to criticism. Please email me or send me a message on LinkedIn for any corrections, improvements, or suggestions.
 
-[in/matt-johnson0304](https://www.linkedin.com/in/matt-johnson0304)
-matt.johnson0304@gmail.com
+*[in/matt-johnson0304](https://www.linkedin.com/in/matt-johnson0304)
+*matt.johnson0304@gmail.com
+
 **Thank you** :bow:
