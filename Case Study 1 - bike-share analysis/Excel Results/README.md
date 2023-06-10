@@ -112,7 +112,8 @@
 <details>
 <summary>Calculate the average ride_length for members and casual riders</summary>
 <ol>
-<li>Calculate the average ride_length for members and casual riders: in cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M & N > Existing Worksheet then OK. Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average.</li>
+<li>Calculate the average ride_length for members and casual riders: in cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M & N > Existing Worksheet then OK.</li>
+<li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average.</li>
   
   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
 <li>Now that you have your first pivot table it is time to format the three cells in it just like column N "ride_length".</li>
