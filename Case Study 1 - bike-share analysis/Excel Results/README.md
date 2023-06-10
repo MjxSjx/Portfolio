@@ -86,7 +86,7 @@
 
 <ol>
 <li>Open the first clean CSV file.</li> 
-<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all twelve. </li> 
+<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all 12. </li> 
 <li>Use Power Query (Google search) or simply copy and paste with CTRL+A > CTRL+C > then in original first sheet CTRL+V.</li>
 <li>Do this for all 12. Be mindful to keep your sheet names consistent if you're copying and pasting. They won't auto populate.</li>
 </ol>
