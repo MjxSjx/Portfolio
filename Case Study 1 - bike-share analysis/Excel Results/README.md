@@ -12,7 +12,6 @@
 ### *If* the sheets have any missing data, remove the entire row :black_medium_square:
 <details>
 <summary> Cleaning the data </summary>
-  
 *This process is per situation, and normally stakeholders are involved with the decision on what to do with empty cells.*
 
 <ol>  
