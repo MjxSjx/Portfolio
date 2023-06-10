@@ -163,6 +163,7 @@
 </details>
 
 ## Summary 
+* There are some visual edits you can make. Those are at your discretion, of course.
 * Take your two seasonal analysis sheets and merge the pivot tables and graphs into one new sheet.
 * Finally, take a screen shot of it, and as David Malan would say, *"voilà!"* Now your Excel summary visuals are complete!
 
