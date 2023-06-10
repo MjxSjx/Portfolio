@@ -130,7 +130,7 @@
   
  * (blank) auto populates inside your pivot table; this is normal. Remove (blank) by clicking on cell Q31
 <li> Now it is time to format R31-Y33 just like column N "ride_length" to time. </li>
-<li> Time to graph it. Click Q29 > at the top of Excel, click "Insert" > "Recommended Charts" > "Column" </li>
+<li> Time to graph it. Click Q29 > at the top of Excel, click "Insert" > "Recommended Charts" > "Column." </li>
 <li> Place its upper-left corner in Q34. Use whatever chart you like. I just find columns to be the best for this table. </li>
 <li> It is recommended you change the day-of-week color palette for 1 & 2 because they match the first graph. </li> 
 <li> Click into the new graph, then click a bar. Right-click it once selected and select "fill". Stretch the graph to column Y. </li>
