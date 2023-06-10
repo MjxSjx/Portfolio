@@ -116,7 +116,7 @@
 <li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average.</li>
   
   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
-<li>Now that you have your first pivot table it is time to format the three cells in it just like column N "ride_length".</li>
+<li>Now that you have your first pivot table it is time to format R12-R14 just like column N "ride_length" to time.</li>
 <li></li>
 <li></li>
 <li></li>
