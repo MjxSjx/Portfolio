@@ -20,7 +20,7 @@
 <li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running.</li>
   
 <li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal.</li>
-<li>Sadly, you must do all of these steps twice:weary:.</li>
+<li>Sadly, you must do all of these steps twice and for all sheets :weary:.</li>
 </ol>
   
 <ul>
