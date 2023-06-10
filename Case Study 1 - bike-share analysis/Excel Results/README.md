@@ -59,8 +59,9 @@
    
 <li> Now repeat these steps for all 12 sheets. </li>
 </ol>
+  
+  
 </details>  
-
 <summary> Adding day_of_week </summary>
   
   *This one is straight forward :smile:.* 
