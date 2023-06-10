@@ -59,8 +59,7 @@
    
    <li> Now repeat these steps for all 12 sheets. </li>
 </ol>
-</details>  
-<details>
+</details><details>
 <summary> Adding day_of_week </summary>
   
   *This one is straight forward :smile:.* 
@@ -71,8 +70,7 @@
 <li> Select O2 > press CTRL+C > use macros to autofill the column (web search), or in O3, hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell, hold CTRL+SHIFT+the down key again, and delete the invalid entries (use PAGE UP and PAGE DOWN to move smoothly when close). </li>
  <li> Now repeat these steps for all 12 sheets, and make sure to save your work. We're done with the CSV files until SQL and R. </li>
  </ol>
-</details>  
-<details>
+</details><details>
   <summary> Combining all files </summary> 
   
   *<strong>NOW</strong> we are going to copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
