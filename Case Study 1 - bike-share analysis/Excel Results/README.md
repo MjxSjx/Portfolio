@@ -106,6 +106,9 @@
 ## Pivot tables and Graphs
 <details>
 <summary> Calculate the average ride_length for members and casual riders </summary>
+  
+    *Create these 3 pivot tables and graphs for both preselected opposite season tabs.* 
+  
 <ol>
 <li> In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M and N > Existing Worksheet then OK. </li>
 <li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. </li>
