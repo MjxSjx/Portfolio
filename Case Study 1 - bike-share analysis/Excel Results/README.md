@@ -174,4 +174,4 @@ I hope you've found this Excel section guide helpful! Be sure to check out my SQ
 
 I am open to criticism. Please email me for any corrections, improvements, or suggestions.
 
-**Thank you**
+**Thank you** :bow:
