@@ -170,7 +170,9 @@
 Due to the amount of content, the summary is too large to post on GitHub; a .PNG file has to do.
 
 # Fin 
-I hope you've found this Excel section guide helpful! Be sure to check out my SQL and R sections and future case studies!
+I hope you've found this Excel section guide helpful! 
+
+Be sure to check out my SQL and R sections and future case studies!
 
 I am open to criticism. Please contact me via email or LinkedIn for any corrections, improvements, or suggestions.
 
