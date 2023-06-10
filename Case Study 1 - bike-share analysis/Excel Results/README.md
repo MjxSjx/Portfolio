@@ -89,8 +89,6 @@
   
   *Notice all your files sizes are smaller now and you now have a mega file too :clap:.*
 </details>  
-
-
 # The Excel Process: Time to Analyze:
 <details>
 <summary> Run a few calculations </summary>
