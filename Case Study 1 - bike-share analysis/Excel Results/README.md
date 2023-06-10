@@ -164,7 +164,7 @@
 
 ## Summary 
 * Take your two seasonal analysis sheets and merge the pivot tables and graphs into one new sheet.
-* Finally, take a screen shot of it, and as David Malan would say, *"voilà"*, your Excel summary visuals are complete!
+* Finally, take a screen shot of it, and as David Malan would say, *"voilà!"* Now your Excel summary visuals are complete!
 
 Due to the amount of content, the summary is too large to post on GitHub; a .PNG file has to do.
 
