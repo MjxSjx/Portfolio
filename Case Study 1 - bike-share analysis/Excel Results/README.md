@@ -109,8 +109,9 @@
 <summary> Calculate the average ride_length for members and casual riders </summary>
 <ol>
 <li> In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M and N > Existing Worksheet then OK. </li>
-<li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. </li>* (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
+<li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. </li>
   
+  * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
   
 <li> Now that you have your first pivot table, it is time to format R12-R14 just like column N "ride_length" to time. </li>
 <li> The last step is to graph it. Click Q11 > at the top of Excel, click "Insert" > "Recommended Charts" > "Pie". </li>
