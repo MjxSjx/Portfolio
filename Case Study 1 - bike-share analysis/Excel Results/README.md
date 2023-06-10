@@ -24,7 +24,17 @@
   <ul>
     <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
     <ul>
-      <li> Currency: currency types that are out of range. </li><li> Date: dates that are out of range. </li><li> Number: numbers that are out of range. </li><li> Percentage: percentages that are out of range. </li><li> Text: letters or word lengths that are out of range. </li><li> Time: times that are out of range. </li></ul></ul>*This data is much cleaner than normal situations, but we will see one instance where it needs to be applied.*
+      <li> Currency: currency types that are out of range. </li>
+      <li> Date: dates that are out of range. </li>
+      <li> Number: numbers that are out of range. </li>
+      <li> Percentage: percentages that are out of range. </li>
+      <li> Text: letters or word lengths that are out of range. </li>
+      <li> Time: times that are out of range. </li>
+    </ul>
+  </ul>
+  
+  *This data is much cleaner than normal situations, but we will see one instance where it needs to be applied.*
+  
 </details>  
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas :black_medium_square:
