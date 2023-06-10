@@ -112,36 +112,44 @@
 <details>
 <summary>Calculate the average ride_length for members and casual riders</summary>
 <ol>
-<li>Calculate the average ride_length for members and casual riders: in cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M & N > Existing Worksheet then OK.</li>
+<li>In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M & N > Existing Worksheet then OK.</li>
 <li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average.</li>
   
   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
 <li>Now that you have your first pivot table it is time to format R12-R14 just like column N "ride_length" to time.</li>
-<li>The last step is to graph it. Click Q11 > at the top of Excel "Insert" > "Recommended Charts" > "Pie".</li>
+<li>The last step is to graph it. Click Q11 > at the top of Excel click "Insert" > "Recommended Charts" > "Pie".</li>
 <li>Place its upper-left corner in Q15. Use whatever chart you like. I just find Pie to be the best for this table.</li>
-<li>Select the chart and click on "chart styles". Pick whatever variation you like.</li>
+<li>Select the chart and click on "chart styles". Pick whatever variation you like. Shrink the graph to your preference.</li>
 </ol>
 </details>
 
 <details>
 <summary>Calculate the average ride_length for users by day_of_week</summary>
 <ol>
-<li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+<li>In cell Q29 click "Insert" on the top tab > Click "PivotTable" > select columns M, N & O > Existing Worksheet then OK.</li>
+<li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. Finally, drag day_of_week into the Columns area.</li>
+  
+    * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q31
+<li>Now it is time to format R31-Y33 just like column N "ride_length" to time.</li>
+<li>Time to graph it. Click Q29 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
+<li>Place its upper-left corner in Q34. Use whatever chart you like. I just find Column to be the best for this table.</li>
+<li>It is recommended you change day_of_week color palette for 1 & 2 becuase they match the first graph.</li>  
+<li>Click into the new grapth then click a bar. Right click it once selected and select fill.</li>
+</ol>
 </details>
 
 <details>
 <summary>Calculate the number of rides for users by day_of_week</summary>
+  
+*This one is a little tricky.* 
 <ol>
+<li>In cell Q29 click "Insert" on the top tab > Click "PivotTable" > select columns M, N & O > Existing Worksheet then OK.</li>
 <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
 </details>
 
 
