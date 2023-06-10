@@ -87,6 +87,7 @@
 <li> Use Power Query (Google search) or simply copy and paste each sheet with CTRL+A > CTRL+C > then paste in a new tab in the original first sheet with CTRL+V. </li> 
 <li> Do this for all 12. Be mindful to keep your sheet names consistent if you're copying and pasting. They won't auto populate. </li> 
 </ol>
+  
 *Notice all your files sizes are smaller now and you now have a mega file too :clap:.*
 </details>  
 
