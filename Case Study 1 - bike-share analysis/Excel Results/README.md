@@ -134,7 +134,7 @@
 <li>Time to graph it. Click Q29 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
 <li>Place its upper-left corner in Q34. Use whatever chart you like. I just find Column to be the best for this table.</li>
 <li>It is recommended you change day_of_week color palette for 1 & 2 becuase they match the first graph.</li>  
-<li>Click into the new grapth then click a bar. Right click it once selected and select "fill".</li>
+<li>Click into the new grapth then click a bar. Right click it once selected and select "fill". Stretch the graph to column Y.</li>
 </ol>
 </details>
 
@@ -144,7 +144,7 @@
 *This one is a little tricky.* 
 <ol>
 <li>In cell T3 click "Insert" on the top tab > Click "PivotTable" > select columns A, M & O > Existing Worksheet then OK.</li>
-<li>Drag ride_id in the Values area > left-click it and choose "Value Field Settings" change ___ to Count. Then drag member_casual & day_of_week to the Rows area.</li>
+<li>Drag ride_id in the Values area make sure its "Value Field Setting is set to Count. Then drag member_casual & day_of_week to the Rows area.</li>
   
    * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell T3
  
@@ -152,11 +152,14 @@
   <summary>Solution</summary>
     <ol>
 <li>To get the Pivot table to form you must select all columns 😅.</li>
-<li>To get the Pivot table to be sorted by day instead of member type day_of_week must be loaded into Rows area first 🙂. </li>
+<li>To get the Pivot table to be sorted by day instead of member type; day_of_week must be loaded into Rows area first. </li>
       </ol>
     </details>
-<li></li>
-<li></li>
+<li>Time to graph it. Click T3 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
+<li>Place its upper-left corner in V3. Use whatever chart you like. I just find Column to be the best for this table too.</li>
+<li>It is recommended you change the member color to the same orange as the first graph.</li>
+<li>It is also recommended to stretch the graph to column Z and row 25.</li>
+<li>Also you can change day_of_week to text format now.</li>
 </ol>
 </details>
 
