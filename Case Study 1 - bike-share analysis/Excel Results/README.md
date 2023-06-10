@@ -164,8 +164,9 @@
 </details>
 
 ## Summary 
-* Take your two seasonal analyzed sheets and merge them into one new sheet
-* Take a screen shot and voila your Excel summary is complete!
+* Take your two seasonal analyzed sheets and merge the pivot taables and graphs into one new sheet
+* Take a screen shot and as David Malan would say *"voilà"*, your Excel summary visuals are complete!
+
 Due to the amount of content, the summary is too large to post on GitHub; a PNG has to do.
 
 # Fin 
