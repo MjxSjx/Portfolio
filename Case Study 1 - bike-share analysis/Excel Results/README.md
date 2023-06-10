@@ -61,7 +61,7 @@
    
 * *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless. Aka "This is the way".*
    
-<li>Now repeat these steps for all 12 sheets</li>
+<li>Now repeat these steps for all 12 sheets and make sure to save your work. We're done with the CSV files until SQL and R.</li>
 </ol>
 </details>  
 
