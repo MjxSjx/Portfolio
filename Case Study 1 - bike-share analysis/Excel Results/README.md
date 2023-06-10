@@ -64,7 +64,7 @@
 </details>  
 
 
-
+<details>
 <summary> Adding day_of_week </summary>
   
   *This one is straight forward :smile:.* 
