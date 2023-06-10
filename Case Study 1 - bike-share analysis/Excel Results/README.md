@@ -163,6 +163,10 @@
 </ol>
 </details>
 
+## Summary 
+* Take your two seasonal analyzed sheets and merge them into one new sheet
+* Take a screen shot and voila your Excel summary is complete!
+Due to the amount of content, the summary is too large to post on GitHub; a PNG has to do.
 
 # Fin 
-Due to the amount of content, the summary is too large to post on GitHub; a PNG has to do.
+I hope you've found this Excel section guide helpful! Be sure to check out my SQL and R sections!
