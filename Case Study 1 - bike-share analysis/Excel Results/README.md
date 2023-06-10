@@ -61,7 +61,7 @@
    
 * *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless. Aka "This is the way".*
    
-<li>Now repeat these steps for all 12 sheets and make sure to save your work. We're done with the CSV files until SQL and R.</li>
+<li>Now repeat these steps for all 12 sheets.</li>
 </ol>
 </details>  
 
@@ -75,7 +75,7 @@
  <li>In your spreadsheet create a column called “day_of_week.” in Column O row 1.</li>  
  <li>In O2 enter "=WEEKDAY(C2,1)", 1 = Sunday and 7 = Saturday. Later if you prefer your Excel visuals to have the actual weekday name use "=TEXT(C2, "dddd")"</li>
  <li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or in O3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
-<li>Now repeat these steps for all 12 sheets</li>
+<li>Now repeat these steps for all 12 sheets and make sure to save your work. We're done with the CSV files until SQL and R.</li>
 </ol>
 </details>  
 
