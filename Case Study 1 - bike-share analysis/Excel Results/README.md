@@ -19,7 +19,7 @@
     <li> Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A. </li>
     <li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running. </li>
     <li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal. </li>
-    <li> Sadly, you must do all of these steps on all sheets as many times as it takes until your results land you at the bottom of the sheet.</li>
+    <li> Sadly, you must do all of these steps on all sheets as many times as it takes (usually 2) until your results land you at the bottom of the sheet.</li>
   </ol>
   <ul>
     <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
@@ -51,7 +51,7 @@
    <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK. </li>
    <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
    
-   ### Some months will have faulty "ride_length" data. Each month needs to be checked using "Sort"
+   ### Some months might have faulty "ride_length" data. So, as part of the process step we need to be checked using "Sort"
    
    <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). </li>
    
