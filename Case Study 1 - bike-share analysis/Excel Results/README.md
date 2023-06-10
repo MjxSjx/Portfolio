@@ -79,6 +79,7 @@
 
 <details>
 <summary> Combining all files </summary> 
+  
   *<strong>NOW</strong> we are going to copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
   
 <ol>
