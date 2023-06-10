@@ -103,7 +103,7 @@
   
 <ol>
 <li>Calculate the mean of ride_length: in cell Q2 type =AVERAGE(N:N) then format to time just like when we made column N "ride_length". Then make a header in Q1 so you remember what your result represents.</li>
-<li>Calculate the max ride_length: in cell Q4 enter =MAX(N:N) then format to time again. Then make a header in Q3 so you remember what your result represents</li>
+<li>Calculate the max ride_length: in cell Q5 enter =MAX(N:N) then format to time again. Then make a header in Q4 so you remember what your result represents</li>
 <li>Calculate the mode for day_of_week: in cell Q8 enter =MODE(O:O). Then make a header in Q7 so you remember what your result represents</li> 
 </ol>
 </details>  
