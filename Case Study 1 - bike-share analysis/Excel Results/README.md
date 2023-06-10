@@ -4,7 +4,7 @@
 
 * Download the newest annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder with CSV in the title for clarification.
-* Place that folder in a location relevant to the material. The CSV files will be used for SQL and R.
+* Place that folder in a location relevant to the material. The CSV files will be used for SQL and R later.
 * <strong>AFTER</strong> we clean the data, <strong>THEN</strong> we will copy and convert all the files to XLSX inside a new folder with XLSX in the title. Copying now, like the instructions state, leaves you doing the same work twice:unamused:. CSV files cannot save multiple sheets in one file.
 
 *XLSX files can store more data and have a better compression algorithm, saving you space.*
