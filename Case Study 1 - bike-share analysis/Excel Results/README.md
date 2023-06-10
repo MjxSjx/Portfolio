@@ -43,8 +43,8 @@
   *In truth, normally we would also touch base with the stakeholders to ask about removing ride_length duration ranges; lower and higher than certain thresholds are anomalies, offer little insight, and skew most results, outside of rare instances.*
   
  <ol>
-   <li> In your spreadsheet, create a column called "ride_length" in Column N, row 1. </li><li>Calculate the length of each ride using the minus operator from columns C (started_at) and D (ended_at) Enter "=D2-C2" in cell N2 </li> 
- <li> Your result will be a float. Change that into the time format of HH:MM:SS. </li> 
+   <li> In your spreadsheet, create a column called "ride_length" in Column N, row 1. </li>
+   <li>Calculate the length of each ride using the minus operator from columns C (started_at) and D (ended_at) Enter "=D2-C2" in cell N2 </li><li> Your result will be a float. Change that into the time format of HH:MM:SS. </li> 
  <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze) </li> 
  <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK </li>
  <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close). </li>
