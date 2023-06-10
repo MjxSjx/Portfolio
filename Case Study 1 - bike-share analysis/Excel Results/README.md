@@ -11,163 +11,164 @@
 
 ### *If* the sheets have any missing data, remove the entire row :black_medium_square:
 <details>
-<summary>Cleaning the data</summary>
+<summary> Cleaning the data </summary>
   
 *This process is per situation, and normally stakeholders are involved with the decision on what to do with empty cells.*
 
-<ol>  
-<li> Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A.</li>
-<li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running.</li>
-  
-<li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal.</li>
-<li>Sadly, you must do all of these steps as many times as it takes until your results land you at the bottom of the sheet. Do this all sheets :weary:.</li>
+<ol>  
+<li> Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A. </li>
+<li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running. </li>
+  
+<li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal. </li>
+<li> Sadly, you must do all of these steps as many times as it takes until your results land you at the bottom of the sheet. Do this all sheets :weary:. </li>
 </ol>
-  
+  
 <ul>
- <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values</li>
-  
-  <ul>
-   <li> Currency: currency types that are out of range.</li>
-   <li> Date: dates that are out of range.</li>
-   <li> Number: numbers that are out of range.</li>
-   <li> Percentage: percentages that are out of range.</li>
-   <li> Text: letters or word lengths that are out of range.</li>
-   <li> Time: times that are out of range.</li>
-  </ul>
-  </ul>
-  
+ <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
+  
+  <ul>
+   <li> Currency: currency types that are out of range. </li>
+   <li> Date: dates that are out of range. </li>
+   <li> Number: numbers that are out of range. </li>
+   <li> Percentage: percentages that are out of range. </li>
+   <li> Text: letters or word lengths that are out of range. </li>
+   <li> Time: times that are out of range. </li>
+  </ul>
+  </ul>
+  
 *This data is much cleaner than normal situations, but we will see one instance where it needs to be applied.*
   
 </details>  
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas :black_medium_square:
 <details>
-<summary>Adding ride_length</summary>
-  
-  *In truth, normally we would also touch base with the stakeholders to ask about removing ride_length duration ranges; lower and higher than certain thresholds are anomalies, offer little insight, and skew most results, outside of rare instances.*
-  
- <ol>
- <li> In your spreadsheet create a column called “ride_length.” in Column N row 1.</li> 
- <li> Calculate the length of each ride using the minus operator from columns C (started_at) & D (ended_at) Enter "=D2-C2" in cell N2 </li> 
- <li> Your result will be a Float. Change that into the time format of HH:MM:SS.</li> 
- <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze)</li> 
- <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK</li>
- <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
-   
+<summary> Adding ride_length </summary>
+  
+  *In truth, normally we would also touch base with the stakeholders to ask about removing ride_length duration ranges; lower and higher than certain thresholds are anomalies, offer little insight, and skew most results, outside of rare instances.*
+  
+ <ol>
+ <li> In your spreadsheet, create a column called "ride_length" in Column N, row 1. </li> 
+ <li> Calculate the length of each ride using the minus operator from columns C (started_at) and D (ended_at) Enter "=D2-C2" in cell N2 </li> 
+ <li> Your result will be a float. Change that into the time format of HH:MM:SS. </li> 
+ <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze) </li> 
+ <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK </li>
+ <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close). </li>
+   
 ### Some months will have faulty "ride_length" data. Each month needs to be checked using "Sort".
-   
-<li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
-  Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row).</li>
-   
+   
+<li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. 
+  Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). </li>
+   
 * *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless. Aka "This is the way".*
-   
-<li>Now repeat these steps for all 12 sheets.</li>
+   
+<li> Now repeat these steps for all 12 sheets. </li>
 </ol>
 </details>  
 
 
 <details>
-<summary>Adding day_of_week</summary>
+<summary> Adding day_of_week </summary>
   
 *This one is straight forward :smile:.*
   
- <ol>
- <li>In your spreadsheet create a column called “day_of_week.” in Column O row 1.</li>  
- <li>In O2 enter "=WEEKDAY(C2,1)", 1 = Sunday and 7 = Saturday. Later if you prefer your Excel visuals to have the actual weekday name use "=TEXT(C2, "dddd")"</li>
- <li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or in O3 hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+the down key again and delete the invalid entries (Use PAGE UP & PAGE DOWN to move smoothly when close).</li>
-<li>Now repeat these steps for all 12 sheets and make sure to save your work. We're done with the CSV files until SQL and R.</li>
+ <ol>
+ <li> In your spreadsheet, create a column called "day_of_week." in Column O, row 1. </li>  
+ <li> In O2, enter "=WEEKDAY(C2,1)", 1 = Sunday, and 7 = Saturday. Later, if you prefer your Excel visuals to have the actual weekday name, use "=TEXT(C2, "dddd")."  </li>
+ <li> Select O2 > press CTRL+C > use macros to autofill the column (web search), or in O3, hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell, hold CTRL+SHIFT+the down key again, and delete the invalid entries (use PAGE UP and PAGE DOWN to move smoothly when close). </li>
+<li> Now repeat these steps for all 12 sheets, and make sure to save your work. We're done with the CSV files until SQL and R. </li>
 </ol>
-</details>  
+</details>  
 
 <details>
-<summary>Combining all files</summary>
-  
+<summary> Combining all files </summary>
+  
 *<strong>NOW</strong> we are going to copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
 
 <ol>
-<li>Open the first clean CSV file.</li> 
-<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all 12. </li> 
-<li>Use Power Query (Google search) or simply copy and paste each sheet with CTRL+A > CTRL+C > then paste in a new tab in the original first sheet CTRL+V.</li>
-<li>Do this for all 12. Be mindful to keep your sheet names consistent if you're copying and pasting. They won't auto populate.</li>
+<li> Open the first clean CSV file. </li> 
+<li>File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all 12. </li> 
+<li> Use Power Query (Google search) or simply copy and paste each sheet with CTRL+A > CTRL+C > then paste in a new tab in the original first sheet with CTRL+V. </li>
+<li> Do this for all 12. Be mindful to keep your sheet names consistent if you're copying and pasting. They won't auto populate. </li>
 </ol>
-  
-  *Notice all your files sizes are smaller now and you now have a mega file too :clap:.*
+  
+  *Notice all your files sizes are smaller now and you now have a mega file too :clap:.*
 </details>  
 
 
 # The Excel Process: Time to Analyze:
 <details>
-<summary>Run a few calculations</summary>
-  
- *Switch to the XLSX mega file now. Run a few calculations in two tabs of opposite seasons to get a better sense of the data layout.* 
-  
+<summary> Run a few calculations </summary>
+  
+ *Switch to the XLSX megafile now. Run a few calculations in two tabs of opposite seasons to get a better sense of the data layout.* 
+  
 <ol>
-<li>Calculate the mean of ride_length: in cell Q2 type =AVERAGE(N:N) then format to time just like when we made column N "ride_length". Then make a header in Q1 so you remember what your result represents.</li>
-<li>Calculate the max ride_length: in cell Q5 enter =MAX(N:N) then format to time again. Then make a header in Q4 so you remember what your result represents</li>
-<li>Calculate the mode for day_of_week: in cell Q8 enter =MODE(O:O). Then make a header in Q7 so you remember what your result represents</li> 
+<li> Calculate the mean of ride_length: in cell Q2, type =AVERAGE(N:N), then format to time just like when we made column N "ride_length". Then make a header in Q1 so you remember what your result represents. </li>
+<li> Calculate the max ride_length: in cell Q5, enter =MAX(N:N), then format to time again. Then make a header in Q4 so you remember what your result represents. </li>
+<li> Calculate the mode for day_of_week: in cell Q8 enter =MODE(O:O). Then make a header in Q7 so you remember what your result represents. </li>  
 </ol>
 </details>  
 
 ## Pivot tables and Graphs
 <details>
-<summary>Calculate the average ride_length for members and casual riders</summary>
+<summary> Calculate the average ride_length for members and casual riders </summary>
 <ol>
-<li>In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M & N > Existing Worksheet then OK.</li>
-<li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average.</li>
+<li> In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M and N > Existing Worksheet then OK. </li>
+<li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. </li>
   
-  * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
-<li>Now that you have your first pivot table it is time to format R12-R14 just like column N "ride_length" to time.</li>
-<li>The last step is to graph it. Click Q11 > at the top of Excel click "Insert" > "Recommended Charts" > "Pie".</li>
-<li>Place its upper-left corner in Q15. Use whatever chart you like. I just find Pie to be the best for this table.</li>
-<li>Select the chart and click on "chart styles". Pick whatever variation you like. Shrink the graph to your preference.</li>
+  * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
+<li> Now that you have your first pivot table, it is time to format R12-R14 just like column N "ride_length" to time. </li>
+<li> The last step is to graph it. Click Q11 > at the top of Excel, click "Insert" > "Recommended Charts" > "Pie". </li>
+<li> Place its upper-left corner in Q15. Use whatever chart you like. I just find pie to be the best for this table. </li>
+<li> Select the chart and click on "chart styles". Pick whatever variation you like. Shrink the graph to your preference. </li>
 </ol>
 </details>
 
 <details>
-<summary>Calculate the average ride_length for users by day_of_week</summary>
+<summary> Calculate the average ride_length for users by day_of_week </summary>
 <ol>
-<li>In cell Q29 click "Insert" on the top tab > Click "PivotTable" > select columns M, N & O > Existing Worksheet then OK.</li>
-<li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. Finally, drag day_of_week into the Columns area.</li>
+<li> In cell Q29, click "Insert" on the top tab > Click "PivotTable" > select columns M, N and O > Existing Worksheet then OK. </li>
+<li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. Finally, drag day_of_week into the Columns area. </li>
   
- * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q31
-<li>Now it is time to format R31-Y33 just like column N "ride_length" to time.</li>
-<li>Time to graph it. Click Q29 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
-<li>Place its upper-left corner in Q34. Use whatever chart you like. I just find Column to be the best for this table.</li>
-<li>It is recommended you change day_of_week color palette for 1 & 2 becuase they match the first graph.</li>  
-<li>Click into the new grapth then click a bar. Right click it once selected and select "fill". Stretch the graph to column Y.</li>
+ * (blank) auto populates inside your pivot table; this is normal. Remove (blank) by clicking on cell Q31
+<li> Now it is time to format R31-Y33 just like column N "ride_length" to time. </li>
+<li> Time to graph it. Click Q29 > at the top of Excel, click "Insert" > "Recommended Charts" > "Column" </li>
+<li> Place its upper-left corner in Q34. Use whatever chart you like. I just find columns to be the best for this table. </li>
+<li> It is recommended you change the day-of-week color palette for 1 & 2 because they match the first graph. </li>  
+<li> Click into the new graph, then click a bar. Right-click it once selected and select "fill". Stretch the graph to column Y. </li>
 </ol>
 </details>
 
 <details>
-<summary>Calculate the number of rides for users by day_of_week</summary>
+<summary> Calculate the number of rides for users by day_of_week </summary>
   
 *This one is a little tricky.* 
 <ol>
-<li>In cell T3 click "Insert" on the top tab > Click "PivotTable" > select columns A, M & O > Existing Worksheet then OK.</li>
-<li>Drag ride_id in the Values area make sure its "Value Field Setting is set to Count. Then drag member_casual & day_of_week to the Rows area.</li>
+<li> In cell T3, click "Insert" on the top tab > Click "PivotTable" > select columns A, M and O > Existing worksheet, then OK. </li>
+<li> Drag ride_id into the Value area and make sure its "Value Field Setting is set to Count. Then drag member_casual and day_of_week to the Rows area. </li>
   
-   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell T3
+   * (blank) auto-populates inside your pivot table; this is normal. Remove (blank) by clicking on cell T3
  
   <details>
-  <summary>Solution</summary>
+  <summary> Solution </summary>
     <ol>
-<li>To get the Pivot table to form you must select all columns 😅.</li>
-<li>To get the Pivot table to be sorted by day instead of member type; day_of_week must be loaded into Rows area first. </li>
+<li> To get the pivot table to form, you must select all columns 😅.</li>
+<li> To get the pivot table to be sorted by day instead of member type, day_of_week must be loaded into the Rows area first. </li>
       </ol>
     </details>
-<li>Time to graph it. Click T3 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
-<li>Place its upper-left corner in V3. Use whatever chart you like. I just find Column to be the best for this table too.</li>
-<li>It is recommended you change the member color to the same orange as the first graph.</li>
-<li>It is also recommended to stretch the graph to column Z and row 25.</li>
-<li>Also you can change day_of_week to text format now.</li>
+<li> It's time to graph it. Click T3 > At the top of Excel, click "Insert" > "Recommended Charts" > "Column" </li>
+<li> Place its upper-left corner in V3. Use whatever chart you like. I just find columns to be the best for this table too. </li>
+<li> It is recommended that you change the member color to the same orange as the first graph. </li>
+<li> It is also recommended to stretch the graph to column Z and row 25. </li>
+<li> Also, you can change day_of_week to text format now. </li>
 </ol>
 </details>
 
 ## Summary 
-* Take your two seasonal analyzed sheets and merge the pivot taables and graphs into one new sheet
-* Take a screen shot and as David Malan would say *"voilà"*, your Excel summary visuals are complete!
+* Take your two seasonal analysis sheets and merge the pivot tables and graphs into one new sheet.
+* Finally, take a screen shot of it, and as David Malan would say, *"voilà"*, your Excel summary visuals are complete!
 
 Due to the amount of content, the summary is too large to post on GitHub; a PNG has to do.
 
 # Fin 
 I hope you've found this Excel section guide helpful! Be sure to check out my SQL and R sections!
+I am open to criticism. Please email me for any corrections, improvements, or suggestions.
