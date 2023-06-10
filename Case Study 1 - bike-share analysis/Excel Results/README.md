@@ -129,7 +129,9 @@
 <li>In cell Q29 click "Insert" on the top tab > Click "PivotTable" > select columns M, N & O > Existing Worksheet then OK.</li>
 <li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. Finally, drag day_of_week into the Columns area.</li>
   
+  
     * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q31
+  
 <li>Now it is time to format R31-Y33 just like column N "ride_length" to time.</li>
 <li>Time to graph it. Click Q29 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
 <li>Place its upper-left corner in Q34. Use whatever chart you like. I just find Column to be the best for this table.</li>
