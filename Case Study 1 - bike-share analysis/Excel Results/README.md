@@ -105,9 +105,7 @@
 
 ## Pivot tables and Graphs
 <details>
-<summary> Calculate the average ride_length for members and casual riders </summary>
-  
-    *Create these 3 pivot tables and graphs for both preselected opposite season tabs.* 
+<summary> Calculate the average ride_length for members and casual riders </summary>*Create these 3 pivot tables and graphs for both pre-selected opposite season tabs used earlier.* 
   
 <ol>
 <li> In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M and N > Existing Worksheet then OK. </li>
