@@ -176,7 +176,7 @@ Be sure to check out my SQL and R sections and future case studies!
 
 I am open to criticism. Please contact me via email or LinkedIn for any corrections, improvements, or suggestions.
 
-- matt.johnson0304@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/matt-johnson0304)
+- matt.johnson0304@gmail.com
 
 **Thank you** :bow:
