@@ -12,8 +12,8 @@
 ### *If* the sheets have any missing data, remove the entire row :black_medium_square:
 <details>
 <summary> Cleaning the data </summary>
+  
 *This process is per situation, and normally stakeholders are involved with the decision on what to do with empty cells.*
-
 <ol>  
 <li> Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A. </li>
 <li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running. </li>
