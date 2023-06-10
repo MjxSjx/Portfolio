@@ -73,6 +73,7 @@
     <li> Now repeat these steps for all 12 sheets, and make sure to save your work. We're done with the CSV files until SQL and R. </li>
   </ol>
 </details>  
+
 # The Excel Process: Time to Analyze:
 <details>
 <summary> Run a few calculations </summary>
