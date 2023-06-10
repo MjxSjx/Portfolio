@@ -20,10 +20,8 @@
 <li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal. </li>
 <li> Sadly, you must do all of these steps as many times as it takes until your results land you at the bottom of the sheet. Do this all sheets :weary:. </li>
 </ol>
-  
 <ul>
- <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
-  
+<li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
   <ul>
    <li> Currency: currency types that are out of range. </li>
    <li> Date: dates that are out of range. </li>
@@ -35,8 +33,8 @@
   </ul>
   
 *This data is much cleaner than normal situations, but we will see one instance where it needs to be applied.*
-  
 </details>  
+
 
 ### Now the data is clean and consistent, it's time to add new columns by using formulas :black_medium_square:
 <details>
