@@ -11,20 +11,7 @@
 
 ### *If* the sheets have any missing data, remove the entire row :black_medium_square:
 <details>
-<summary> Cleaning the data </summary>
-  
-*This process is per situation, and normally stakeholders are involved with the decision on what to do with empty cells.*
-<ol>  
-<li> Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A. </li>
-<li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running. </li>
-<li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal. </li>
-<li> Sadly, you must do all of these steps as many times as it takes until your results land you at the bottom of the sheet. Do this all sheets :weary:. </li>
-</ol>
-<ul>
-<li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
-  <ul>
-   <li> Currency: currency types that are out of range. </li>
-   <li> Date: dates that are out of range. </li>
+<summary> Cleaning the data </summary>*This process is per situation, and normally stakeholders are involved with the decision on what to do with empty cells.*<ol>  <li> Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A. </li><li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running. </li><li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal. </li><li> Sadly, you must do all of these steps as many times as it takes until your results land you at the bottom of the sheet. Do this all sheets :weary:. </li></ol><ul><li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li><ul><li> Currency: currency types that are out of range. </li><li> Date: dates that are out of range. </li>
    <li> Number: numbers that are out of range. </li>
    <li> Percentage: percentages that are out of range. </li>
    <li> Text: letters or word lengths that are out of range. </li>
