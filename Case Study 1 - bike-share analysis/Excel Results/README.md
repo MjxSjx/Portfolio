@@ -130,7 +130,7 @@
 <li>Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. Finally, drag day_of_week into the Columns area.</li>
   
   
- *auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q31
+ * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q31
   
 <li>Now it is time to format R31-Y33 just like column N "ride_length" to time.</li>
 <li>Time to graph it. Click Q29 > at the top of Excel click "Insert" > "Recommended Charts" > "Column"</li>
