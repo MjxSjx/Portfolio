@@ -118,10 +118,30 @@
   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
 <li>Now that you have your first pivot table it is time to format R12-R14 just like column N "ride_length" to time.</li>
 <li>The last step is to graph it. Click Q11 > at the top of Excel "Insert" > "Recommended Charts" > "Pie".</li>
-<li>Place its upper-left corner in Q15. Use whatever chart you like. I find Pie to be the best for this table</li>
-<li></li>
-<li></li>  
+<li>Place its upper-left corner in Q15. Use whatever chart you like. I just find Pie to be the best for this table.</li>
+<li>Select the chart and click on "chart styles". Pick whatever variation you like.</li>
 </ol>
+</details>
+
+<details>
+<summary>Calculate the average ride_length for users by day_of_week</summary>
+<ol>
+<li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</details>
+
+<details>
+<summary>Calculate the number of rides for users by day_of_week</summary>
+<ol>
+<li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </details>
 
 
