@@ -117,8 +117,8 @@
   
   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
 <li>Now that you have your first pivot table it is time to format R12-R14 just like column N "ride_length" to time.</li>
-<li></li>
-<li></li>
+<li>The last step is to graph it. Click Q11 > at the top of Excel "Insert" > "Recommended Charts" > "Pie".</li>
+<li>Place its upper-left corner in Q15. Use whatever chart you like. I find Pie to be the best for this table</li>
 <li></li>
 <li></li>  
 </ol>
