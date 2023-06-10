@@ -154,7 +154,7 @@
 <li> To get the pivot table to be sorted by day instead of member type, day_of_week must be loaded into the Rows area first. </li>
       </ol>
     </details>
-<li> It's time to graph it. Click T3 > At the top of Excel, click "Insert" > "Recommended Charts" > "Column" </li>
+<li> It's time to graph it. Click T3 > At the top of Excel, click "Insert" > "Recommended Charts" > "Column." </li>
 <li> Place its upper-left corner in V3. Use whatever chart you like. I just find columns to be the best for this table too. </li>
 <li> It is recommended that you change the member color to the same orange as the first graph. </li>
 <li> It is also recommended to stretch the graph to column Z and row 25. </li>
