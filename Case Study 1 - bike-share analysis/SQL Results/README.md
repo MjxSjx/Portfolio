@@ -61,7 +61,7 @@ I learned all of this in Harvard's CS50 course, here are my notes on the subject
  
 I highly recommend the free course to anyone intrigued by Computer Science! </em>
    
-  <details>
+  </details>
  <li>Now time to load all the other sheets</li> 
   
  *We managed to load **LARGE** CSV files into SQL without allowing NULLS. Any employer would be proud of our efforts! :muscle:*
