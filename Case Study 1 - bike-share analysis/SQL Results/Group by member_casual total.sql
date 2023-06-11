@@ -1,4 +1,4 @@
--- There are more member riders than casual on an annual basis.
+-- There are more member riders than casual on an annual basis.  
 
 SELECT member_casual, COUNT(*) AS totalRides
 FROM (
