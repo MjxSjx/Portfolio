@@ -35,7 +35,7 @@
  <li> A pop up window appears click Next. Browse your hard drive for the CSV files folder we made earlier.</li>
  <li> A preview appears, do a quick check all the column names are as intended. Then click Next.</li>
  <li> Here is where you can assign any columns to be Primary keys, which prevents duplicate data, enhances queries and benefits your ability to establish relationships. All that and it serves no purpose for this situation 😆. </li>
- <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. A selection we want to use sparingly as good practice. </li>
+ <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. <em>A selection we want to use sparingly as good practice </em>. </li>
  </ol>
  
  ## Troubleshooting time:
