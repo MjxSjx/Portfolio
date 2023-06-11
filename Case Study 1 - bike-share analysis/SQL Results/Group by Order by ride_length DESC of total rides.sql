@@ -1,5 +1,5 @@
 -- 6 minutes is the most common rental duration annually.
-
+ 
 SELECT ride_length, COUNT(*) AS totalRides
 FROM (
     SELECT ride_length FROM [202205-divvy-tripdata]
