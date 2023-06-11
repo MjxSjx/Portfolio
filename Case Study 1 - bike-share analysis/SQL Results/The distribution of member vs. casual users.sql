@@ -1,6 +1,6 @@
 -- As can be seen most riders from 05-2022 to 4-2023 are members.
 
-SELECT
+SELECT 
   member_casual,
   COUNT(*) AS totalRides,
   COUNT(*) * 100.0 / SUM(COUNT(*)) OVER () AS percentage
