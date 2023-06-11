@@ -1,5 +1,5 @@
 -- This syntax felt too pendantic, but it gets the job done. Below is a dynamic alternative to getting the same result.
-
+  
 SELECT SUM(TotalRows) AS TotalRows FROM (
     SELECT COUNT(*) AS TotalRows FROM [202205-divvy-tripdata]
 		UNION ALL
