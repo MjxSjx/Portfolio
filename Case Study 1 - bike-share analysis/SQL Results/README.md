@@ -15,6 +15,9 @@
 * To fix the common server error. Go to "Options" > "Connection Properties" check the "Trust server certificate" box then click "Connect" at the bottom.
 </ul>
 </ol>
+ 
+  *Now you're up and running great job!*
+  
 </details>  
 
 <details>
