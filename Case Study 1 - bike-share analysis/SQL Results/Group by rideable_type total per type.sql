@@ -1,5 +1,5 @@
 -- Electric bikes are the most popular product of the three.
-
+  
 SELECT rideable_type, COUNT(*) AS totalRides
 FROM (
     SELECT rideable_type FROM [202205-divvy-tripdata]
