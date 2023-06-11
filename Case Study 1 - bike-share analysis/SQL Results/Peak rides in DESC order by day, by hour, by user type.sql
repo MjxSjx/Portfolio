@@ -1,6 +1,6 @@
 -- There are 336 rows here. One row for each hour in a day of the week for a year per user type. The data is below this syntax.
 
-
+  
 SELECT
     day_of_week,
 	peak_hour,
