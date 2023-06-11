@@ -30,7 +30,7 @@
  
 <ol>
  <li> To your left is the "Object Explorer, this is our nexus.</li>
- <li> Left-click on the "Databases" folder and create a "New Database" name it "SQL Case Study 1" click OK.</li>
+ <li> Right-click on the "Databases" folder and create a "New Database" name it "SQL Case Study 1" click OK.</li>
  <li> Now left-click your new database > Tasks > Import Flat File </li>
  <li> A pop up window appears click Next. Browse your hard drive for the CSV files folder we made earlier.</li>
  <li> A preview appears, do a quick check all the column names are as intended. Then click Next.</li>
