@@ -1,4 +1,4 @@
--- As can be seen:
+-- As can be seen: 
 -- Members use the bikes more often but in a shorter duration.
 -- Casuals use the bikes less but for an average duration of 33% longer.
 
