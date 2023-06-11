@@ -1,5 +1,5 @@
 -- Using the aggregate function MAX, I found the peak usage of each user type per day of the week:
-
+  
 day_of_week peak_casual_users peak_member_users
 Sunday        	78251	          58780
 Monday         	47469	          62603
