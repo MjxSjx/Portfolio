@@ -12,7 +12,8 @@
 <li>Server type: Database Engine</li>
 <li>Server name: should be set to your PC name \SQLEXPRESS; i.e. MattPC\SQLEXPRESS</li>
 <li>Authentication: Windows Authentication</li>
-* To fix the common server error. Go to "Options" > "Connection Properties" check the "Trust server certificate" box then click "Connect" at the bottom.
+
+ * To fix the common server error. Go to "Options" > "Connection Properties" check the "Trust server certificate" box then click "Connect" at the bottom.
 </ul>
 </ol>
  
