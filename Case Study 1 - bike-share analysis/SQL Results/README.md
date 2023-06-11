@@ -1,3 +1,13 @@
+# The SQL - Installation:
+*These instructions are for Windows OS only*
+* Download this:https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms
+*
+*
+*
+*
+
+
+
 # The SQL Process - Importing the data:
 
 
