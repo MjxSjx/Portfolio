@@ -97,5 +97,14 @@ Per stakeholder request:
 * Utilized SQL queries while showing our work 
 * Answered every possible question using data-driven decision-making
 
+* The "Individual Statistical Details" folder is: A collection of simpler queries about the data.*
 
-* "Individual Statistical Details" folder is: A collection of simpler queries about the data.*
+I hope you've found this Excel section guide helpful!
+
+Be sure to check out my Excel and R sections and future case studies!
+
+I am open to criticism. Please contact me via email or LinkedIn for any corrections, improvements, or suggestions.
+
+* LinkedIn
+* matt.johnson0304@gmail.com
+Thank you 🙇
