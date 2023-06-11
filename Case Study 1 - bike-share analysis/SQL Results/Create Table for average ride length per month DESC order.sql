@@ -1,5 +1,5 @@
  -- The average ride length in seconds per month. May 22' had the longer user duration.
-
+  
 SELECT
     LEFT(table_name, 6) AS Month,
     AVG(DATEDIFF(SECOND, CAST('00:00:00' AS TIME), ride_length)) AS AvgRL
