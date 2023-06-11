@@ -1,7 +1,7 @@
 -- The most common time to user bikes is in: 
 -- The late afternoon by members 3-6 pm
 -- The late afternoon for casuals 3-6 pm
-
+  
 SELECT
   DATEPART(HOUR, started_at) AS hour,
   member_casual,
