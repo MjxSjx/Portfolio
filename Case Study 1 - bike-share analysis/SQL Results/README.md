@@ -24,7 +24,7 @@
 <details>
 <summary> Database time </summary>
  
- *We have SSMS open already*
+ *We are logged into SSMS already*
  
 <ol>
  <li> To your left is the "Object Explorer, this is our nexus.</li>
