@@ -31,7 +31,7 @@
 <ol>
  <li> To your left is the "Object Explorer, this is our nexus.</li>
  <li> Right-click on the "Databases" folder and create a "New Database" name it "SQL Case Study 1" click OK.</li>
- <li> Now left-click your new database > Tasks > Import Flat File </li>
+ <li> Now right-click your new database > Tasks > Import Flat File </li>
  <li> A pop up window appears click Next. Browse your hard drive for the CSV files folder we made earlier.</li>
  <li> A preview appears, do a quick check all the column names are as intended. Then click Next.</li>
  <li> Here is where you can assign any columns to be Primary keys, which prevents duplicate data, enhances queries and benefits your ability to establish relationships. All that and it serves no purpose for this situation 😆. </li>
@@ -73,7 +73,7 @@ I highly recommend the free course to anyone intrigued by Computer Science!
 
 # Fin
 Per stakeholder request: 
-* We imported the priorly cleaned CSV files **without requiring Null values**
+* We imported the priorly cleaned CSV files **without allowing nulls**
 * We Utilized deep SQL queries using keywords: CASE, DISTINCT, JOIN, SUBQUERY, UNION and so on while showing our work 
 * We Answered every possible question using data-driven decision-making that are ripe for summary visualizations.
 
