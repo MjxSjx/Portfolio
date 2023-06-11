@@ -64,6 +64,8 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
   
  <li>Now time to load all the other sheets</li> 
 </ol>
+ 
+<em> We managed to load LARGE CSV files into SQL without allowing NULLS. Any employer would be proud of our efforts! 💪 </em>
 </details>  
 
 
