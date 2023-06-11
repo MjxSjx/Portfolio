@@ -1,6 +1,6 @@
 -- Members top days are during the week
 -- Casuals top days are during the weekend
-
+  
 SELECT day_of_week, member_casual, COUNT(*) AS totalRides
 FROM (
     SELECT day_of_week, member_casual FROM [202205-divvy-tripdata]
