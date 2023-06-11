@@ -1,4 +1,4 @@
-* The "Individual Statistical Details" folder is: A collection of simpler queries about the data.*
+<em> "Individual Statistical Details" folder is: A collection of simpler queries about the data.</em>
 
 # SQL - Installation:
 *These instructions are for Windows OS only*
@@ -75,7 +75,9 @@ I highly recommend the free course to anyone intrigued by Computer Science!
 Per stakeholder request: 
 
 *We imported the priorly cleaned CSV files with zero nulls allowed
+
 *Utilized deep SQL analysis queries while showing our work 
+
 *Answered every possible question using data-driven decision-making
 
 I hope you've found this Excel section guide helpful!
