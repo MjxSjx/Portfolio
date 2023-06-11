@@ -105,6 +105,7 @@ Be sure to check out my Excel and R sections and future case studies!
 
 I am open to criticism. Please contact me via email or LinkedIn for any corrections, improvements, or suggestions.
 
-* LinkedIn
-* matt.johnson0304@gmail.com
-Thank you 🙇
+- [LinkedIn](https://www.linkedin.com/in/matt-johnson0304)
+- matt.johnson0304@gmail.com
+
+**Thank you** :bow:
