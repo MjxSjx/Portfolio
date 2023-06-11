@@ -94,7 +94,7 @@ I highly recommend the free course to anyone intrigued by Computer Science!
 # Fin
 Per stakeholder request: 
 * We imported the priorly cleaned CSV files with zero nulls allowed
-* Utilized SQL queries while showing our work 
+* Utilized deep SQL analysis queries while showing our work 
 * Answered every possible question using data-driven decision-making
 
 * The "Individual Statistical Details" folder is: A collection of simpler queries about the data.*
