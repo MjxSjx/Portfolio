@@ -1,7 +1,7 @@
 # SQL - Installation:
 *These instructions are for Windows OS only*
 <ol>
-<li> Download and install SSMS it will be your SQL program: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms </li>
+<li> Download and install SSMS v19.1 it will be your SQL program: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms </li>
 <li> You still need a server. Download and install the "Express" server for SQL: https://www.microsoft.com/en-us/sql-server/sql-server-downloads </li>
 <li> Launch SQL Server Management Studio 19 </li>
 <li> Make sure: </li>
