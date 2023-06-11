@@ -174,7 +174,7 @@ Per stakeholder request:
 * We downloaded, cleaned, sorted and converted the CSV files with **NO** error values allowed
 * We added new columns by combining data using formulas
 * We created multiple Pivot tables and Graphs based on stakeholder requests
-* We created a summary and highlight to opposing seasons of datat
+* We created a summary and highlight to opposing seasonal of data
 
 I hope you've found this Excel section guide helpful! 
 
