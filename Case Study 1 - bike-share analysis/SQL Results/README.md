@@ -73,12 +73,9 @@ I highly recommend the free course to anyone intrigued by Computer Science!
 
 # Fin
 Per stakeholder request: 
-
-*We imported the priorly cleaned CSV files with zero nulls allowed
-
-*Utilized deep SQL analysis queries while showing our work 
-
-*Answered every possible question using data-driven decision-making
+* We imported the priorly cleaned CSV files with zero nulls allowed
+* We Utilized deep SQL analysis queries while showing our work 
+* We Answered every possible question using data-driven decision-making
 
 I hope you've found this Excel section guide helpful!
 
