@@ -23,6 +23,9 @@
 
 <details>
 <summary> Database time </summary>
+ 
+ *We have SSMS open already*
+ 
 <ol>
  <li> To your left is the "Object Explorer, this is our nexus.</li>
  <li> Left-click on the "Databases" folder and create a "New Database" name it "SQL Case Study 1" click OK.</li>
