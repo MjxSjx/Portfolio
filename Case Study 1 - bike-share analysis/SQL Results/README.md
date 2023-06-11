@@ -41,6 +41,7 @@
 <li> Change "start_station_name" Data Type to nvarchar(100) allowing us 100 characters.</li>
  </ol>
  <li>Columns: </li>
+  
   * start_lat
   * end_lat
 
