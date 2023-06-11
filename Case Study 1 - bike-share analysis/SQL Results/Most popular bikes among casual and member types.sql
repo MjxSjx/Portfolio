@@ -1,6 +1,6 @@
 -- I manually checked the sheets myself there are 0 instances of a member using a docked bike.
 
-SELECT
+SELECT  
   rideable_type,
   member_casual,
   COUNT(*) AS totalRides,
