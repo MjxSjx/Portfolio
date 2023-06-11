@@ -35,9 +35,9 @@
  
  ## Troubleshooting time:
  <ol>
- <li> Ironically column start_station_name <em>may</em> have too many characters for proper processing. If you have that situation. We have two options:</li>
+ <li> Ironically column "start_station_name" <em>may</em> have too many characters for proper processing. If you have that situation. We have two options:</li>
  <ol>
-  <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages do to with the size of CSV</li>
+  <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages do to with the size of CSV.</li>
 <li> Change "start_station_name" Data Type to nvarchar(100) allowing us 100 characters.</li>
  </ol>
  <li>Column errors for "start_lat" and "end_lat": </li>
