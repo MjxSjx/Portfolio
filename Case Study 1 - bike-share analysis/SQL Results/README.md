@@ -55,7 +55,14 @@
  However it is also subject to something called "Floating impercision" which leads to "Integer Overflow" aka after a certain decimal place the computer does its best to replicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. 
 The data type runs out of memory and becuase of how binary works, truncation happens.
  
-I learned all of this in Harvard's CS50 course, here are my notes on the subject of Floating Point Imprecision, Integer Overflow and truncation all can be found at the bottom in week 1's Notes.md 😄
+I learned all of this in Harvard's CS50 course, my notes on the subjects of 
+ <ul>
+  <li>Floating Point Imprecision</li>
+ <li>Integer Overflow</li> 
+  <li>Truncation</li> 
+  </ul>
+ 
+ can be found at the bottom in week 1's Notes.md 😄
  
 I highly recommend the free course to anyone intrigued by Computer Science! </em>
    https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
