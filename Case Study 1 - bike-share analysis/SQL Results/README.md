@@ -49,7 +49,7 @@
 
   
   
-  - Need their Data Type changed from float to decimal(18, 10). 
+  - They need their data type changed from float to decimal(18, 10). 
   * A float in Computer Science is a data type composed of a number that is not an integer, because it includes a fraction represented in decimal format. However it is also subject to something called "Floating impercision" aka after a certain decimal place the computer does its best to relplicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. The data type runs out of memory and becuase of how binary works truncation happens
   I learned all of this in Harvard's CS50 course, here are my notes, the subject of Floating Point Imprecision, Integer Overflow,truncation can all be found at the bottom in week 1's Notes.md 😄
   https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
