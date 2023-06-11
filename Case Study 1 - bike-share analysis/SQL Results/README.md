@@ -45,18 +45,23 @@
   <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages do to with the size of CSV.</li>
 <li> Change "start_station_name" Data Type to nvarchar(100) allowing us 100 characters.</li>
  </ol>
- <li>Column errors for "start_lat" and "end_lat": </li>
-  - They need their data type changed from float to decimal(18, 10). 
+ <li>Column errors for "start_lat" and "end_lat": They need their data type changed from float to decimal(18, 10). 
+ 
+  <details>
+<summary>explanation</summary>
+  
 <em> A float in Computer Science is a data type composed of a number that is not an integer, because it includes a fraction represented in decimal format. However it is also subject to something called "Floating impercision" aka after a certain decimal place the computer does its best to relplicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. The data type runs out of memory and becuase of how binary works truncation happens
   I learned all of this in Harvard's CS50 course, here are my notes, the subject of Floating Point Imprecision, Integer Overflow,truncation can all be found at the bottom in week 1's Notes.md 😄
   https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
 I highly recommend the free course to anyone intrigued by Computer Science! </em>
-  
+ 
+  <details>
+ <li>Now time to load all the other sheets</li> 
   
  *We managed to load **LARGE** CSV files into SQL without allowing NULLS. Any employer would be proud of our efforts! :muscle:*
   
   
- <li></li>
+ 
  <li></li>
  <li></li><li></li>
  <li></li>
