@@ -1,6 +1,6 @@
 <em> "Individual Statistical Details" folder is: A collection of simpler queries about the data.</em>
 
-# SQL - Installation:
+# SQL - Installation and Importing:
 *These instructions are for Windows OS only*
 
 <details>
@@ -77,7 +77,7 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 </details>  
 
 
-# The SQL Process - Importing the data:
+# The SQL Process - Query time:
 
 
 
