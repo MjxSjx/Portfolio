@@ -1,5 +1,5 @@
 -- July contains the largest set of unique durations. What is surprising is that May 22 was so low. More investigation is required.
-
+ 
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202205-divvy-tripdata];
 DistinctRL
 789
