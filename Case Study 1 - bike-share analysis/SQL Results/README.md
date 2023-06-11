@@ -30,7 +30,7 @@
  <li> A pop up window appears click Next. Browse your hard drive for the CSV files folder we made earlier.</li>
  <li> A preview appears, do a quick check all the column names are as intended. Then click Next.</li>
  <li> Here is where you can assign any columns to be Primary keys, which prevents duplicate data, enhances queries and benefits your ability to establish relationships. All that and it serves no purpose for this situation 😆. </li>
- <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. A selection we want to use sparingly for this situation. </li>
+ <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. A selection we want to use sparingly as good practice. </li>
  <li> ironically column start_station_name have too many characters for proper processing. We have two options:</li>
  <ol>
   <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages do to with the size of CSV</li>
