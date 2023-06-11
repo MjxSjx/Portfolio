@@ -3,7 +3,7 @@
 <ol>
 <li> Download and install SSMS it will be your SQL software: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms </li>
 <li> You still need a server. Download and install the "Express" server for SQL: https://www.microsoft.com/en-us/sql-server/sql-server-downloads </li>
-<li> After installation make sure </li>
+<li> After installation make sure: </li>
 
 <ul>
 <li>Server type: Database Engine</li>
