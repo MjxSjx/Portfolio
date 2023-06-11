@@ -57,12 +57,13 @@ The data type runs out of memory and becuase of how binary works, truncation hap
  
 I learned all of this in Harvard's CS50 course, here are my notes on the subject of Floating Point Imprecision, Integer Overflow and truncation all can be found at the bottom in week 1's Notes.md 😄
  
-  https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
- 
-I highly recommend the free course to anyone intrigued by Computer Science! </em>
+  https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md I highly recommend the free course to anyone intrigued by Computer Science! </em>
    
   </details>
+  
+  
  <li>Now time to load all the other sheets</li> 
+  
   
  *We managed to load **LARGE** CSV files into SQL without allowing NULLS. Any employer would be proud of our efforts! :muscle:*
   
