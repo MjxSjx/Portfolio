@@ -1,4 +1,4 @@
-# The SQL - Installation:
+# SQL - Installation:
 *These instructions are for Windows OS only*
 <ol>
 <li> Download and install SSMS it will be your SQL software: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms </li>
