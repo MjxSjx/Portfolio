@@ -52,8 +52,9 @@
   
 <em> A float in Computer Science is a data type composed of a number that is not an integer, because it includes a fraction represented in decimal format. 
  
- However it is also subject to something called "Floating impercision" which leads to "Integer Overflow" aka after a certain decimal place the computer does its best to replicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. 
-The data type runs out of memory and becuase of how binary works, truncation happens.
+However it is also subject to something called "Floating impercision" which leads to "Integer Overflow". 
+ 
+Aka after a certain decimal place the computer does its best to replicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. The data type runs out of memory and becuase of how binary works, truncation happens.
  
 I learned all of this in Harvard's CS50 course, my notes on the subjects of 
  <ul>
@@ -66,9 +67,9 @@ I learned all of this in Harvard's CS50 course, my notes on the subjects of
  
 I highly recommend the free course to anyone intrigued by Computer Science! </em>
    
-  [My Notes](https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md)
+  [My Notes](https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md)📓
    
-  [The course](https://cs50.harvard.edu/x/2023/)
+  [The course](https://cs50.harvard.edu/x/2023/) 🏫
    
   </details>
   
