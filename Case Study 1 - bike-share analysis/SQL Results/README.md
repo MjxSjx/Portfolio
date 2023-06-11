@@ -79,6 +79,8 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 
 # The SQL Process - Query time:
 
+* Honestly, I thought of everything I could. I gathered over 20 inquries.
+* The sytnax along with the results are all listed in every .sql file. Take a look and try them out or make your own!
 
 
 # Fin
