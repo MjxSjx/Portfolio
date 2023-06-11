@@ -65,7 +65,10 @@ I learned all of this in Harvard's CS50 course, my notes on the subjects of
  can be found at the bottom in week 1's Notes.md 😄
  
 I highly recommend the free course to anyone intrigued by Computer Science! </em>
-   https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
+   
+  My Notes: https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
+   
+  The course:https://cs50.harvard.edu/x/2023/
    
   </details>
   
