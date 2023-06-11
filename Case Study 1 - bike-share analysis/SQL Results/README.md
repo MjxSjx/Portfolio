@@ -4,11 +4,16 @@
 * You still need a server. Download and install the "Express" server for SQL: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 * After installation make sure
 
-<ul>
+
+
+
+<ol>
 <li>Server type: Database Engine</li>
 <li>Server name: should be set to your PC name \SQLEXPRESS; i.e. MattPC\SQLEXPRESS</li>
 <li>Authentication: Windows Authentication</li>
-</ul>
+</ol>
+
+
 
 * To fix the server error. Go to "Options" > "Connection Properties" check the "Trust server certificate" box then click "Connect" at the bottom.
 
