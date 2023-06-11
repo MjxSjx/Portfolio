@@ -3,6 +3,7 @@
 * Download and install SSMS it will be your SQL software: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms
 * You still need a server. Download and install the "Express" server for SQL: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 * After installation make sure
+
 <ul>
 <li>Server type: Database Engine</li>
 <li>Server name: should be set to your PC name \SQLEXPRESS; i.e. MattPC\SQLEXPRESS</li>
