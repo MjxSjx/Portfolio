@@ -48,18 +48,17 @@
  <li>Column errors for "start_lat" and "end_lat": They need their data type changed from float to decimal(18, 10). 
  
   <details>
-<summary>explanation</summary>
+<summary>Explanation</summary>
   
 <em> A float in Computer Science is a data type composed of a number that is not an integer, because it includes a fraction represented in decimal format. 
  
- However it is also subject to something called "Floating impercision" aka after a certain decimal place the computer does its best to replicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. 
+ However it is also subject to something called "Floating impercision" which leads to "Integer Overflow" aka after a certain decimal place the computer does its best to replicate the actual numbers but because a float is stored as 32 bits aka 4 bytes of memory. 
+The data type runs out of memory and becuase of how binary works, truncation happens.
  
- The data type runs out of memory and becuase of how binary works truncation happens
- 
-  I learned all of this in Harvard's CS50 course, here are my notes on the subject of Floating Point Imprecision, Integer Overflow and truncation all can be found at the bottom in week 1's Notes.md 😄
+I learned all of this in Harvard's CS50 course, here are my notes on the subject of Floating Point Imprecision, Integer Overflow and truncation all can be found at the bottom in week 1's Notes.md 😄
   https://github.com/MjxSjx/CS50x/blob/main/Week%201%20-%20C/Notes.md
 I highly recommend the free course to anyone intrigued by Computer Science! </em>
- 
+   
   <details>
  <li>Now time to load all the other sheets</li> 
   
