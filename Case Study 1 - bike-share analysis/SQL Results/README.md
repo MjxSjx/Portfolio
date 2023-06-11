@@ -1,5 +1,8 @@
 # SQL - Installation:
 *These instructions are for Windows OS only*
+
+<details>
+<summary> Installing the program </summary>
 <ol>
 <li> Download and install SSMS 19.1 it will be your SQL program: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms </li>
 <li> You still need a server. Download and install the "Express" server for SQL: https://www.microsoft.com/en-us/sql-server/sql-server-downloads </li>
@@ -12,8 +15,7 @@
 * To fix the common server error. Go to "Options" > "Connection Properties" check the "Trust server certificate" box then click "Connect" at the bottom.
 </ul>
 </ol>
-
-
+</details>  
 
 
 
