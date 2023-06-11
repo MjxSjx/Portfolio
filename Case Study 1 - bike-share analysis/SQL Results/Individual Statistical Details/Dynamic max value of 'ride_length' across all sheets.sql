@@ -1,5 +1,5 @@
  -- The results surprise no one, as more investigation is needed. Pedantic free dynamic version as well.
-
+ 
 SELECT MAX(ride_length) AS MaxRL FROM (
     SELECT ride_length FROM [202205-divvy-tripdata]
 		UNION
