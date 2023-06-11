@@ -40,8 +40,11 @@
   <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages do to with the size of CSV</li>
 <li> Change "start_station_name" Data Type to nvarchar(100) allowing us 100 characters.</li>
  </ol>
+ <li>Columns: </li>
+  * start_lat
+  * end_lat
 
- <li></li>
+  
  <li></li>
  <li></li>
  <li></li>
