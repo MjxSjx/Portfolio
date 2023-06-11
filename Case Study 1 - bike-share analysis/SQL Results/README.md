@@ -79,7 +79,8 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 
 # The SQL Process - Query Time:
 
-* Honestly, I thought of everything I could. I gathered over 25 inquries and, I deleted a few silly ones.
+* Honestly, I thought of everything I could and, of course, answered stakeholder queries. I gathered over 25 inquiries and deleted a few silly ones.
+* I thought of making a walkthrough for SQL syntax, but I'm not sure what that would look like. An explanation of what every keyword does? <em> that seems like a waste of everyones time </em>
 * The sytnax along with the results are all listed in every .sql file. Take a look and try them out, or make your own!
 
 
