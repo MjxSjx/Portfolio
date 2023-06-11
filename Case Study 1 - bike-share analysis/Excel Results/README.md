@@ -94,7 +94,7 @@
 <details>
   <summary> Run a few calculations </summary>
   
-  *Switch to the XLSX megafile now. Run a few calculations in two tabs of opposite seasons to get a better sense of the data layout.* 
+  *Switch to the XLSX mega file now. Run a few calculations in two tabs of opposite seasons to get a better sense of the data layout.* 
   
 <ol>
 <li> Calculate the mean of ride_length: in cell Q2, type =AVERAGE(N:N), then format to time just like when we made column N "ride_length". Then make a header in Q1 so you remember what your result represents. </li>
