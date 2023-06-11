@@ -51,7 +51,7 @@
   
 
   
- <li></li>
+ <li> We managed to load a **LARGE** CSV file into SQL without allowing an NULLS. Any employer would be proud of our efforts! :muscle:</li>
  <li></li>
  <li></li>
  <li></li><li></li>
