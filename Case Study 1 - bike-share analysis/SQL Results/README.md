@@ -98,4 +98,4 @@ Per stakeholder request:
 * Answered every possible question using data-driven decision-making
 
 
-*The "Individual Statistical Details" folder is: A collection of simpler queries about the data.*
+* "Individual Statistical Details" folder is: A collection of simpler queries about the data.*
