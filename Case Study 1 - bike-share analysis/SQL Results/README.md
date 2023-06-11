@@ -65,33 +65,12 @@ I highly recommend the free course to anyone intrigued by Computer Science!
 </details>  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # The SQL Process - Importing the data:
 
 
+
 # Fin
+
 Per stakeholder request: 
 * We imported the priorly cleaned CSV files with zero nulls allowed
 * Utilized deep SQL analysis queries while showing our work 
