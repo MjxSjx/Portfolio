@@ -86,7 +86,7 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 
 # Fin
 Per stakeholder request: 
-* We imported the previously cleaned CSV files **without allowing nulls 💪.**
+* We imported the previously cleaned CSV files **without allowing NULLs 💪.**
 * We utilized deep SQL queries using CASE, CREATE, DISTINCT, JOIN, SUBQUERY, UNION, and so on while showing our work.
 * We answered every possible question using data-driven decision-making that is ripe for summary visualizations.
 
