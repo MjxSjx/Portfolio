@@ -24,5 +24,6 @@
 # The SQL Process - Importing the data:
 
 
-Per stakeholder request, I utilized SQL while showing our work, answering every possible question using data-driven decision-making.
+# Fin
+Per stakeholder request, we utilized SQL while showing our work, answering every possible question using data-driven decision-making.
 * Individual Statistical Details folder: A collection of simpler queries about the data.
