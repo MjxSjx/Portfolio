@@ -3,26 +3,26 @@
 -- Casuals use the bikes less but for an average duration of 33% longer.
 
 ride_length  member_casual totalRides
-00:05:00      member	     55141
-00:06:00      member	     53804
-00:04:00      member	     52544
-00:07:00      member	     51019
-00:08:00      member	     46621
+00:04:34      member	      3790
+00:04:52      member	      3781
+00:04:35      member	      3718
+00:04:18      member	      3666
+00:04:49      member	      3658
 
-* Average member ride duration for top 5 is: 6 minutes 
-* Total number members for top 5: 51,825 
-* 63.5% 
+* Average member ride duration for top 5 is: 4:38
+* Total number members for top 5:  18613
+* 57.2 % of all users in the top 5 are  member
 
 ride_length  member_casual totalRides
-00:08:00      casual	     31041
-00:09:00      casual	     30204
-00:07:00      casual	     30092
-00:10:00      casual	     29134
-00:06:00      casual	     28726
+00:07:18      casual	      1605
+00:07:43      casual	      1594
+00:06:45      casual	      1594
+00:07:06      casual	      1587
+00:07:11      casual	      1581
 
-* Average casual ride duration for top 5 is: 8 minutes
-* Total number members for top 5: 29,839 
-* 36.5%
+* Average casual ride duration for top 5 is: 7:12
+* Total number members for top 5: 7961
+* 42.8 % of all users in the top 5 are casual
 
 -- syntax for casuals
 SELECT TOP 5
@@ -30,29 +30,29 @@ SELECT TOP 5
   member_casual,
   COUNT(*) AS totalRides
 FROM (
-	SELECT ride_length, 'casual' AS member_casual FROM [202205-divvy-tripdata] WHERE member_casual = 'casual'
+	SELECT ride_length, 'casual' AS member_casual FROM [202205-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202206-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202206-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202207-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202207-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202208-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202208-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202209-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202209-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202210-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202210-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202211-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202211-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202212-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202212-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202301-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202301-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202302-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202302-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202303-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202303-tripdata] WHERE member_casual = 'casual'
     UNION ALL
-    SELECT ride_length, 'casual' AS member_casual FROM [202304-divvy-tripdata] WHERE member_casual = 'casual'
+    SELECT ride_length, 'casual' AS member_casual FROM [202304-tripdata] WHERE member_casual = 'casual'
 ) AS AnnualTable
 GROUP BY ride_length, member_casual
 ORDER BY totalRides DESC;
@@ -63,29 +63,29 @@ SELECT TOP 5
   member_casual,
   COUNT(*) AS totalRides
 FROM (
-	SELECT ride_length, 'member' AS member_casual FROM [202205-divvy-tripdata] WHERE member_casual = 'member'
+	SELECT ride_length, 'member' AS member_casual FROM [202205-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202206-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202206-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202207-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202207-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202208-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202208-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202209-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202209-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202210-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202210-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202211-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202211-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202212-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202212-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202301-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202301-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202302-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202302-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202303-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202303-tripdata] WHERE member_casual = 'member'
     UNION ALL
-    SELECT ride_length, 'member' AS member_casual FROM [202304-divvy-tripdata] WHERE member_casual = 'member'
+    SELECT ride_length, 'member' AS member_casual FROM [202304-tripdata] WHERE member_casual = 'member'
 ) AS AnnualTable
 GROUP BY ride_length, member_casual
 ORDER BY totalRides DESC;
