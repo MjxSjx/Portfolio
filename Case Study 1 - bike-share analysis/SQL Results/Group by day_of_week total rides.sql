@@ -2,38 +2,38 @@
 
 SELECT day_of_week, COUNT(*) AS totalRides
 FROM (
-    SELECT day_of_week FROM [202205-divvy-tripdata]
+    SELECT day_of_week FROM [202205-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202206-divvy-tripdata]
+    SELECT day_of_week FROM [202206-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202207-divvy-tripdata]
+    SELECT day_of_week FROM [202207-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202208-divvy-tripdata]
+    SELECT day_of_week FROM [202208-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202209-divvy-tripdata]
+    SELECT day_of_week FROM [202209-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202210-divvy-tripdata]
+    SELECT day_of_week FROM [202210-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202211-divvy-tripdata]
+    SELECT day_of_week FROM [202211-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202212-divvy-tripdata]
+    SELECT day_of_week FROM [202212-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202301-divvy-tripdata]
+    SELECT day_of_week FROM [202301-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202302-divvy-tripdata]
+    SELECT day_of_week FROM [202302-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202303-divvy-tripdata]
+    SELECT day_of_week FROM [202303-tripdata]
     UNION ALL
-    SELECT day_of_week FROM [202304-divvy-tripdata]
+    SELECT day_of_week FROM [202304-tripdata]
 ) AS AnnualTable
 GROUP BY day_of_week;
 
 
 day_of_week   totalRides
-Sunday          790917
-Monday          760316
-Tuesday         817065
-Wednesday       841491
-Thursday        879355
-Friday          847560
-Saturday        922357
+Sunday          612296
+Monday          596135
+Tuesday         637998
+Wednesday       653014
+Thursday        678069
+Friday          646699
+Saturday        709706
