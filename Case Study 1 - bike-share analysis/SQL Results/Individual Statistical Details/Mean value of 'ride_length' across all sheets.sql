@@ -26,5 +26,6 @@ FROM (
     UNION
     SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData;
+
 MeanRL
 15550 aka 4 hours and 19 minutes
