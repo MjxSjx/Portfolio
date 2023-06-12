@@ -53,7 +53,7 @@
    
    ### Extra credit: Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step lets investigate using "Sort", also notice how a small % of cells are wildly out of range of the majority, these are outliers and usually require extra investigation, great job! 🙌.
    
-   <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). </li>
+   <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). The reason the cells are messed up and filled with ########## is the "start_at" "end_at" column data is reading backwards. We don't have the knowledge to flip them, so our only means is to delete. </li>
    
    * *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless. Aka "This is the way".*
    
