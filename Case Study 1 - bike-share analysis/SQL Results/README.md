@@ -98,7 +98,7 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 Per stakeholder request: 
 * We imported the previously cleaned CSV files **without allowing NULLs** by changing data types in SQL 💪.
 * We utilized deep SQL queries using CASE, CREATE, DISTINCT, JOIN, SUBQUERY, UNION, and so on while showing our work.
-* We answered every possible question using data-driven decision-making that is ripe for summary visualizations.
+* We answered every possible question using data-driven decision-making that are ripe for exporting to be used in summary visualizations.
 
 I hope you've found this Excel section guide helpful!
 
