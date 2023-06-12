@@ -1,42 +1,42 @@
--- 6 minutes is the most common rental duration annually.
+-- 4:34 minutes is the most common rental duration annually.
  
 SELECT ride_length, COUNT(*) AS totalRides
 FROM (
-    SELECT ride_length FROM [202205-divvy-tripdata]
+    SELECT ride_length FROM [202205-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202206-divvy-tripdata]
+    SELECT ride_length FROM [202206-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202207-divvy-tripdata]
+    SELECT ride_length FROM [202207-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202208-divvy-tripdata]
+    SELECT ride_length FROM [202208-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202209-divvy-tripdata]
+    SELECT ride_length FROM [202209-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202210-divvy-tripdata]
+    SELECT ride_length FROM [202210-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202211-divvy-tripdata]
+    SELECT ride_length FROM [202211-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202212-divvy-tripdata]
+    SELECT ride_length FROM [202212-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202301-divvy-tripdata]
+    SELECT ride_length FROM [202301-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202302-divvy-tripdata]
+    SELECT ride_length FROM [202302-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202303-divvy-tripdata]
+    SELECT ride_length FROM [202303-tripdata]
     UNION ALL
-    SELECT ride_length FROM [202304-divvy-tripdata]
+    SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualTable
 GROUP BY  ride_length
 ORDER BY totalRides DESC;
 
 ride_length   totalRides
-00:06:00         82530
-00:07:00         81111
-00:05:00         80745
-00:08:00         77662
-00:04:00         73772
-00:09:00         73654
-00:10:00         68108
-00:11:00         62736
-00:03:00         57421
-00:12:00         57073
+00:04:34         5103
+00:04:52         5098
+00:05:43         5076
+00:05:34         5074
+00:05:26         5061
+00:05:24         5033
+00:05:03         5030
+00:04:59         5028
+00:04:49         5021
+00:04:35         5014
