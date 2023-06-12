@@ -1,4 +1,4 @@
--- The mean is affected by outlier field entries that contain 24+ hours. No dynamic version, as its end result was consistently wrong.
+-- The mean is affected by outlier field entries that contain 24 hours. No dynamic version, as its end result was consistently wrong.
    
 SELECT AVG(CONVERT(BIGINT, DATEDIFF(SECOND, CAST('00:00:00' AS TIME), TRY_CONVERT(TIME, ride_length)))) AS MeanRL
 FROM (
