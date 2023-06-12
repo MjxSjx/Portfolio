@@ -13,29 +13,29 @@ FROM (
         DATEPART(HOUR, started_at) AS peak_hour,
         COUNT(*) AS totalRides
     FROM (
-        SELECT day_of_week, member_casual, started_at FROM [202205-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202205-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202206-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202206-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202207-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202207-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202208-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202208-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202209-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202209-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202210-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202210-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202211-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202211-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202212-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202212-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202301-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202301-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202302-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202302-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202303-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202303-tripdata]
         UNION ALL
-        SELECT day_of_week, member_casual, started_at FROM [202304-divvy-tripdata]
+        SELECT day_of_week, member_casual, started_at FROM [202304-tripdata]
     ) AS AnnualTable
     WHERE member_casual IN ('member', 'casual')
     GROUP BY day_of_week, member_casual, DATEPART(HOUR, started_at)
