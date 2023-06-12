@@ -41,10 +41,10 @@
  
  ## Troubleshooting time:
  <ol>
- <li> Ironically, column "start_station_name" <em>may</em> have too many characters for proper processing. If you have that situation. We have two options:</li>
+ <li> Ironically, columns "start_station_name" and "end_station_name <em>may</em> have too many characters for proper processing. If you have that situation. We have two options:</li>
  <ol>
   <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages to due to with size of the CSVs.</li>
-<li> Change the "start_station_name" data type to nvarchar(100) allowing us 100 characters.</li>
+<li> Change the "start_station_name" data type to nvarchar(100) allowing us 100 characters, or nvarchar(MAX) allowing for what is basically infinite.</li>
  </ol>
  <li>Column errors for "start_lat" and "end_lat": They need their data type changed from float to decimal(18, 10). 
  
