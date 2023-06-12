@@ -1,4 +1,4 @@
--- July contains the largest set of unique ride length durations.
+-- July contains the largest set of unique ride length durations. 
  
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202205-tripdata];
 DistinctRL
