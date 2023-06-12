@@ -1,38 +1,38 @@
--- July contains the largest set of unique durations. What is surprising is that May 22 was so low. More investigation is required.
+-- July contains the largest set of unique ride length durations.
  
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202205-divvy-tripdata];
 DistinctRL
-789
+10945
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202206-divvy-tripdata];
 DistinctRL
-832
+11388
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202207-divvy-tripdata];
 DistinctRL
-11834
+11453
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202208-divvy-tripdata];
 DistinctRL
-11093
+10651
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202209-divvy-tripdata];
 DistinctRL
-10328
+9805
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202210-divvy-tripdata];
 DistinctRL
-8986
+8520
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202211-divvy-tripdata];
 DistinctRL
-6521
+6083
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202212-divvy-tripdata];
 DistinctRL
-4747
+4297
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202301-divvy-tripdata];
 DistinctRL
-4639
+4216
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202302-divvy-tripdata];
 DistinctRL
-5238
+4825
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202303-divvy-tripdata];
 DistinctRL
-5592
+5131
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM [202304-divvy-tripdata];
 DistinctRL
-8493
+8009
