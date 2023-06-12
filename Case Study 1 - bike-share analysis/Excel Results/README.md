@@ -41,7 +41,7 @@
 <details>
 <summary> Adding ride_length </summary>
   
-  *In truth, normally we would also touch base with the stakeholders to ask about removing ride_length duration ranges because certain high and high thresholds are anomalies, offer little insight, and skew most results, outside of rare instances.*
+  *In truth, normally we would also touch base with the stakeholders to ask about removing ride_length duration ranges because certain high and low thresholds are anomalies, offer little insight, and skew most results, outside of rare instances.*
   
  <ol>
    <li> In your spreadsheet, create a column called "ride_length" in Column N, row 1. </li>
