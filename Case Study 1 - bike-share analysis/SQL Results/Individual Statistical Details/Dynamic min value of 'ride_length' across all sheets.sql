@@ -1,5 +1,5 @@
--- More investigation is required to answer how a customer may only use the bike for 1 minute. 
--- However, when querying further, I found MIN(ride_length) at 1:02, 1:03, 1:04, and on. Dynamic syntax option presented. 
+-- More investigation is required to answer how a customer may only use the bike for 1 second. 
+-- However, when querying further, I found MIN(ride_length) at :02, :03, :04, and on. Dynamic syntax option presented. 
  
 SELECT MIN(ride_length) AS MinRL FROM (
     SELECT ride_length FROM [202205-tripdata]
@@ -28,7 +28,7 @@ SELECT MIN(ride_length) AS MinRL FROM (
 ) AS AnnualData
 WHERE ride_length > '00:00:00';
 MinRL
-01:00
+00:01
 
 --------------------------------------------------------------------------------
 
@@ -56,4 +56,4 @@ WHERE ride_length > ''00:00:00'';';
 
 EXEC sp_executesql @sql;
 MinRL
-01:00
+00:01
