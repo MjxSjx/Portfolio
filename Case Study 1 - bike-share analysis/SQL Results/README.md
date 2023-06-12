@@ -71,11 +71,11 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
    
   </details>
   
-   <li> <strong>Reminder:</strong> 
+   <li> <strong>Reminder:</strong> You may get a "ride_length" error claiming endless # are stored instead of valid data. 
  [Adding ride_length](https://github.com/MjxSjx/Portfolio/tree/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results) 
     
     
-    You may get a "ride_length" error claiming endless ################## are stored instead of valid data. 
+
     
    Excel walkthrough on how to fix it.
     
