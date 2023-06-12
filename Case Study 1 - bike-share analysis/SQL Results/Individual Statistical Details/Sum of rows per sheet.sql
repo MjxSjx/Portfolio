@@ -1,38 +1,49 @@
 -- As the data shows, customer usage peaked in July and was worst in January. 
 
-SELECT COUNT(*) AS TotalRows FROM [202205-divvy-tripdata];
+SELECT COUNT(*) AS TotalRows FROM [202205-tripdata];
 TotalRows
-634858
-SELECT COUNT(*) AS TotalRows FROM [202206-divvy-tripdata];
+502543
+
+SELECT COUNT(*) AS TotalRows FROM [202206-tripdata];
 TotalRows
-769204
-SELECT COUNT(*) AS TotalRows FROM [202207-divvy-tripdata];
+620347
+
+SELECT COUNT(*) AS TotalRows FROM [202207-tripdata];
 TotalRows
-823488
-SELECT COUNT(*) AS TotalRows FROM [202208-divvy-tripdata];
+642661
+
+SELECT COUNT(*) AS TotalRows FROM [202208-tripdata];
 TotalRows
-785932
-SELECT COUNT(*) AS TotalRows FROM [202209-divvy-tripdata];
+605311
+
+SELECT COUNT(*) AS TotalRows FROM [202209-tripdata];
 TotalRows
-701339
-SELECT COUNT(*) AS TotalRows FROM [202210-divvy-tripdata];
+535140
+
+SELECT COUNT(*) AS TotalRows FROM [202210-tripdata];
 TotalRows
-558685
-SELECT COUNT(*) AS TotalRows FROM [202211-divvy-tripdata];
+414266
+
+SELECT COUNT(*) AS TotalRows FROM [202211-tripdata];
 TotalRows
-337735
-SELECT COUNT(*) AS TotalRows FROM [202212-divvy-tripdata];
+255762
+
+SELECT COUNT(*) AS TotalRows FROM [202212-tripdata];
 TotalRows
-181806
-SELECT COUNT(*) AS TotalRows FROM [202301-divvy-tripdata];
+135403
+
+SELECT COUNT(*) AS TotalRows FROM [202301-tripdata];
 TotalRows
-190301
-SELECT COUNT(*) AS TotalRows FROM [202302-divvy-tripdata];
+148284
+
+SELECT COUNT(*) AS TotalRows FROM [202302-tripdata];
 TotalRows
-190445
-SELECT COUNT(*) AS TotalRows FROM [202303-divvy-tripdata];
+149560
+
+SELECT COUNT(*) AS TotalRows FROM [202303-tripdata];
 TotalRows
-258678
-SELECT COUNT(*) AS TotalRows FROM [202304-divvy-tripdata];
+200447
+
+SELECT COUNT(*) AS TotalRows FROM [202304-tripdata];
 TotalRows
-426590 
+324193 
