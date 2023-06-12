@@ -36,7 +36,7 @@
  <li> A preview appears; do a quick check that all the column names are as intended. Then click Next.</li>
  <li> Here is where you can assign any columns to be primary keys, which prevents duplicate data, enhances queries, and benefits your ability to establish relationships. All that, and it serves no purpose for this situation 🤣. </li>
  <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. <em>A selection we want to use sparingly as good practice </em>. </li>
- <li>SQL automatically generates its best guess as to what the data type is for each column and is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations (<em> which is why normally we'd remove them in a real data analysis stakeholder situation </em>), which complicates things. Our job is to make sure the data type is consistent throughout all 12 files. These are the three you may see and why SQL chose them:
+ <li>SQL automatically generates its best guess as to what the data type is for each column and is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations (<em> which is why normally we'd remove them in a real data analysis stakeholder situation </em>), complicating things. Our job is to make sure the data type is consistent throughout all 12 files. These are the three you may see and why SQL chose them:
  <ul>
   <li>nvarchar(50): This is what you must change all 12 to 👍 and will auto-populate when durations are over 100 hours.</li>
   <li>datetime: This will auto-populate by SQL when data just exceeds 24 hours.</li>
