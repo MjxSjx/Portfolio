@@ -1,5 +1,5 @@
 -- More dynamic alternative syntax solutions. Total Distinct ride lengths for the year was 19,503.
-  
+   
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM (
   SELECT ride_length FROM [202205-tripdata]
 		UNION
