@@ -51,7 +51,7 @@
    <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK. </li>
    <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
    
-   ### Extra credit: Some months *might* have faulty "ride_length" data filled with ####### forever. As analyst doing our process step lets investigate using "Sort", also notice how a small % of cells are wildly out of range of the majority, these are outliers and usually require extra investigation, great job! 🙌.
+   ### Extra credit: Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step lets investigate using "Sort", also notice how a small % of cells are wildly out of range of the majority, these are outliers and usually require extra investigation, great job! 🙌.
    
    <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). </li>
    
