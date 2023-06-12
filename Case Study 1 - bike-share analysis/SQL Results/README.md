@@ -36,11 +36,11 @@
  <li> A preview appears; do a quick check that all the column names are as intended. Then click Next.</li>
  <li> Here is where you can assign any columns to be primary keys, which prevents duplicate data, enhances queries, and benefits your ability to establish relationships. All that, and it serves no purpose for this situation 🤣. </li>
  <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. <em>A selection we want to use sparingly as good practice </em>. </li>
- <li>SQL automatically generates its best guess as to what the data type is for each column and is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations, which complicates things (<em> and is also why normally we'd ask to remove them in a real data analysis stakeholder situation</em>). Our job is to make sure the data type is consistent throughout all 12 files. These are the three you may see and why SQL chose them:
+ <li>SQL automatically generates its best guess as to what the data type is for each column and is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations, which complicates things (<em>and is also why normally we'd ask to remove them in a real data analysis stakeholder situation</em>). Our job is to make sure the data type is consistent throughout all 12 files. These are the three you may see and why SQL chose them:
  <ul>
-    <li><strong>datetime:</strong> This will auto-populate by SQL when data exceeds 25-39 hours. A fair alternative to time with moderately small SQL syntax alterations.</li>
-  <li><strong>nvarchar(50):</strong> This will auto-populate when durations are over 40 hours. The syntax needed to coerce this data type workable but verbose, if you like a challenge "this is the way". </li>
-  <li><strong>time:</strong> This will auto-populate by SQL when the data <strong>does not</strong> exceed 25 hours and what I <strong>suggest</strong> you change all 12 to 👍.</li>
+    <li><strong>datetime:</strong> This will auto-populate by SQL when data exceeds 25-39 hours. A fair alternative to the time data type with moderately small SQL syntax alterations.</li>
+  <li><strong>nvarchar(50):</strong> This will auto-populate when durations are over 40 hours. The syntax needed to coerce this data type  <em>is</em> workable but verbose, if you like a challenge "this is the way". </li>
+  <li><strong>time:</strong> This will auto-populate by SQL when the data <strong>does not</strong> exceed 25 hours and what I <strong>suggest</strong> you change all 12 to 👍. This also means altering your Excel sheets again using sort to remove entries above 25 hours.</li>
   
   ### ⬆️ Make sure you follow step 8; we need consistency ⬆️
   
