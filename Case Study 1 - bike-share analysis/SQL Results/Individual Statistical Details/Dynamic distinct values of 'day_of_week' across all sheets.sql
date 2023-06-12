@@ -25,6 +25,7 @@ SELECT COUNT(DISTINCT day_of_week) AS DistinctDoW FROM (
     UNION
     SELECT day_of_week FROM [202304-tripdata]
 ) AS AnnualData;
+
 DistinctDoW
 7
 
@@ -52,5 +53,6 @@ SET @sql = LEFT(@sql, LEN(@sql) - LEN('UNION ALL')); -- Remove the last UNION AL
 SET @sql = @sql + N') AS AnnualData;';
 
 EXEC sp_executesql @sql;
+
 DistinctDoW
 7
