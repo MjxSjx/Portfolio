@@ -3,46 +3,46 @@
   
 SELECT day_of_week, member_casual, COUNT(*) AS totalRides
 FROM (
-    SELECT day_of_week, member_casual FROM [202205-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202205-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202206-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202206-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202207-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202207-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202208-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202208-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202209-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202209-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202210-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202210-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202211-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202211-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202212-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202212-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202301-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202301-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202302-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202302-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202303-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202303-tripdata]
     UNION ALL
-    SELECT day_of_week, member_casual FROM [202304-divvy-tripdata]
+    SELECT day_of_week, member_casual FROM [202304-tripdata]
 ) AS AnnualTable
 WHERE member_casual IN ('member', 'casual')
 GROUP BY day_of_week, member_casual
 ORDER BY totalRides DESC;
 
 day_of_week  member_casual totalRides
-Thursday	member	     560884
-Wednesday	member	     556916
-Tuesday	        member	     544402
-Friday	        member	     497476
-Monday	        member	     484564
-Saturady	casual	     467926
-Saturday	member	     454431
-Sunday	        member	     402081
-Sunday	        casual	     388836
-Friday	        casual	     350084
-Thursday	casual	     318471
-Wednesday	casual	     284575
-Monday	        casual	     275752
-Tuesday	        casual	     272663
+Wednesday	member	     440373
+Thursday	member	     439959
+Tuesday	        member	     433727
+Monday	        member	     385875
+Friday	        member	     385260
+Saturady	casual	     362746
+Saturday	member	     346960
+Sunday	        member	     310698
+Sunday	        casual	     301598
+Friday	        casual	     261439
+Thursday	casual	     238110
+Wednesday	casual	     212641
+Monday	        casual	     210260
+Tuesday	        casual	     204271
