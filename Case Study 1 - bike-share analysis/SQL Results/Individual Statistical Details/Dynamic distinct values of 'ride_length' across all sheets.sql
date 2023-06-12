@@ -26,7 +26,7 @@ SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM (
   SELECT ride_length FROM [202304-divvy-tripdata]
 ) AS AnnualData;
 DistinctRL
-19,122
+19601
 ---------------------------------------------------------------------------------------------------
 
 DECLARE @sql NVARCHAR(MAX);
@@ -49,4 +49,4 @@ SET @sql = @sql + N') AS AnnualData;'
 
 EXEC sp_executesql @sql;
 DistinctRL
-19,122
+19601
