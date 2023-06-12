@@ -1,63 +1,39 @@
--- Another situation where the variable data type needed to be coerced for SQL to operate, May had the longest ride length at 18:33. 
-
-SELECT AVG(
-    CAST(SUBSTRING(ride_length, 1, CHARINDEX(':', ride_length) - 1) AS INT) * 3600 +
-    CAST(SUBSTRING(ride_length, CHARINDEX(':', ride_length) + 1, CHARINDEX(':', ride_length, CHARINDEX(':', ride_length) + 1) - CHARINDEX(':', ride_length) - 1) AS INT) * 60 +
-    CAST(SUBSTRING(ride_length, CHARINDEX(':', ride_length, CHARINDEX(':', ride_length) + 1) + 1, LEN(ride_length)) AS INT)
-) AS MeanRLSeconds
-FROM [202205-tripdata]
-WHERE ride_length IS NOT NULL;
-MeanRLSeconds
-1176
-
-
-SELECT AVG(
-    CAST(PARSENAME(REPLACE(ride_length, ':', '.'), 3) AS INT) * 3600 +
-    CAST(PARSENAME(REPLACE(ride_length, ':', '.'), 2) AS INT) * 60 +
-    CAST(PARSENAME(REPLACE(ride_length, ':', '.'), 1) AS INT)
-) AS MeanRLSeconds
-FROM [202205-tripdata]
-WHERE ride_length IS NOT NULL;
-MeanRLSeconds
-1176
-
-What a mess right now because my data type for ride_length is nvarchar......
+-- Another situation where the variable data type needed to be coerced for SQL to operate, May had the longest ride length at 19:32. 
+-- The annual average was 16:02 
 
 SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202205-tripdata];
 MeanRL
-1172
-things work now that times longer than 99hours are gone.
-
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202206-divvy-tripdata];
+1172 aka 19:32
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202206-tripdata];
 MeanRL
-1099
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202207-divvy-tripdata];
+1139 aka 18:59
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202207-tripdata];
 MeanRL
-1093
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202208-divvy-tripdata];
+1139 aka 18:59
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202208-tripdata];
 MeanRL
-1014
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202209-divvy-tripdata];
+1057 aka 17:37
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202209-tripdata];
 MeanRL
-945
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202210-divvy-tripdata];
+983 aka 16:23
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202210-tripdata];
 MeanRL
-847
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202211-divvy-tripdata];
+890 aka 14:20
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202211-tripdata];
 MeanRL
-735
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202212-divvy-tripdata];
+757 aka 12:37
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202212-tripdata];
 MeanRL
-665
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202301-divvy-tripdata];
+676 aka 11:16
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202301-tripdata];
 MeanRL
-649
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202302-divvy-tripdata];
+655 aka 10:55
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202302-tripdata];
 MeanRL
-702
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202303-divvy-tripdata];
+718 aka 11:58
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202303-tripdata];
 MeanRL
-685
-SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202304-divvy-tripdata];
+700 aka 11:40
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202304-tripdata];
 MeanRL
-878
+916 aka 15:16
