@@ -51,9 +51,9 @@
    <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK. </li>
    <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste, then find the last naturally filled row + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
    
-   ### Extra credit: Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step, let's investigate using "Sort". 
+   ### Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step, let's investigate using "Sort" and delete this rows. 
    
-   ### Also, for those doing the SQL section, I suggest deleting all rows from "ride_length" with durations above 24:59:00 hours. This is not a mandate but depending on your SQL skill level may save you a headache.
+   ### Also, I suggest deleting all rows from "ride_length" with durations above 24:59:00 hours. This is not a mandate, but depending on your SQL skill level, may help you.
    
    <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). The reason the cells are messed up and filled with ########## is that the "start_at" and "end_at" column data is reading backwards. We don't have the authority to flip them, so our only means is to delete. </li>
    
