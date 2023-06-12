@@ -40,9 +40,9 @@
  <ul>
   <li>bigint: This is what I suggest you change all 12 to 👍.</li>
   <li>datetime: This will auto-populate by SQL when data exceeds 24 hours.</li>
-  <li>int: This is usable and storage effienct but not ideal. </li>
+  <li>int: This is usable and storage efficient but not ideal. </li>
   <li>nvarchar(50): Second best suggestion.</li>
-  <li>time: This will auto-populate by SQL when data <strong>does not</strong> exceed 24 hours.</li>
+  <li>time: This will auto-populate by SQL when the data <strong>does not</strong> exceed 24 hours.</li>
   
   ### No matter which you choose, we just need consistency.
   
