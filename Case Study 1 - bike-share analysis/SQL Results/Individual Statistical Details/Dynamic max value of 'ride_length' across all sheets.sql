@@ -26,7 +26,7 @@ SELECT MAX(ride_length) AS MaxRL FROM (
     SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData;
 MaxRL
-9:59:32
+23:59:22
 
 ------------------------------------------------------------------------------------
 
@@ -50,4 +50,4 @@ SET @sql = @sql + N') AS AnnualData;'
 
 EXEC sp_executesql @sql;
 MaxRL
-9:59:32
+23:59:22
