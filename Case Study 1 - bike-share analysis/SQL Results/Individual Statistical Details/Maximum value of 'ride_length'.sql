@@ -1,38 +1,38 @@
 --More investigation into the data is required to answer why the max times are so consistent. 
 
-SELECT MAX(ride_length) AS MaxRL FROM [202205-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202205-tripdata];
 MaxRL
-23:58:00
-SELECT MAX(ride_length) AS MaxRL FROM [202206-divvy-tripdata];
+9:59:32
+SELECT MAX(ride_length) AS MaxRL FROM [202206-tripdata];
+9:59:26
 MaxRL
-23:59:00
-SELECT MAX(ride_length) AS MaxRL FROM [202207-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202207-tripdata];
+9:59:23
 MaxRL
-23:59:22
-SELECT MAX(ride_length) AS MaxRL FROM [202208-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202208-tripdata];
+9:58:10
 MaxRL
-23:56:57
-SELECT MAX(ride_length) AS MaxRL FROM [202209-divvy-tripdata];
+SELECT MAX(ride_length) AS MaxRL FROM [202209-tripdata];
 MaxRL
-23:59:34
-SELECT MAX(ride_length) AS MaxRL FROM [202210-divvy-tripdata];
+9:58:21
+SELECT MAX(ride_length) AS MaxRL FROM [202210-tripdata];
 MaxRL
-23:56:20
-SELECT MAX(ride_length) AS MaxRL FROM [202211-divvy-tripdata];
+9:59:15
+SELECT MAX(ride_length) AS MaxRL FROM [202211-tripdata];
 MaxRL
-23:59:56
-SELECT MAX(ride_length) AS MaxRL FROM [202212-divvy-tripdata];
+9:58:26
+SELECT MAX(ride_length) AS MaxRL FROM [202212-tripdata];
 MaxRL
-23:26:21
-SELECT MAX(ride_length) AS MaxRL FROM [202301-divvy-tripdata];
+9:34:00
+SELECT MAX(ride_length) AS MaxRL FROM [202301-tripdata];
 MaxRL
-23:42:34
-SELECT MAX(ride_length) AS MaxRL FROM [202302-divvy-tripdata];
+9:58:01
+SELECT MAX(ride_length) AS MaxRL FROM [202302-tripdata];
 MaxRL
-23:43:47
-SELECT MAX(ride_length) AS MaxRL FROM [202303-divvy-tripdata];
+9:47:24
+SELECT MAX(ride_length) AS MaxRL FROM [202303-tripdata];
 MaxRL
-23:47:34
-SELECT MAX(ride_length) AS MaxRL FROM [202304-divvy-tripdata];
+9:51:14
+SELECT MAX(ride_length) AS MaxRL FROM [202304-tripdata];
 MaxRL
-23:53:18
+9:53:09
