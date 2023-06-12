@@ -38,13 +38,13 @@
  <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. <em>A selection we want to use sparingly as good practice </em>. </li>
  <li>SQL automatically generates its best guess as to what the data type is for each column. SQL is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations, which complicates things. Our job is to make sure the data type is consistent throughout all 12 files. You can pick:
  <ul>
-  <li>bigint - This is what I suggest you change all 12 to 👍</li>
-  <li>datetime - This <em>may</em> auto populate by SQL becuase we exceed 24 hours</li>
-  <li>int - Usable and storage effienct but Not ideal </li>
-  <li>nvarchar(50) - 2nd best suggestion</li>
-  <li>time - This <em>may</em> auto populate by SQL when we <strong>do not</strong> exceed 24 hours</li>
+  <li>bigint: This is what I suggest you change all 12 to 👍.</li>
+  <li>datetime: This will auto-populate by SQL when data exceeds 24 hours.</li>
+  <li>int: This is usable and storage effienct but not ideal. </li>
+  <li>nvarchar(50): Second best suggestion.</li>
+  <li>time: This will auto-populate by SQL when data <strong>does not</strong> exceed 24 hours.</li>
   
-  * No matter which you choose, we just need consistency.
+  ### No matter which you choose, we just need consistency.
   
 </ul>
 </li>
