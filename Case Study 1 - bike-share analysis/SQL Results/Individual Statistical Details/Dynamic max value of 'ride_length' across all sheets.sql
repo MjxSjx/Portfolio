@@ -1,4 +1,4 @@
- -- The results surprise no one, as more investigation is needed. Pedantic free dynamic version as well.
+ -- The results surprise no one, as more investigation is needed. Pedantic free dynamic version as well. 
  
 SELECT MAX(ride_length) AS MaxRL FROM (
     SELECT ride_length FROM [202205-tripdata]
@@ -25,6 +25,7 @@ SELECT MAX(ride_length) AS MaxRL FROM (
 		UNION
     SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData;
+
 MaxRL
 23:59:22
 
@@ -49,5 +50,6 @@ SET @sql = LEFT(@sql, LEN(@sql) - LEN('UNION'));
 SET @sql = @sql + N') AS AnnualData;'
 
 EXEC sp_executesql @sql;
+
 MaxRL
 23:59:22
