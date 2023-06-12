@@ -79,7 +79,10 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 
 # The SQL Process - Query Time:
 
-* Honestly, I thought of everything I could and, of course, answered stakeholder queries. I gathered over 25 inquiries and deleted a few silly ones.
+* Once all 12 are loaded into your database. Refresh your Object explorer by pressing F5 or clicking the reset button in object explorer.
+* Now its time to queue. Press CTRL+N or click New Query just below the Tools tab at the top of the application. 
+* One important note: Since we're dealing with .CSV files that start with a number we need to always use [] square brackets around our file names i.e., [202205-divvy-tripdata].
+* Honestly, I thought of everything I could and, of course, answered stakeholder queries. I Fgathered over 25 inquiries and deleted a few silly ones.
 * I thought of making a walkthrough for SQL syntax, but I'm not sure what that would look like. An explanation of what every keyword does? <em> that seems like a waste of everyones time. just go here [w3schools](https://www.w3schools.com/sql/). </em>
 * The sytnax along with the results are all listed in every .sql file. Take a look and try them out, or make your own!
 
