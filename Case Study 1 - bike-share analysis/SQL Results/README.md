@@ -46,7 +46,7 @@
   <li>Edit the CSV files to fit the nvarchar length requirements, which would take ages due to the size of the CSVs.</li>
 <li> Change their data types to nvarchar(100), allowing up to 100 characters, or nvarchar(MAX), allowing for what is basically infinite.</li>
  </ol>
- <li>Column errors for "start_lat" and "end_lat": They need their data type changed from float to decimal(18, 10). 
+ <li>Column errors for "start_lat" and "end_lat", "start_lng" and "end_lng": They need their data type changed from float to decimal(18, 10). 
  
   <details>
 <summary>Explanation</summary>
