@@ -33,7 +33,7 @@
     </ul>
   </ul>
   
-  *This data is much cleaner than normal situations, but we will see one instance where it can be applicable.*
+  *This data is much cleaner than normal situations, but we will see one instance where it may be applicable.*
   
 </details>  
 
