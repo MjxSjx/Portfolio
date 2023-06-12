@@ -1,5 +1,6 @@
 -- More investigation is required to answer how a customer may only use the bike for 1 second. 
 -- However, when querying further, I found MIN(ride_length) at :02, :03, :04, and on. Dynamic syntax option presented. 
+-- Initially I had no minimum range set and 00:00 is all I got, which of course makes no sense and all 00:00 data in myopinion should be removed.
  
 SELECT MIN(ride_length) AS MinRL FROM (
     SELECT ride_length FROM [202205-tripdata]
@@ -27,6 +28,7 @@ SELECT MIN(ride_length) AS MinRL FROM (
     SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData
 WHERE ride_length > '00:00:00';
+
 MinRL
 00:01
 
@@ -55,5 +57,6 @@ SET @sql = @sql + N') AS AnnualData
 WHERE ride_length > ''00:00:00'';';
 
 EXEC sp_executesql @sql;
+
 MinRL
 00:01
