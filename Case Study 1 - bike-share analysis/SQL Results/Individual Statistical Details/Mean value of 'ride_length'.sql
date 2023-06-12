@@ -23,7 +23,10 @@ MeanRLSeconds
 
 What a mess right now because my data type for ride_length is nvarchar......
 
-
+SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202205-tripdata];
+MeanRL
+1172
+things work now that times longer than 99hours are gone.
 
 SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202206-divvy-tripdata];
 MeanRL
