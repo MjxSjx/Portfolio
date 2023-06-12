@@ -7,7 +7,7 @@ FROM
     (
     SELECT ride_length, '202205' AS table_name FROM [202205-tripdata]
     UNION ALL
-    SELECT ride_length, '202206' AS table_name FROM [202206-tripdata]]
+    SELECT ride_length, '202206' AS table_name FROM [202206-tripdata]
     UNION ALL
     SELECT ride_length, '202207' AS table_name FROM [202207-tripdata]
     UNION ALL
@@ -71,15 +71,15 @@ FROM
 GROUP BY LEFT(table_name, 6);
 
 Month    Minutes   AvgRL
-May-22   0:18:33   1172
-June-22  0:18:19   1139
-July-22  0:18:13   1139
-Aug-22   0:16:54   1057
-Sept-22  0:15:45   983
-Apr-23   0:14:38   916
-Oct-22   0:14:07   890
-Nov-22   0:12:15   757
-Feb-23   0:11:42   718
-Mar-23   0:11:25   700
-Dec-22   0:11:05   676
-Jan-23   0:10:49   655
+May-22   0:19:32   1172
+June-22  0:18:59   1139
+July-22  0:18:59   1139
+Aug-22   0:17:37   1057
+Sept-22  0:16:23   983
+Apr-23   0:15:16   916
+Oct-22   0:14:50   890
+Nov-22   0:12:37   757
+Feb-23   0:11:58   718
+Mar-23   0:11:40   700
+Dec-22   0:11:16   676
+Jan-23   0:10:55   655
