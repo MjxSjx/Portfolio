@@ -36,12 +36,10 @@
  <li> A preview appears; do a quick check that all the column names are as intended. Then click Next.</li>
  <li> Here is where you can assign any columns to be primary keys, which prevents duplicate data, enhances queries, and benefits your ability to establish relationships. All that, and it serves no purpose for this situation 🤣. </li>
  <li> Here is also where you can "Allow nulls" essentially saying get this column in the database at any cost of integrity. <em>A selection we want to use sparingly as good practice </em>. </li>
- <li>SQL automatically generates its best guess as to what the data type is for each column. SQL is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations, which complicates things. Our job is to make sure the data type is consistent throughout all 12 files. You can pick:
+ <li>SQL automatically generates its best guess as to what the data type is for each column. SQL is likely going to interpret "ride_length" as multiple different data types because some sheets have longer than 24-hour durations (why normally we'd remove them in a real data analysis stakeholder situations), which complicates things. Our job is to make sure the data type is consistent throughout all 12 files. You must pick:
  <ul>
-  <li>bigint: This is what I suggest you change all 12 to 👍.</li>
-  <li>datetime: This will auto-populate by SQL when data exceeds 24 hours.</li>
-  <li>int: This is usable and storage efficient, but not ideal. </li>
-  <li>nvarchar(50): Second-best suggestion.</li>
+  <li>nvarchar(50): This is what I suggest you change all 12 to 👍 and will auto-populate when durations are days.</li>
+  <li>datetime: This will auto-populate by SQL when data just exceeds 24 hours.</li>
   <li>time: This will auto-populate by SQL when the data <strong>does not</strong> exceed 24 hours.</li>
   
   ### No matter which you choose, we just need consistency.
