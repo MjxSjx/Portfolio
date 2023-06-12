@@ -1,6 +1,6 @@
 -- Again, i'm not here to judge what information a stakeholder seeks. Only to fullfill the role using data. Dynamic version included.  
  
-SELECT COUNT(DISTINCT day_of_week) AS DistinctDoW FROM ( 
+SELECT COUNT(DISTINCT day_of_week) AS DistinctDoW FROM (  
     SELECT day_of_week FROM [202205-tripdata]
     UNION
     SELECT day_of_week FROM [202206-tripdata]
