@@ -1,32 +1,32 @@
 -- More dynamic alternative syntax solutions. Total Distinct ride lengths for the year was 19,122.
   
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM (
-  SELECT ride_length FROM [202205-divvy-tripdata]
+  SELECT ride_length FROM [202205-tripdata]
 		UNION
-  SELECT ride_length FROM [202206-divvy-tripdata]
+  SELECT ride_length FROM [202206-tripdata]
 		UNION
-	SELECT ride_length FROM [202207-divvy-tripdata]
+	SELECT ride_length FROM [202207-tripdata]
 		UNION
-	SELECT ride_length FROM [202208-divvy-tripdata]
+	SELECT ride_length FROM [202208-tripdata]
 		UNION
-	SELECT ride_length FROM [202209-divvy-tripdata]
+	SELECT ride_length FROM [202209-tripdata]
 		UNION
-	SELECT ride_length FROM [202210-divvy-tripdata]
+	SELECT ride_length FROM [202210-tripdata]
 		UNION
-	SELECT ride_length FROM [202211-divvy-tripdata]
+	SELECT ride_length FROM [202211-tripdata]
 		UNION
-	SELECT ride_length FROM [202212-divvy-tripdata]	
+	SELECT ride_length FROM [202212-tripdata]	
 		UNION
-	SELECT ride_length FROM [202301-divvy-tripdata]
+	SELECT ride_length FROM [202301-tripdata]
 		UNION
-	SELECT ride_length FROM [202302-divvy-tripdata]
+	SELECT ride_length FROM [202302-tripdata]
 		UNION
-	SELECT ride_length FROM [202303-divvy-tripdata]
+	SELECT ride_length FROM [202303-tripdata]
     UNION
-  SELECT ride_length FROM [202304-divvy-tripdata]
+  SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData;
 DistinctRL
-19601
+
 ---------------------------------------------------------------------------------------------------
 
 DECLARE @sql NVARCHAR(MAX);
