@@ -53,7 +53,7 @@
    
    ### Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step, let's investigate using "Sort" and delete this rows. 
    
-   ### Also, I suggest deleting all rows from "ride_length" with durations above 24:59:00 hours. This is not a mandate, but depending on your SQL skill level, may help you.
+   ### Also, I suggest deleting all rows from "ride_length" with durations above 24:59:00. This is not a mandate, but depending on your SQL skill level, it may help you.
    
    <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). The reason the cells are messed up and filled with ########## is that the "start_at" and "end_at" column data is reading backwards. We don't have the authority to flip them, so our only means is to delete. </li>
    
