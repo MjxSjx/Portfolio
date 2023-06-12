@@ -1,4 +1,4 @@
--- More dynamic alternative syntax solutions. Total Distinct ride lengths for the year was 19,122.
+-- More dynamic alternative syntax solutions. Total Distinct ride lengths for the year was 19,503.
   
 SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM (
   SELECT ride_length FROM [202205-tripdata]
@@ -25,6 +25,7 @@ SELECT COUNT(DISTINCT ride_length) AS DistinctRL FROM (
     UNION
   SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData;
+
 DistinctRL
 19503
 
@@ -48,5 +49,6 @@ SET @sql = LEFT(@sql, LEN(@sql) - LEN('UNION'));
 SET @sql = @sql + N') AS AnnualData;'
 
 EXEC sp_executesql @sql;
+
 DistinctRL
 19503
