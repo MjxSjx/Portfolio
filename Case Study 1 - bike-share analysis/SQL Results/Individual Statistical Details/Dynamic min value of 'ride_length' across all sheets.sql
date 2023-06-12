@@ -1,34 +1,34 @@
--- More investigation is required to answer how a customer may only use the bike for :01 second. 
--- However, when querying further, I found MIN(ride_length) at :02, :03, :04, and on. Dynamic syntax option presented. 
+-- More investigation is required to answer how a customer may only use the bike for 1 minute. 
+-- However, when querying further, I found MIN(ride_length) at 1:02, 1:03, 1:04, and on. Dynamic syntax option presented. 
  
 SELECT MIN(ride_length) AS MinRL FROM (
-    SELECT ride_length FROM [202205-divvy-tripdata]
+    SELECT ride_length FROM [202205-tripdata]
 		UNION
-    SELECT ride_length FROM [202206-divvy-tripdata]
+    SELECT ride_length FROM [202206-tripdata]
 		UNION
-    SELECT ride_length FROM [202207-divvy-tripdata]
+    SELECT ride_length FROM [202207-tripdata]
 		UNION
-    SELECT ride_length FROM [202208-divvy-tripdata]
+    SELECT ride_length FROM [202208-tripdata]
 		UNION
-    SELECT ride_length FROM [202209-divvy-tripdata]
+    SELECT ride_length FROM [202209-tripdata]
 		UNION
-    SELECT ride_length FROM [202210-divvy-tripdata]
+    SELECT ride_length FROM [202210-tripdata]
 		UNION
-    SELECT ride_length FROM [202211-divvy-tripdata]
+    SELECT ride_length FROM [202211-tripdata]
 		UNION
-    SELECT ride_length FROM [202212-divvy-tripdata]
+    SELECT ride_length FROM [202212-tripdata]
 		UNION
-    SELECT ride_length FROM [202301-divvy-tripdata]	
+    SELECT ride_length FROM [202301-tripdata]	
 		UNION
-    SELECT ride_length FROM [202302-divvy-tripdata]	
+    SELECT ride_length FROM [202302-tripdata]	
 		UNION
-    SELECT ride_length FROM [202303-divvy-tripdata]
+    SELECT ride_length FROM [202303-tripdata]
 		UNION
-    SELECT ride_length FROM [202304-divvy-tripdata]
+    SELECT ride_length FROM [202304-tripdata]
 ) AS AnnualData
 WHERE ride_length > '00:00:00';
 MinRL
-00:00:01
+01:00
 
 --------------------------------------------------------------------------------
 
@@ -43,10 +43,10 @@ SELECT @sql = @sql + N'
     UNION ALL'
 FROM sys.tables
 WHERE name IN (
-    '202205-divvy-tripdata', '202206-divvy-tripdata', '202207-divvy-tripdata',
-    '202208-divvy-tripdata', '202209-divvy-tripdata', '202210-divvy-tripdata',
-    '202211-divvy-tripdata', '202212-divvy-tripdata', '202301-divvy-tripdata',
-    '202302-divvy-tripdata', '202303-divvy-tripdata', '202304-divvy-tripdata'
+    '202205-tripdata', '202206-tripdata', '202207-tripdata',
+    '202208-tripdata', '202209-tripdata', '202210-tripdata',
+    '202211-tripdata', '202212-tripdata', '202301-tripdata',
+    '202302-tripdata', '202303-tripdata', '202304-tripdata'
 );
 
 SET @sql = LEFT(@sql, LEN(@sql) - LEN('UNION ALL')); -- Remove the last UNION ALL
@@ -56,4 +56,4 @@ WHERE ride_length > ''00:00:00'';';
 
 EXEC sp_executesql @sql;
 MinRL
-00:00:01
+01:00
