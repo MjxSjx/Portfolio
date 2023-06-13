@@ -5,7 +5,8 @@
 
 ## Installation
 
-### I created an auto download link becuase I find CRAN website confusing 😵 [R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
+### I created an auto download link becuase I find CRAN website confusing 😵     
+[R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
 
 * Keep in mind R does not auto update.
 
