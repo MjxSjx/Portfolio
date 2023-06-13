@@ -1,5 +1,5 @@
 CREATE TABLE AnnualTripData (
-start_station_name VARCHAR(255),
+start_station_name VARCHAR(255), 
 end_station_name VARCHAR(255), 
 member_casual VARCHAR(50)
 );
