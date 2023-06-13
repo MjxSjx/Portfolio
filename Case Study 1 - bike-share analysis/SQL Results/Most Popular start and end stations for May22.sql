@@ -56,7 +56,7 @@ ORDER BY casual_end_count DESC
 
 end_station_name	         casual_end_count
 Streeter Dr & Grand Ave	                7914
-DuSable Lake Shore Dr & Monroe St	 4041
-Michigan Ave & Oak St	                 3688
-DuSable Lake Shore Dr & North Blvd	 3645
-Millennium Park                    	 3334
+DuSable Lake Shore Dr & Monroe St	4041
+Michigan Ave & Oak St	                3688
+DuSable Lake Shore Dr & North Blvd	3645
+Millennium Park                    	3334
