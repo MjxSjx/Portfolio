@@ -4,5 +4,15 @@
 * Here they are [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit)
 
 ## Installation
+### [R] (https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
+* Keep in mind R does not auto update.
 
 
+## Uploading 
+
+
+## Cleaning
+
+## Analysis
+
+## Exporting
