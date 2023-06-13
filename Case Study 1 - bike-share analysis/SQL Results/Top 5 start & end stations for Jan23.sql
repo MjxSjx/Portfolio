@@ -36,7 +36,7 @@ WHERE member_casual = 'casual'
 GROUP BY start_station_name
 ORDER BY casual_start_count DESC
 
-start_station_name	           casual_start_count
+start_station_name	            casual_start_count
 Shedd Aquarium	                           306
 Ellis Ave & 60th St	                   285
 Streeter Dr & Grand Ave	                   282
