@@ -21,11 +21,11 @@ GROUP BY end_station_name
 ORDER BY member_end_count DESC
 
 end_station_name	              member_end_count
-Ellis Ave & 60th St	                     1673
-University Ave & 57th St	             1590
-Clinton St & Washington Blvd	             1487
-Kingsbury St & Kinzie St	             1255
-Ellis Ave & 55th St                        1166
+Ellis Ave & 60th St	                    1673
+University Ave & 57th St	            1590
+Clinton St & Washington Blvd	            1487
+Kingsbury St & Kinzie St	            1255
+Ellis Ave & 55th St                          1166
 
 
 
