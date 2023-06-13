@@ -37,11 +37,11 @@ GROUP BY start_station_name
 ORDER BY casual_start_count DESC;
 
 start_station_name	              casual_start_count
-Streeter Dr & Grand Ave	                54340
-DuSable Lake Shore Dr & Monroe St	      30407
-Michigan Ave & Oak St	                  23851
-Millennium Park	                        23723
-DuSable Lake Shore Dr & North Blvd	    22156
+Streeter Dr & Grand Ave	                    54340
+DuSable Lake Shore Dr & Monroe St	  30407
+Michigan Ave & Oak St	                   23851
+Millennium Park	                           23723
+DuSable Lake Shore Dr & North Blvd	   22156
 
 
 -- Top 5 end stations for casual users annually 5/22-4/23
