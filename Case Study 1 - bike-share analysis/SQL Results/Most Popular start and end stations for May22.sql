@@ -21,12 +21,12 @@ WHERE member_casual = 'member'
 GROUP BY end_station_name
 ORDER BY member_end_count DESC
 
-end_station_name	          member_end_count
-University Ave & 57th St	       2654
-Ellis Ave & 60th St	               2556
-Kingsbury St & Kinzie St	       2455
-Clark St & Elm St	               2295
-Wells St & Concord Ln	               2294
+end_station_name	         member_end_count
+University Ave & 57th St	      2654
+Ellis Ave & 60th St	              2556
+Kingsbury St & Kinzie St	      2455
+Clark St & Elm St	              2295
+Wells St & Concord Ln	              2294
 
 
 
