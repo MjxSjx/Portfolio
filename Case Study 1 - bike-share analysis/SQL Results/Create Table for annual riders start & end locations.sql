@@ -1,3 +1,5 @@
+-- Create a table from all 12 sheets of columns (member_casual, start & end stations) for deeper investigation.
+
 CREATE TABLE AnnualTripData (
 start_station_name VARCHAR(255), 
 end_station_name VARCHAR(255), 
