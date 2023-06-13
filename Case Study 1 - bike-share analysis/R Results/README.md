@@ -4,7 +4,8 @@
 * Here they are [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit)
 
 ## Installation
-
+<details>
+  <summary>Software</summary>
 ### Click here ➡️ [R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
 
 * I created an auto download link becuase I find CRAN website confusing 😵     
@@ -18,6 +19,8 @@
 
 I prefer this pane layout. I ask you consider it yourself. However it is all preference: 
 ![RStudio](RStudio.PNG)
+</details>
+
 ## Uploading 
 
 
