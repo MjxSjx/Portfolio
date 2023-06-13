@@ -5,7 +5,7 @@ WHERE member_casual = 'member'
 GROUP BY start_station_name
 ORDER BY member_start_count DESC;
 
-start_station_name	             member_start_count
+start_station_name	              member_start_count
 Kingsbury St & Kinzie St	              23814
 Clark St & Elm St	                21656
 Clinton St & Washington Blvd	          20467
@@ -52,8 +52,8 @@ GROUP BY end_station_name
 ORDER BY casual_end_count DESC;
 
 end_station_name	                casual_end_count
-Streeter Dr & Grand Ave	               57429
-DuSable Lake Shore Dr & Monroe St	     28231
-Millennium Park	                       25592
-Michigan Ave & Oak St	                 25540
-DuSable Lake Shore Dr & North Blvd	   25361
+Streeter Dr & Grand Ave	                           57429
+DuSable Lake Shore Dr & Monroe St	      28231
+Millennium Park	                                  25592
+Michigan Ave & Oak St	                        25540
+DuSable Lake Shore Dr & North Blvd	         25361
