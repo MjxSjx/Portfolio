@@ -56,4 +56,4 @@ Streeter Dr & Grand Ave	                   321
 University Ave & 57th St	           314
 Millennium Park	                           287
 Ellis Ave & 60th St	                   259
-Shedd Aquarium	                          236
+Shedd Aquarium	                           236
