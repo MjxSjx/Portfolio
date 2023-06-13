@@ -13,7 +13,11 @@
 
 ### Click here ➡️ [R Studio](https://download1.rstudio.org/electron/windows/RStudio-2023.06.0-421.exe)
 * I created an auto download link becuase why not.
-* 
+* Keep in mind RStudio does not auto update, nor do the libraries. 
+* Run through the setup keeping all default settings.
+
+I prefer this pane layout. I ask you consider it yourself. However it is all preference: 
+![RStudio](RStudio.png)
 ## Uploading 
 
 
