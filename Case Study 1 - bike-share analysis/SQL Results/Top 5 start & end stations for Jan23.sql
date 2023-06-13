@@ -20,7 +20,7 @@ WHERE member_casual = 'member'
 GROUP BY end_station_name
 ORDER BY member_end_count DESC
 
-end_station_name	              member_end_count
+end_station_name	             member_end_count
 Ellis Ave & 60th St	                   1673
 University Ave & 57th St	           1590
 Clinton St & Washington Blvd	           1487
