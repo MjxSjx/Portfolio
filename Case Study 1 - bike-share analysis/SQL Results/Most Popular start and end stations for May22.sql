@@ -26,7 +26,7 @@ University Ave & 57th St	       2654
 Ellis Ave & 60th St	               2556
 Kingsbury St & Kinzie St	       2455
 Clark St & Elm St	               2295
-Wells St & Concord Ln	             2294
+Wells St & Concord Ln	               2294
 
 
 
@@ -40,10 +40,10 @@ ORDER BY casual_start_count DESC
 
 start_station_name	        casual_start_count
 Streeter Dr & Grand Ave	               7473
-DuSable Lake Shore Dr & Monroe St 4261
-Michigan Ave & Oak St	              3397
+DuSable Lake Shore Dr & Monroe St      4261
+Michigan Ave & Oak St	               3397
 Millennium Park	                       3199
-DuSable Lake Shore Dr & North Blvd 3061
+DuSable Lake Shore Dr & North Blvd     3061
 
 
 
