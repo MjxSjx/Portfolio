@@ -40,8 +40,8 @@ start_station_name	           casual_start_count
 Shedd Aquarium	                           306
 Ellis Ave & 60th St	                   285
 Streeter Dr & Grand Ave	                   282
-University Ave & 57th St	            262
-Sheffield Ave & Fullerton Ave	            242
+University Ave & 57th St	           262
+Sheffield Ave & Fullerton Ave	           242
 
 
 -- Top 5 end stations for casual users in Jan 23'
