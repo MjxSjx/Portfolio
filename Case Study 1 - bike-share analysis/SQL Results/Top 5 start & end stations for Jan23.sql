@@ -37,11 +37,11 @@ GROUP BY start_station_name
 ORDER BY casual_start_count DESC
 
 start_station_name	            casual_start_count
-Shedd Aquarium	                           306
-Ellis Ave & 60th St	                   285
-Streeter Dr & Grand Ave	                   282
-University Ave & 57th St	           262
-Sheffield Ave & Fullerton Ave	           242
+Shedd Aquarium	                            306
+Ellis Ave & 60th St	                    285
+Streeter Dr & Grand Ave	                    282
+University Ave & 57th St	            262
+Sheffield Ave & Fullerton Ave	            242
 
 
 -- Top 5 end stations for casual users in Jan 23'
@@ -52,8 +52,8 @@ GROUP BY end_station_name
 ORDER BY casual_end_count DESC
 
 end_station_name	            casual_end_count
-Streeter Dr & Grand Ave	                   321
-University Ave & 57th St	           314
-Millennium Park	                           287
-Ellis Ave & 60th St	                   259
-Shedd Aquarium	                           236
+Streeter Dr & Grand Ave	                    321
+University Ave & 57th St	            314
+Millennium Park	                            287
+Ellis Ave & 60th St	                    259
+Shedd Aquarium	                            236
