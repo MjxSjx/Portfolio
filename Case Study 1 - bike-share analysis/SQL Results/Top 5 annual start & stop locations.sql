@@ -21,11 +21,11 @@ GROUP BY end_station_name
 ORDER BY member_end_count DESC;
 
 end_station_name	                member_end_count
-Kingsbury St & Kinzie St	             23603
-Clark St & Elm St	               21991
-Clinton St & Washington Blvd	         21388
-Wells St & Concord Ln	           20990
-University Ave & 57th St	             20174
+Kingsbury St & Kinzie St	            23603
+Clark St & Elm St	                 21991
+Clinton St & Washington Blvd	       21388
+Wells St & Concord Ln	             20990
+University Ave & 57th St	           20174
 
 
 
@@ -36,7 +36,7 @@ WHERE member_casual = 'casual'
 GROUP BY start_station_name
 ORDER BY casual_start_count DESC;
 
-start_station_name	              casual_start_count
+start_station_name	             casual_start_count
 Streeter Dr & Grand Ave	                   54340
 DuSable Lake Shore Dr & Monroe St	   30407
 Michigan Ave & Oak St	                   23851
