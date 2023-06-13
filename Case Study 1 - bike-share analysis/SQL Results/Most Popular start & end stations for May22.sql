@@ -13,7 +13,6 @@ Wells St & Concord Ln	               2269
 Clark St & Elm St	               2241
 
 
-
 -- Top 5 end stations for members in May 22'
 SELECT TOP 5 end_station_name, COUNT(*) AS member_end_count
 FROM [202205-tripdata]
@@ -30,7 +29,6 @@ Wells St & Concord Ln	               2294
 
 
 
-
 -- Top 5 start stations for casual users in May 22'
 SELECT TOP 5 start_station_name, COUNT(*) AS casual_start_count
 FROM [202205-tripdata]
@@ -44,7 +42,6 @@ DuSable Lake Shore Dr & Monroe St      4261
 Michigan Ave & Oak St	               3397
 Millennium Park	                       3199
 DuSable Lake Shore Dr & North Blvd     3061
-
 
 
 -- Top 5 end stations for casual users in May 22'
