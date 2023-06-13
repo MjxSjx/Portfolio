@@ -51,7 +51,7 @@ WHERE member_casual = 'casual'
 GROUP BY end_station_name
 ORDER BY casual_end_count DESC
 
-end_station_name	             casual_end_count
+end_station_name	            casual_end_count
 Streeter Dr & Grand Ave	                   321
 University Ave & 57th St	           314
 Millennium Park	                           287
