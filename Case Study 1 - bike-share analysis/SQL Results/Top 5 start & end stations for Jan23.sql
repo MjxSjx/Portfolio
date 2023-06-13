@@ -10,7 +10,7 @@ Ellis Ave & 60th St	                   1632
 University Ave & 57th St	           1617
 Clinton St & Washington Blvd	           1368
 Kingsbury St & Kinzie St	           1195
-Ellis Ave & 55th St                       1131
+Ellis Ave & 55th St                        1131
 
 
 -- Top 5 end stations for members in Jan 23'
