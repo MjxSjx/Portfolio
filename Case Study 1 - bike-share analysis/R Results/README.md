@@ -17,7 +17,7 @@
 * Run through the setup keeping all default settings.
 
 I prefer this pane layout. I ask you consider it yourself. However it is all preference: 
-![RStudio](RStudio.png)
+![RStudio](
 ## Uploading 
 
 
