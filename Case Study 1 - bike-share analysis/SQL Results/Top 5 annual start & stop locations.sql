@@ -21,11 +21,11 @@ GROUP BY end_station_name
 ORDER BY member_end_count DESC;
 
 end_station_name	            member_end_count
-Kingsbury St & Kinzie St	          23603
-Clark St & Elm St	                  21991
-Clinton St & Washington Blvd	          21388
-Wells St & Concord Ln	                  20990
-University Ave & 57th St	          20174
+Kingsbury St & Kinzie St	           23603
+Clark St & Elm St	                   21991
+Clinton St & Washington Blvd	           21388
+Wells St & Concord Ln	                   20990
+University Ave & 57th St	           20174
 
 
 
