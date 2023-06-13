@@ -1,4 +1,4 @@
--- Most popular start stations for member users
+-- Top 5 start stations for members in May 22'
 SELECT TOP 5 start_station_name, COUNT(*) AS member_start_count
 FROM [202205-tripdata]
 WHERE member_casual = 'member'
@@ -14,7 +14,7 @@ Clark St & Elm St	               2241
 
 
 
--- Most popular end stations for member users
+-- Top 5 end stations for members in May 22'
 SELECT TOP 5 end_station_name, COUNT(*) AS member_end_count
 FROM [202205-tripdata]
 WHERE member_casual = 'member'
@@ -31,7 +31,7 @@ Wells St & Concord Ln	               2294
 
 
 
--- Most popular start stations for casual users
+-- Top 5 start stations for casual users in May 22'
 SELECT TOP 5 start_station_name, COUNT(*) AS casual_start_count
 FROM [202205-tripdata]
 WHERE member_casual = 'casual'
@@ -47,7 +47,7 @@ DuSable Lake Shore Dr & North Blvd     3061
 
 
 
--- Most popular end stations for casual users
+-- Top 5 end stations for casual users in May 22'
 SELECT TOP 5 end_station_name, COUNT(*) AS casual_end_count
 FROM [202205-tripdata]
 WHERE member_casual = 'casual'
