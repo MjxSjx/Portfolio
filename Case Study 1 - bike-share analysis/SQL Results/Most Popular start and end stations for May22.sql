@@ -6,10 +6,10 @@ GROUP BY start_station_name
 ORDER BY member_start_count DESC
 
 start_station_name	      member_start_count
-Ellis Ave & 60th St	            2575
+Ellis Ave & 60th St	             2575
 University Ave & 57th St	     2569
 Kingsbury St & Kinzie St	     2458
-Wells St & Concord Ln	            2269
+Wells St & Concord Ln	             2269
 Clark St & Elm St	             2241
 
 
