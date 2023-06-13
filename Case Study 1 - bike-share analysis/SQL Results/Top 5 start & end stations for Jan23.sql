@@ -53,7 +53,7 @@ ORDER BY casual_end_count DESC
 
 end_station_name	             casual_end_count
 Streeter Dr & Grand Ave	                   321
-University Ave & 57th St	          314
+University Ave & 57th St	           314
 Millennium Park	                           287
 Ellis Ave & 60th St	                   259
 Shedd Aquarium	                          236
