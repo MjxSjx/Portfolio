@@ -6,11 +6,11 @@ GROUP BY start_station_name
 ORDER BY member_start_count DESC;
 
 start_station_name	              member_start_count
-Kingsbury St & Kinzie St	              23814
-Clark St & Elm St	                21656
-Clinton St & Washington Blvd	          20467
-Wells St & Concord Ln	            20225
-Loomis St & Lexington St	              19831
+Kingsbury St & Kinzie St	            23814
+Clark St & Elm St	                  21656
+Clinton St & Washington Blvd	           20467
+Wells St & Concord Ln	                  20225
+Loomis St & Lexington St	          19831
 
 
 -- Top 5 end stations for members annually 5/22-4/23
