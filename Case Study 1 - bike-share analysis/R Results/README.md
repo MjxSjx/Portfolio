@@ -61,10 +61,12 @@
 * library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
 </details>
   
-  <li>Now we check and set the directory</li>
   <details>
-    <summary><strong>Check and set</strong></summary>
-  
+  <li><summary><strong>Now we check and set the director</strong></summary></li>
+ 
+    * fdsafdsa
+    *fdsafbvcbvcxbvcx
+    
 </details>
   
 <li> It's time to upload the CSV files we cleaned earlier. </li>
