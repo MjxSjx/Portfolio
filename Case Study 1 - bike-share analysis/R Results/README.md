@@ -39,7 +39,7 @@
     <summary><strong>Details</strong></summary>
 <em> Note: The point of this set of instructions is to answer "In what ways do members and casual riders use Divvy bikes differently?". We can use R to answer other questions as well. </em>
 
-* In my opinion, to save on typing, you should consider copying the instructions listed at the top of this page into a new R script.
+* In my opinion, to save on typing, you should consider copying the instructions listed at the top of this page into a new R script or just load mine.
 <details>
   <summary><strong>Instructions</strong></summary>
   
