@@ -39,7 +39,7 @@
     <summary><strong>Details</strong></summary>
 <em> Note: The point of this set of instructions is to answer "In what ways do members and casual riders use Divvy bikes differently?". We can use R to answer other questions as well. </em>
   
-* In my opinion, to save on typing, you should consider copying the instructions listed at the top of this page into a new R script or just load [mine](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/bike_riders.R).
+* In my opinion, to save on typing, you should copy the instructions listed at the top of this page into a new R script or just load [mine](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/bike_riders.R).
 * File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
   
 <details>
