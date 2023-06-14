@@ -16,9 +16,15 @@
 * I created an auto-download link because why not.
 * Keep in mind that RStudio does not auto-update, nor do the libraries. 
 * Run through the setup, keeping all the default settings.
-
-I prefer this pane layout. I ask that you consider it yourself. To change it View > Panes > Pane Layout However, it is all preference: 
+  
+<details>
+  <summary>Settings</summary>
+  * To change RStudio to nightmode: Tools > Global Options > appearance > Editor theme > "Tomorrow Night" is my current selection.
+  * I prefer this pane layout. I ask that you consider it yourself.
+  * To change it View > Panes > Pane Layout However, it is all preference: 
 ![RStudio](RStudio.PNG)
+</details>
+
 </details>
 
 ## Uploading 
