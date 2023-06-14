@@ -152,8 +152,7 @@
 <details>
   <summary><strong>Removing columns</strong></summary>
   
-* all_trips <- all_trips %>%  
-  select(-c(start_lat, start_lng, end_lat, end_lng))
+* all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
   
 </details>
 </ol>
