@@ -127,7 +127,7 @@
 * str(db11)
 * str(db12)
       
-<em>Notice all column names are already correct and both columns are labeled as "col_character() already</em>
+<em>Notice all column names are already correct and both columns listed directly above are already labeled as "col_character()"</em>
 </ol>
 
 ## Something
