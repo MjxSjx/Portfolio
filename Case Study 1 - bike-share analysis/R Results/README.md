@@ -171,9 +171,20 @@
   
 </details>  
   
+<li> There is no need to use mutate() on "casual_member".</em> </li>   
+<details>
+  <summary><strong>Temp</strong></summary>
+    <em> Run this code to prove to yourself you're in the clear </em>
+  
+* distinct_values <- unique(all_trips$member_casual)
+* print(distinct_values)
+
+ <em> Notice your ressults are only "casual" "member" </em>                     
+</details>  
+  
 </ol>
  
- </details>
+</details>
       
   
   
