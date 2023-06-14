@@ -72,7 +72,7 @@
   
 <li> It's time to upload the CSV files we cleaned earlier. </li>
     <details>
-    <summary><strong>Check and Set Directory</strong></summary>
+    <summary><strong>CSV files</strong></summary>
       
 * db1 <- read_csv("202205-tripdata.csv")
 * db2 <- read_csv("202206-tripdata.csv")
