@@ -42,7 +42,8 @@
 * File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
 </details>
 
-* First, we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> 
+<ol>
+<li>First, we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
 <details>
   <summary><strong>Install Packages</strong></summary>
   
@@ -55,7 +56,7 @@
 
 
 * It's time to upload the CSV files we cleaned earlier.
-
+</ol>
 ## Cleaning
 
 ## Analysis
