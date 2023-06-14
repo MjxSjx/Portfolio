@@ -87,6 +87,8 @@
 * db10 <- read_csv("202302-tripdata.csv")
 * db11 <- read_csv("202303-tripdata.csv")
 * db12 <- read_csv("202304-tripdata.csv")
+
+<em>Check your "Enviroment" tab that all 12 files are loaded in R Studio</em>
        </details>
 </ol>
 
