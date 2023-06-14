@@ -36,13 +36,20 @@
 <em> Note: The point of this set of instructions is to answer "In what ways do members and casual riders use Divvy bikes differently?". We can use R to answer other questions as well. </em>
 
 * In my opinion, to save on typing, you should consider copying the instructions listed at the top of this page into a new R script.
-* To do so: File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
+* To do so: 
+<details>
+  <summary>Instructions</summary>
+* File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
+</details>
 
-* First we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> 
+* First, we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> 
+<details>
+  <summary>Install Packages</summary>
 * install.packages("tidyverse")
 * install.packages("lubridate")
 * install.packages("ggplot2")
-* 
+<details>
+  
 * After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. 
 * 
 * It's time to upload the CSV files we cleaned earlier.
