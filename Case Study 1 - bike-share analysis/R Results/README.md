@@ -33,6 +33,7 @@
 </details>
 
 ## Uploading 
+
 <details>
     <summary><strong>Details</strong></summary>
 <em> Note: The point of this set of instructions is to answer "In what ways do members and casual riders use Divvy bikes differently?". We can use R to answer other questions as well. </em>
@@ -131,9 +132,12 @@
       
 <em>Notice all column names are already correct and both columns listed directly above are already labeled as "col_character()"</em>
 </ol>
+  
 <details>
   
+  
 ## Cleaning
+  
 <ol>
 <li> Things. <em> stuff</em> </li>
 <details>
