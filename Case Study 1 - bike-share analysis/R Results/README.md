@@ -61,7 +61,7 @@
 * library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
 </details>
 
-<li>Now we check and set the director</li>
+<li>Now we check and set the directory.</li>
   
   <details>
     <summary><strong>Check and Set Directory</strong></summary>
