@@ -55,6 +55,7 @@
 <li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
   <details>
   <summary><strong>Load Packages</strong></summary>
+    
 * library(tidyverse)  #helps wrangle data
 * library(lubridate)  #helps wrangle date attributes
 * library(ggplot2)  #helps visualize data
