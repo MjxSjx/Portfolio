@@ -21,7 +21,7 @@ library(tidyverse)  #helps wrangle data
 library(lubridate)  #helps wrangle date attributes
 library(ggplot2)  #helps visualize data
 getwd() #displays your working directory
-setwd("D:/Merit/Merit Projects/Previous 12 months of trip data - CSV") #sets your working directory 
+setwd("C:/Your location/goes here") #sets your working directory 
 getwd() #check you set your directory correctly
 
 #=====================
