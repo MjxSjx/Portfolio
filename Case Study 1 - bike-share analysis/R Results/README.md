@@ -10,7 +10,7 @@
 ### Click here ➡️ [R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
 
 * I created an auto-download link because I find the CRAN website confusing 😵. 
-* Keep in mind that R does not auto-update.
+* Keep in mind that R does not auto-update. Also, that old versions stay on your hard drive.
 * Run through the setup, keeping all the default settings.
 
 ### Click here ➡️ [R Studio](https://download1.rstudio.org/electron/windows/RStudio-2023.06.0-421.exe)
