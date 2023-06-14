@@ -66,8 +66,8 @@
   <details>
     <summary><strong>Check and Set Dir</strong></summary>
     
-* getwd() #displays your working directory
-* setwd("D:/Merit/Merit Projects") #sets your working directory 
+* getwd() <em># displays your working directory</em>
+* setwd("Your Directory location") <em># sets your working directory </em>
  </details>
   
 <li> It's time to upload the CSV files we cleaned earlier. </li>
