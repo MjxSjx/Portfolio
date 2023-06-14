@@ -181,7 +181,7 @@
 * distinct_values <- unique(all_trips$member_casual)
 * print(distinct_values)
 
- <em> Notice your ressults are only "casual" and "member" </em>                     
+ <em> Notice your results are only "casual" and "member" </em>                     
 </details>  
   
 </ol>
