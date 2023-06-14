@@ -130,8 +130,19 @@
 <em>Notice all column names are already correct and both columns listed directly above are already labeled as "col_character()"</em>
 </ol>
 
-## Something
-
+## Cleaning
+<ol>
+<li> Things. <em> stuff</em> </li>
+<details>
+  <summary><strong>Removing columns</strong></summary>
+  <em> birthyear and gender do not exist in our files</em>
+  
+* all_trips <- all_trips %>%  
+  select(-c(start_lat, start_lng, end_lat, end_lng))
+  
+</details>
+</ol>
+  
 ## Analysis
 
 ## Exporting
