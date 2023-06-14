@@ -90,9 +90,27 @@
 
 <em>Check your "Enviroment" tab that all 12 files are loaded in R Studio</em>
        </details>
+  
+  <li> Check once again the all 12 column names are consistent </li>
+      <details>
+    <summary><strong>Checking column names </strong></summary>
+* colnames(db1)
+* colnames(db2)
+* colnames(db3)
+* colnames(db4)
+* colnames(db5)
+* colnames(db6)
+* colnames(db7)
+* colnames(db8)
+* colnames(db9)
+* colnames(db10)
+* colnames(db11)
+* colnames(db12)
+  
+    </details>
 </ol>
 
-## Cleaning
+## Something
 
 ## Analysis
 
