@@ -1,6 +1,6 @@
 # R Studio
 * This option has instructions; parts are dated, while other parts are outright wrong and not based on how the process steps add "ride_length," specifically the data type that the steps create. As a template, it is helpful, but if you don't know R very well or understand your data types and format types, the instructions just set you up for confusion.
-* In truth, it may be possible just by using R. However, I use the IDE RStudio and suggest you do the same.
+* In truth, it may be possible to finish this just by using R. However, I use the IDE RStudio and suggest you do the same.
 * Here's the instructions: [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit). You don't need them but it doens't hurt to follow along with them as well. 
 
 ## Installation
