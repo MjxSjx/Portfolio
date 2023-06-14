@@ -62,6 +62,7 @@
 </details>
   
   <details>
+    
   <li><summary><strong>Now we check and set the director</strong></summary></li>
  
     * fdsafdsa
