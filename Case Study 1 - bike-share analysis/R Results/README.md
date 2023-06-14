@@ -1,7 +1,7 @@
 # R Studio
 * Luckily, this is the easiest part; the instructions are dated but still helpful.
 * In truth, it may be possible just by using R. However, I use the IDE RStudio and suggest you do the same.
-* Here's the instructions: [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit)
+* Here's the instructions: [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit). You don't need them but it doens't hurt to follow along with them as well. 
 
 ## Installation
 <details>
