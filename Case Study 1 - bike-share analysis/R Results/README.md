@@ -17,7 +17,7 @@
 * Keep in mind that RStudio does not auto-update, nor do the libraries. 
 * Run through the setup, keeping all the default settings.
 
-I prefer this pane layout. I ask that you consider it yourself. However, it is all preference: 
+I prefer this pane layout. I ask that you consider it yourself. To change it View > Panes > Pane Layout However, it is all preference: 
 ![RStudio](RStudio.PNG)
 </details>
 
