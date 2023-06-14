@@ -148,10 +148,10 @@
 * all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)   
   </details>
    
-<li> We need to remove some columns. <em> birthyear and gender do not exist in our files.</em> </li>
+<li> We need to remove some columns. </li>
 <details>
   <summary><strong>Removing columns</strong></summary>
-  
+  <em> birthyear and gender do not exist in our files.</em> 
 * all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
   
 </details>
