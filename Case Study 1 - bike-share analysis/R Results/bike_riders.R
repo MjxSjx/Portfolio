@@ -85,29 +85,7 @@ all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)
 all_trips <- all_trips %>%  
   select(-c(start_lat, start_lng, end_lat, end_lng))
 
-
-# Making ride_length the col_type the instructions want "$ ride_length : num" TAKE1??
-#all_trips <- all_trips %>% 
-#  mutate(ride_length = as.numeric(ride_length))
-# this works to create a num format but doesn't 
-# create a col difftime format like the guide assumes you're starting with.
-
-# Making ride_length the col_type the instructions want TAKE 2??
-#all_trips$ride_length <- as.numeric(as.character(all_trips$ride_length))
-# this just breaks things cells become NA
-
-# Making ride_length the col_type the instructions want TAKE 3??
-# Convert "time" column to numeric representation (difftime)
-#all_trips$ride_length <- as.numeric(format(all_trips$ride_length, "%H")) * 3600 +
-#  as.numeric(format(all_trips$ride_length, "%M")) * 60 +
-#  as.numeric(format(all_trips$ride_length, "%S"))
-# this just breaks things cells become NA
-
-# Making ride_length the col_type the instructions want TAKE 4??
-# Convert "time" column to numeric representation (seconds)
-#all_trips$ride_length <- as.numeric(difftime(all_trips$ended_at, all_trips$started_at, units = "secs"))
-
-# Making ride_length the col_type the instructions want TAKE 5??
+# this works to create a num format but doesn't create a col difftime format either avoiding the is the instructions
 all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
 
 
@@ -128,9 +106,6 @@ summary(all_trips)  #Statistical summary of data. Mainly for numerics
 
 # There are a few problems we will need to fix:
 # (1) The data can only be aggregated at the ride-level, which is too granular. We will want to add some additional columns of data -- such as day, month, year -- that provide additional opportunities to aggregate the data.
-# (2) We will want to add a calculated field for length of ride since the 2020Q1 data did not have the "tripduration" column. We will add "ride_length" to the entire dataframe for consistency.
-# (3) There are some rides where tripduration shows up as negative, including several hundred rides where Divvy took bikes out of circulation for Quality Control reasons. We will want to delete these rides.
-
 
 
 # Add columns that list the date, month, day, and year of each ride
