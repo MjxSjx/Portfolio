@@ -71,11 +71,13 @@
     
 * getwd() <em># displays your working directory</em>
 * setwd("Your Directory location") <em># sets your working directory </em>
+* getwd() <em># check you set your directory correctly</em>
+    
  </details>
   
 <li> It's time to upload the CSV files we cleaned earlier. </li>
     <details>
-    <summary><strong>CSV files</strong></summary>
+    <summary><strong>CSV Files</strong></summary>
       <em>Simple file names mean less typing</em>
       
 * db1 <- read_csv("202205-tripdata.csv")
@@ -96,7 +98,7 @@
   
   <li> Check once again the all 12 column names are consistent. </li>
       <details>
-    <summary><strong>Checking column names </strong></summary>
+    <summary><strong>Checking Column Names </strong></summary>
         
 * colnames(db1)
 * colnames(db2)
@@ -114,7 +116,7 @@
   
 <li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type". </li>
     <details>
- <summary><strong>Checking column names </strong></summary>
+ <summary><strong>Checking Column Names </strong></summary>
   <em> Simply check the structure of each file </em>
  
 * str(db1)
@@ -150,7 +152,7 @@
    
 <li> We need to remove some columns. </li>
 <details>
-  <summary><strong>Removing columns</strong></summary>
+  <summary><strong>Removing Columns</strong></summary>
   <em> birthyear and gender do not exist in our files </em> 
   
 * all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
