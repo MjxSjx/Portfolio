@@ -109,6 +109,25 @@
 * colnames(db12)
     </details>
   
+<li> There is no need to mutate() "ride_id" or "rideable_type" </li>
+    <details>
+ <summary><strong>Checking column names </strong></summary>
+  <em> Simply check the structure of each file </em>
+ 
+* str(db1)
+* str(db2)
+* str(db3)
+* str(db4)
+* str(db5)
+* str(db6)
+* str(db7)
+* str(db8)
+* str(db9)
+* str(db10)
+* str(db11)
+* str(db12)
+      
+<em>Notice both columns are labeled as "col_character() already</em>
 </ol>
 
 ## Something
