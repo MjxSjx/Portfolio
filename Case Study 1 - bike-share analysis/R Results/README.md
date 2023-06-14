@@ -33,7 +33,7 @@
 </details>
 
 ## Uploading 
-* Note: The point of this set of instructions is to answer "In what ways do members and casual riders use Divvy bikes differently?". We can use R to answer other questions as well.*
+<em> Note: The point of this set of instructions is to answer "In what ways do members and casual riders use Divvy bikes differently?". We can use R to answer other questions as well. </em>
 
 * It is my opinion to save on typing you should consider copying the instructions listed at the top into a new R script.
 * To do so: File tab > New File > R Script. Copy the instructions and paste them into your new script then: File tab > Save As > bike_riders.R (or whatever file name you like).
