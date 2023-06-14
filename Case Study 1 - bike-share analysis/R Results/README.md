@@ -141,7 +141,7 @@
   <details>
     <summary><strong>Details</strong></summary>
 <ol>
- <li>Making one large data frame</li> 
+ <li>Making one large data frame.</li> 
  <details>
  <summary><strong>Combining</strong></summary>
 
