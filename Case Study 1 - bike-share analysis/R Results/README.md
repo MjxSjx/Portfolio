@@ -1,6 +1,6 @@
 # R Studio
-* Luckily this is the easiest part and has the most concise set of instructions. The instructions are dated but still helpful.
-* In truth it may be possible just using R. However I use the IDE and suggest you do the same.
+* Luckily, this is the easiest part; the instructions are dated but still helpful.
+* In truth, it may be possible just by using R. However, I use the IDE RStudio and suggest you do the same.
 * Here's the instructions: [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit)
 
 ## Installation
