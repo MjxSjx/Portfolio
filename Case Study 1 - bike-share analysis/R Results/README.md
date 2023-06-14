@@ -17,6 +17,9 @@
 * Keep in mind that RStudio does not auto-update, nor do the libraries. 
 * Run through the setup, keeping all the default settings.
   
+### Make sure you create a directory for your project
+  * The far top-right has a tab click it > New Project > name your directory and its location > Create Project.
+  
 <details>
   <summary>Settings</summary>
   
