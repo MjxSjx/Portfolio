@@ -60,7 +60,13 @@
 * library(lubridate)  <em># This loads with tidyverse, I dunno why its listed either </em>
 * library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
 </details>
-
+  
+  <li>Now we check and set the directory</li>
+  <details>
+    <summary><strong>Check and set</strong></summary>
+  
+</details>
+  
 <li> It's time to upload the CSV files we cleaned earlier. </li>
 </ol>
 ## Cleaning
