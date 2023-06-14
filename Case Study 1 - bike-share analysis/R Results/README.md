@@ -8,16 +8,16 @@
   <summary>Software</summary>
 ### Click here ➡️ [R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
 
-* I created an auto download link becuase I find CRAN website confusing 😵     
-* Keep in mind R does not auto update.
-* Run through the setup keeping all default settings.
+* I created an auto-download link because I find the CRAN website confusing 😵. 
+* Keep in mind that R does not auto-update.
+* Run through the setup, keeping all the default settings.
 
 ### Click here ➡️ [R Studio](https://download1.rstudio.org/electron/windows/RStudio-2023.06.0-421.exe)
-* I created an auto download link becuase why not.
-* Keep in mind RStudio does not auto update, nor do the libraries. 
-* Run through the setup keeping all default settings.
+* I created an auto-download link because why not.
+* Keep in mind that RStudio does not auto-update, nor do the libraries. 
+* Run through the setup, keeping all the default settings.
 
-I prefer this pane layout. I ask you consider it yourself. However it is all preference: 
+I prefer this pane layout. I ask that you consider it yourself. However, it is all preference: 
 ![RStudio](RStudio.PNG)
 </details>
 
