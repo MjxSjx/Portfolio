@@ -137,7 +137,9 @@
   
   
 ## Cleaning
-  
+
+  <details>
+    <summary><strong>Details</strong></summary>
 <ol>
 <li> Things. <em> stuff</em> </li>
 <details>
@@ -149,7 +151,9 @@
   
 </details>
 </ol>
-  
+ 
+ </details>
+      
 ## Analysis
 
 ## Exporting
