@@ -94,6 +94,7 @@
   <li> Check once again the all 12 column names are consistent </li>
       <details>
     <summary><strong>Checking column names </strong></summary>
+        
 * colnames(db1)
 * colnames(db2)
 * colnames(db3)
@@ -106,8 +107,8 @@
 * colnames(db10)
 * colnames(db11)
 * colnames(db12)
-  
     </details>
+  
 </ol>
 
 ## Something
