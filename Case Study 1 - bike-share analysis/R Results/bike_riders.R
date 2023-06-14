@@ -11,9 +11,6 @@
 
 # # # # # # # # # # # # # # # # # # # # # # # 
 # Install required packages
-# tidyverse for data import and wrangling
-# lubridate for date functions
-# ggplot for visualization
 # # # # # # # # # # # # # # # # # # # # # # #  
 
 library(tidyverse)  #helps wrangle data
@@ -63,7 +60,7 @@ colnames(db11)
 colnames(db12)
 
 
-# Inspect the dataframes and look for incongruencies
+# Inspect the dataframes and look for incongruencies aka mismatched data types
 str(db1)
 str(db2)
 str(db3)
@@ -78,16 +75,15 @@ str(db11)
 str(db12)
 
 
-# Stack individual quarter's data frames into one big data frame
+# Stack individual data frames into one big data frame
 all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)
 
 # Remove lat and long
 all_trips <- all_trips %>%  
   select(-c(start_lat, start_lng, end_lat, end_lng))
 
-# this works to create a num format but doesn't create a col difftime format either avoiding the is the instructions
+# this works to create a num format but doesn't create a col difftime format either while avoiding the confusion that is the instructions
 all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
-
 
 # Notice the change to ride_length
 str(all_trips)
@@ -107,46 +103,21 @@ summary(all_trips)  #Statistical summary of data. Mainly for numerics
 # There are a few problems we will need to fix:
 # (1) The data can only be aggregated at the ride-level, which is too granular. We will want to add some additional columns of data -- such as day, month, year -- that provide additional opportunities to aggregate the data.
 
-
 # Add columns that list the date, month, day, and year of each ride
 # This will allow us to aggregate ride data for each month, day, or year ... before completing these operations we could only aggregate at the ride level
 # https://www.statmethods.net/input/dates.html more on date formats in R found at that link
 
-#all_trips$date <- as.POSIXct(all_trips$started_at, format = "%Y-%m-%d %H:%M:%S") # DO NOT RUN THIS!!!
-
 all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M") #mine
-
-# all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd yet our format is mm-dd-yyyy
 all_trips$month <- format(as.Date(all_trips$date), "%m")
 all_trips$day <- format(as.Date(all_trips$date), "%d")
 all_trips$year <- format(as.Date(all_trips$date), "%Y")
 all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
 
-# Add a "ride_length" calculation to all_trips (in seconds)
-# https://stat.ethz.ch/R-manual/R-devel/library/base/html/difftime.html
-#all_trips$ride_length <- difftime(all_trips$ended_at,all_trips$started_at) #doesn't work
-
-#library(hms)
-#library(lubridate)
-#all_trips$ended_at <- as.POSIXct(all_trips$ended_at, format = "%m/%d/%Y %H:%M")
-#all_trips$started_at <- as.POSIXct(all_trips$started_at, format = "%m/%d/%Y %H:%M")
-#all_trips$ride_length <- format(as.duration(all_trips$ended_at - all_trips$started_at), format = "%H:%M:%S")
-
-
-
 # Inspect the structure of the columns
 str(all_trips)
 
-
-
-# Convert "ride_length" from Factor to numeric so we can run calculations on the data
-# is.factor(all_trips$ride_length)
-# all_trips$ride_length <- as.numeric(as.character(all_trips$ride_length)) # this doesn't work because we're a time data type 
-# we dont need this
+# we want true. Things wouldn't have gotten this far if it was false anyway.
 is.numeric(all_trips$ride_length)
-# we want true 
-
-
 
 # Remove "bad" data
 # The dataframe includes a few hundred entries when bikes were taken out of docks and checked for quality by Divvy or ride_length was negative
@@ -159,18 +130,15 @@ all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$
 #=====================================
 # STEP 4: CONDUCT DESCRIPTIVE ANALYSIS
 #=====================================
-# Descriptive analysis on ride_length (all figures in seconds)
-#all_trips <- all_trips %>% 
-#  mutate(ride_length = as.numeric(ride_length))
+
 
 mean(all_trips_v2$ride_length) #straight average (total ride length / rides) # doesn't currently work.
-# [1] 992.4241
+
 median(all_trips_v2$ride_length) #midpoint number in the ascending array of ride lengths
-# [1] 618
+
 max(all_trips_v2$ride_length) #longest ride
-# [1] 89965
+
 min(all_trips_v2$ride_length) #shortest ride
-# [1] 0
 
 # You can condense the four lines above to one line using summary() on the specific attribute
 summary(all_trips_v2$ride_length)
@@ -185,9 +153,7 @@ aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
 all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 
 
-# See the average ride time by each day for members vs casual users
-#aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
-# mine rounds up to leave easier to understand numbers. 
+# See the average ride time by each day for members vs casual users. Mine rounds up to allow for easier visual digestion.
 aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = function(x) round(mean(x), 2))
 
 all_trips_v2 <- all_trips_v2 %>%
