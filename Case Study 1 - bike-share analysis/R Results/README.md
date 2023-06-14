@@ -151,7 +151,7 @@
 <li> We need to remove some columns. </li>
 <details>
   <summary><strong>Removing columns</strong></summary>
-  <em> birthyear and gender do not exist in our files.</em> 
+  <em> birthyear and gender do not exist in our files </em> 
   
 * all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
   
@@ -160,6 +160,7 @@
 <li> Inspecting the new table we've created.</em> </li>  
 <details>
   <summary><strong>Inspection Syntax</strong></summary>
+  <em> This is important information </em> 
   
 * colnames(all_trips)  #List of column names
 * nrow(all_trips)  #How many rows are in data frame?
