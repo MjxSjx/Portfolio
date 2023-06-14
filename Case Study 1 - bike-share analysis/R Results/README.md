@@ -56,7 +56,7 @@
   <details>
   <summary><strong>Load Packages</strong></summary>
     
-* library(tidyverse)  #helps wrangle data
+* library(tidyverse) 
 * library(lubridate)  <em># This loads with tidyverse, I dunno why its listed either </em>
 * library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
 </details>
