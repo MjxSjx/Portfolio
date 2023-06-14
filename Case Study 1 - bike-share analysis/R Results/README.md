@@ -73,6 +73,7 @@
 <li> It's time to upload the CSV files we cleaned earlier. </li>
     <details>
     <summary><strong>CSV files</strong></summary>
+      <em>Simple file names mean less typing</em>
       
 * db1 <- read_csv("202205-tripdata.csv")
 * db2 <- read_csv("202206-tripdata.csv")
