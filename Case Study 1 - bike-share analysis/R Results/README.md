@@ -141,10 +141,9 @@
   <details>
     <summary><strong>Details</strong></summary>
 <ol>
-<li> Things. <em> stuff</em> </li>
+<li> We need to remove some columns. <em> birthyear and gender do not exist in our files</em> </li>
 <details>
   <summary><strong>Removing columns</strong></summary>
-  <em> birthyear and gender do not exist in our files</em>
   
 * all_trips <- all_trips %>%  
   select(-c(start_lat, start_lng, end_lat, end_lng))
