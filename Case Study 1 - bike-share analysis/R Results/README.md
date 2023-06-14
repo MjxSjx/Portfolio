@@ -38,6 +38,7 @@
 * In my opinion, to save on typing, you should consider copying the instructions listed at the top of this page into a new R script.
 <details>
   <summary><strong>Instructions</strong></summary>
+  
 * File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
 </details>
 
