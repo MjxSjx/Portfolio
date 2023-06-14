@@ -43,7 +43,7 @@
 </details>
 
 <ol>
-<li>First, we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
+<li> We potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
 <details>
   <summary><strong>Install Packages</strong></summary>
   
@@ -52,10 +52,10 @@
 * install.packages("ggplot2")
 </details>
   
-* After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. 
+<li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
 
 
-* It's time to upload the CSV files we cleaned earlier.
+<li> It's time to upload the CSV files we cleaned earlier. </li>
 </ol>
 ## Cleaning
 
