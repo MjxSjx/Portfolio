@@ -155,10 +155,26 @@
 * all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
   
 </details>
+  
+<li> Inspecting the new table we've created.</em> </li>  
+<details>
+  <summary><strong>Inspection Syntax</strong></summary>
+  
+* colnames(all_trips)  #List of column names
+* nrow(all_trips)  #How many rows are in data frame?
+* dim(all_trips)  #Dimensions of the data frame?
+* head(all_trips)  #See the first 6 rows of data frame.  Also tail(all_trips)
+* str(all_trips)  #See list of columns and data types (numeric, character, etc)
+* summary(all_trips)  #Statistical summary of data. Mainly for numerics
+  
+</details>  
+  
 </ol>
  
  </details>
       
+  
+  
 ## Analysis
 
 ## Exporting
