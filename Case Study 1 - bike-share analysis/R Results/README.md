@@ -186,7 +186,7 @@
 
 <li> Adding columns that list the date, month, day, and year of each ride.</em>     
 <details>
-  <summary><strong>Addking Columns</strong></summary>
+  <summary><strong>Adding Columns</strong></summary>
 
 * all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd
 * all_trips$month <- format(as.Date(all_trips$date), "%m")
