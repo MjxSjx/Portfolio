@@ -132,6 +132,7 @@
 <em>Notice all column names are already correct and both columns listed directly above are already labeled as "col_character()"</em>
 </ol>
 <details>
+  
 ## Cleaning
 <ol>
 <li> Things. <em> stuff</em> </li>
