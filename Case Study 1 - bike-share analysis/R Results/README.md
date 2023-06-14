@@ -160,7 +160,7 @@
 <li> Inspecting the new table we've created.</em> </li>  
 <details>
   <summary><strong>Inspection Syntax</strong></summary>
-  <em> This is important information </em> 
+  <em> This is all important information </em> 
   
 * colnames(all_trips)  #List of column names
 * nrow(all_trips)  #How many rows are in data frame?
