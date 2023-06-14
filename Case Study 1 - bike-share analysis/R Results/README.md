@@ -136,11 +136,18 @@
 </details>
 </details>
   
-## Cleaning
+## Cleaning & Combining
 
   <details>
     <summary><strong>Details</strong></summary>
 <ol>
+ <li>Making one large data frame</li> 
+    <details>
+    <summary><strong>Combining</strong></summary>
+     
+* all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)   
+               
+  </details>
 <li> We need to remove some columns. <em> birthyear and gender do not exist in our files.</em> </li>
 <details>
   <summary><strong>Removing columns</strong></summary>
