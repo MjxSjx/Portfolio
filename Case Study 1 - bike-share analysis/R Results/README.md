@@ -5,7 +5,7 @@
 
 ## Installation
 <details>
-  <summary>Software</summary>
+  <summary><strong>Software</strong></summary>
 ### Click here ➡️ [R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
 
 * I created an auto-download link because I find the CRAN website confusing 😵. 
