@@ -5,7 +5,7 @@
 
 ## Installation
 <details>
-  <summary><strong>Software</strong></summary>
+  <summary><strong>Details</strong></summary>
   
 ### Click here ➡️ [R](https://cloud.r-project.org/bin/windows/base/R-4.3.0-win.exe)
 
