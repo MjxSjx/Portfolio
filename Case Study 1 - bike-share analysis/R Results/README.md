@@ -48,8 +48,8 @@
   <summary><strong>Install Packages</strong></summary>
   
 * install.packages("tidyverse")
-* install.packages("lubridate") # This comes with tidyverse, I dunno why its listed
-* install.packages("ggplot2") # This comes with tidyverse, I dunno why its listed
+* install.packages("lubridate") <em># This comes with tidyverse, I dunno why its listed </em>
+* install.packages("ggplot2") <em># This comes with tidyverse, I dunno why its listed </em>
 </details>
   
 <li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
@@ -57,8 +57,8 @@
   <summary><strong>Load Packages</strong></summary>
     
 * library(tidyverse)  #helps wrangle data
-* library(lubridate)   # This loads with tidyverse, I dunno why its listed either
-* library(ggplot2)  # This loads with tidyverse, I dunno why its listed either
+* library(lubridate)  <em># This loads with tidyverse, I dunno why its listed either </em>
+* library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
 </details>
 
 <li> It's time to upload the CSV files we cleaned earlier. </li>
