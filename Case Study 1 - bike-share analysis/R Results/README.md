@@ -65,6 +65,7 @@
   
   <details>
     <summary><strong>Check and Set Dir</strong></summary>
+    
 * getwd() #displays your working directory
 * setwd("D:/Merit/Merit Projects") #sets your working directory 
  </details>
