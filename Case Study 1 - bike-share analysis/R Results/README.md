@@ -44,6 +44,7 @@
 * First, we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> 
 <details>
   <summary>Install Packages</summary>
+  
 * install.packages("tidyverse")
 * install.packages("lubridate")
 * install.packages("ggplot2")
