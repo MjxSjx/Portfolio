@@ -21,7 +21,7 @@
   * The far top-right has a tab just below the "Close tab" click it > New Project > name your directory and its location > Create Project.
   
 <details>
-  <summary>Settings</summary>
+  <summary><strong>Settings</strong></summary>
   
   * To change RStudio to nightmode: Tools > Global Options > appearance > Editor theme > "Tomorrow Night" is my current selection.
   * I prefer this pane layout. I ask that you consider it yourself. To change it: View > Panes > Pane Layout However, it is all preference: 
@@ -37,13 +37,13 @@
 
 * In my opinion, to save on typing, you should consider copying the instructions listed at the top of this page into a new R script.
 <details>
-  <summary>Instructions</summary>
+  <summary><strong>Instructions</strong></summary>
 * File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
 </details>
 
 * First, we potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> 
 <details>
-  <summary>Install Packages</summary>
+  <summary><strong>Install Packages</strong></summary>
   
 * install.packages("tidyverse")
 * install.packages("lubridate")
@@ -51,7 +51,8 @@
 </details>
   
 * After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. 
-* 
+
+
 * It's time to upload the CSV files we cleaned earlier.
 
 ## Cleaning
