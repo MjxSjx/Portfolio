@@ -141,8 +141,7 @@
   <details>
     <summary><strong>Details</strong></summary>
 <ol>
-<li> We need to remove some columns.</li>
-   <em> birthyear and gender do not exist in our files.</em>
+<li> We need to remove some columns. <em> birthyear and gender do not exist in our files.</em> </li>
 <details>
   <summary><strong>Removing columns</strong></summary>
   
