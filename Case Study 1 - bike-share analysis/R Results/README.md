@@ -184,7 +184,7 @@
  <em> Notice your results are only "casual" and "member" </em>                     
 </details>  
 
-<li> Adding columns that list the date, month, day, and year of each ride</em>     
+<li> Adding columns that list the date, month, day, and year of each ride.</em>     
 <details>
   <summary><strong>Addking Columns</strong></summary>
 
