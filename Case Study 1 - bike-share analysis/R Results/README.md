@@ -71,7 +71,24 @@
  </details>
   
 <li> It's time to upload the CSV files we cleaned earlier. </li>
+    <details>
+    <summary><strong>Check and Set Directory</strong></summary>
+      
+* db1 <- read_csv("202205-tripdata.csv")
+* db2 <- read_csv("202206-tripdata.csv")
+* db3 <- read_csv("202207-tripdata.csv")
+* db4 <- read_csv("202208-tripdata.csv")
+* db5 <- read_csv("202209-tripdata.csv")
+* db6 <- read_csv("202210-tripdata.csv")
+* db7 <- read_csv("202211-tripdata.csv")
+* db8 <- read_csv("202212-tripdata.csv")
+* db9 <- read_csv("202301-tripdata.csv")
+* db10 <- read_csv("202302-tripdata.csv")
+* db11 <- read_csv("202303-tripdata.csv")
+* db12 <- read_csv("202304-tripdata.csv")
+       </details>
 </ol>
+
 ## Cleaning
 
 ## Analysis
