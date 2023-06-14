@@ -64,7 +64,7 @@
 <li>Now we check and set the director</li>
   
   <details>
-    <summary><strong>Check and Set Dir</strong></summary>
+    <summary><strong>Check and Set Directory</strong></summary>
     
 * getwd() <em># displays your working directory</em>
 * setwd("Your Directory location") <em># sets your working directory </em>
