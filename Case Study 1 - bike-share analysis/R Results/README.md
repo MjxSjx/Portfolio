@@ -183,7 +183,19 @@
 
  <em> Notice your results are only "casual" and "member" </em>                     
 </details>  
+
+<li> Adding columns that list the date, month, day, and year of each ride</em>     
+<details>
+  <summary><strong>Addking Columns</strong></summary>
+
+* all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd
+* all_trips$month <- format(as.Date(all_trips$date), "%m")
+* all_trips$day <- format(as.Date(all_trips$date), "%d")
+* all_trips$year <- format(as.Date(all_trips$date), "%Y")
+* all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
   
+</details>
+
 </ol>
  
 </details>
