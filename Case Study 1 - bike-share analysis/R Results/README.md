@@ -116,7 +116,7 @@
   
 <li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type". </li>
     <details>
- <summary><strong>Checking Column Names </strong></summary>
+ <summary><strong> Double Checking Column Names </strong></summary>
   <em> Simply check the structure of each file </em>
  
 * str(db1)
