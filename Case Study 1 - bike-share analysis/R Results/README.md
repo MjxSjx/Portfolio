@@ -60,11 +60,11 @@
 * library(lubridate)  <em># This loads with tidyverse, I dunno why its listed either </em>
 * library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
 </details>
-  
+
+    <li>Now we check and set the director</li>
   <details>
-    
-  <li><summary><strong>Now we check and set the director</strong></summary></li>
- 
+    <summary><strong>Check and Set Dir</strong></summary>
+
     * fdsafdsa
     *fdsafbvcbvcxbvcx
     
