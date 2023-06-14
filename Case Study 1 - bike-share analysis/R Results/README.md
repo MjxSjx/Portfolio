@@ -43,13 +43,13 @@
 </details>
 
 <ol>
-<li> We potentially need to install tidyverse, lubirdate, and ggplot. <em> It's likely you already have them, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
+<li> We potentially need to install tidyverse. <em> It's likely you already have it, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
 <details>
   <summary><strong>Install Packages</strong></summary>
   
 * install.packages("tidyverse")
-* install.packages("lubridate")
-* install.packages("ggplot2")
+* install.packages("lubridate") # This comes with tidyverse, I dunno why its listed
+* install.packages("ggplot2") # This comes with tidyverse, I dunno why its listed
 </details>
   
 <li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
@@ -57,8 +57,8 @@
   <summary><strong>Load Packages</strong></summary>
     
 * library(tidyverse)  #helps wrangle data
-* library(lubridate)  #helps wrangle date attributes
-* library(ggplot2)  #helps visualize data
+* library(lubridate)   # This loads with tidyverse, I dunno why its listed either
+* library(ggplot2)  # This loads with tidyverse, I dunno why its listed either
 </details>
 
 <li> It's time to upload the CSV files we cleaned earlier. </li>
