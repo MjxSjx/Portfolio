@@ -18,7 +18,7 @@
 * Run through the setup, keeping all the default settings.
   
 ### Make sure you create a directory for your project
-  * The far top-right has a tab click it > New Project > name your directory and its location > Create Project.
+  * The far top-right has a tab just below the "Close tab" click it > New Project > name your directory and its location > Create Project.
   
 <details>
   <summary>Settings</summary>
