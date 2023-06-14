@@ -44,7 +44,6 @@
   <summary><strong>Instructions</strong></summary>
   
 * File tab > New File > R Script. Copy the instructions and paste them into your new script, then: File tab > Save As > bike_riders.R <em>(or whatever file name you like).</em> 
-</details>
 
 <ol>
 <li> We potentially need to install tidyverse. <em> It's likely you already have it, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
@@ -135,7 +134,7 @@
 </ol>
   
 </details>
-  
+</details>
   
 ## Cleaning
 
