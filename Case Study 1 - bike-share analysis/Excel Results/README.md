@@ -1,4 +1,4 @@
-# The Excel Process - From Dirty To Clean:
+# The Excel Process - From Dirty to Clean:
 
 *Google Sheets won't open files of these sizes. The instructions for Google Sheets are unfortunately pointless:frowning:.*
 
