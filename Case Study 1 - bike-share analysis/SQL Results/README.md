@@ -24,7 +24,7 @@
 </details>  
 
 <details>
-<summary> Database time </summary>
+<summary> Database time </summary> 
  
  *We are logged into SSMS already*
  
