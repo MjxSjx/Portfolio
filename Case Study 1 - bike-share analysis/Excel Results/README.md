@@ -94,7 +94,7 @@
 
 # The Excel Process - Time to Analyze:
 <details>
-  <summary> Run a few calculations </summary>
+  <summary> Run a few calculations </summary> 
   
   *Switch to the XLSX mega file now. Run a few calculations in two tabs of opposite seasons to get a better sense of the data layout.* 
   
