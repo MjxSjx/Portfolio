@@ -1,4 +1,4 @@
--- 4:34 minutes is the most common rental duration annually.
+-- 4:34 minutes is the most common rental duration annually. 
  
 SELECT ride_length, COUNT(*) AS totalRides
 FROM (
