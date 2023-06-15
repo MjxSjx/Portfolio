@@ -19,7 +19,7 @@ library(lubridate)  #helps wrangle date attributes
 library(ggplot2)  #helps visualize data
 getwd() #displays your working directory
 setwd("C:/Your location/goes here") #sets your working directory 
-getwd() #check you set your directory correctly
+getwd() #check you set your directory correctly 
 
 #=====================
 # STEP 1: COLLECT DATA
