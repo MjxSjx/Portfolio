@@ -22,7 +22,7 @@
   * The far top-right has a tab just below the "Close tab" click it > New Project > name your directory and its location > Create Project.
   
 <details>
-  <summary><strong>Settings</strong></summary>
+  <summary><strong>Settings</strong></summary> 
   
   * To change RStudio to nightmode: Tools > Global Options > appearance > Editor theme > "Tomorrow Night" is my current selection.
   * I prefer this pane layout. I ask that you consider it yourself. To change it: View > Panes > Pane Layout However, it is all preference: 
