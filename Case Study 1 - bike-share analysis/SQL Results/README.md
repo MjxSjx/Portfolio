@@ -110,7 +110,7 @@ Per stakeholder request:
 * We utilized deep SQL queries using CASE, CREATE, DISTINCT, JOIN, SUBQUERY, UNION, and so on while showing our work.
 * We answered every possible question using data-driven decision-making and created files that are ripe for exporting to be used in summary visualizations.
 
-I hope you've found this Excel section guide helpful!
+I hope you've found this SQL section guide helpful!
 
 Be sure to check out my Excel and R sections and future case studies!
 
