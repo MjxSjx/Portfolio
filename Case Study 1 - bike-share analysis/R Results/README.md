@@ -340,8 +340,7 @@
 * Total Annual Rides by Weekday Per Rider Type:
 * 
 *
-*
-![Total](AverageAnnualRideDuration-byWeekdayPerRiderType.png)
+* ![bobloblaw](Average_Annual_Ride_Duration_-_by_Weekday_Per_Rider_Type.png)
 
 
 * Average Annual Ride Duration by Weekday Per Rider Type:
