@@ -263,10 +263,10 @@ summary(all_trips_v2$ride_length)
 <em>Compare members and casual users</em>
 
 ```
-aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = mean)
-aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = median)
-aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = max)
-aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
+* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = mean)
+* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = median)
+* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = max)
+* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
 ```
   
 </details>
