@@ -335,7 +335,7 @@ aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$d
 </details>
 
 <details>
-<summary><strong>Rider Data By Type and Weekday: </strong></summary>
+<summary><strong>Rider Data by Type and Weekday: </strong></summary>
 <em> Another place where we must <strong>first</strong> format to utilize further investigations </em>
   
 ```  
