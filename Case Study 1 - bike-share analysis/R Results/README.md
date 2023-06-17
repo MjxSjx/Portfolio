@@ -19,7 +19,7 @@
 * Run through the setup, keeping all the default settings.
   
 ### Make sure you create a directory for your project
-  * The far top-right has a tab just below the RStudio "Close tab" click it > New Project > New Directory > New Project >  name your directory and its location > Create Project.
+  * The far top-right has a tab just below the RStudio "Close tab." Click it > New Project > New Directory > New Project >  Name your directory and its location > Create Project.
   
 <details>
   <summary><strong>Settings</strong></summary> 
