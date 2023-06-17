@@ -481,15 +481,12 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 <details>
 <summary><strong> What the Default Instructions Have you Export:</strong></summary>
 <em> counts is just the variable name for the data to export </em>
-  
 ` counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean) `
 
 <em> file_path is just the variable name for the file destination </em>
-
-`file_path <- "Your_file_destination/avg_ride_length.csv"`
+` file_path <- "Your_file_destination/avg_ride_length.csv"`
 
 <em> Bringing it all together with file type </em>
-
 ` write.csv(counts, file = file_path, row.names = FALSE)`
 
 </details>
