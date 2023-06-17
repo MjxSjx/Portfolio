@@ -297,8 +297,8 @@
 * Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
 
 <li><strong> You need to choose your file path: </strong></li>
+<em> Inside your export function, use the parameter syntax file = "your destination". </em>
 
-* Inside your export function, use the parameter syntax file = "your destination",
 * write.csv(all_trips, file = "all_trips.csv", row.names = FALSE) <em> This will save to your current R directory </em>
 * write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) <em> This will save your file inside D > Merit </em>
 
