@@ -500,14 +500,14 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 <summary><strong> The Final Product: Visualizations </strong></summary>
   <em> These two images are the results the R instructions are seeking </em>
   
-* Total Annual Rides by Weekday Per Rider Type:
+* Total Annual Rides by Weekday per Rider Type:
 ![Total Annual Rides by Weekday Per Rider Type](Total_Annual_Rides.png)
 
-* Average Annual Ride Duration by Weekday Per Rider Type:
+* Average Annual Ride Duration by Weekday per Rider Type:
 ![Average Annual Ride Duration - by Weekday Per Rider Type](Average_Annual_Ride_Duration.png)
 
  
-* However, you an do any number of visualizations with R!
+* However, you can do any number of visualizations with R!
 
 </details>
 
