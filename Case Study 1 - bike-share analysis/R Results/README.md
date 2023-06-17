@@ -102,7 +102,7 @@ db11 <- read_csv("202303-tripdata.csv")
 db12 <- read_csv("202304-tripdata.csv")
 ```
 
-<em>Check your "Enviroment" tab that all 12 files are loaded in R Studio</em>
+<em>Check your "Environment" tab to see that all 12 files are loaded in R Studio</em>
 
 </details>
   
