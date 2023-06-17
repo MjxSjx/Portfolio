@@ -375,7 +375,6 @@ all_trips_v2 %>%
   scale_y_continuous(labels = scales::comma) +
   labs(title = "Total Annual Rides by Weekday")
 ```
-
 <em> I added some quality of life syntax: A title and better Y-axis scaling </em>
 
 </details>
