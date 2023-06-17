@@ -217,7 +217,7 @@
 
 </details>
 
-<li> Removing Bad Data</li> 
+<li> Removing Bad Data.</li> 
 <details>
   <summary><strong>Removing Negative Numbers</strong></summary>
    <em> We already took care of this in our Excel work. </em>
