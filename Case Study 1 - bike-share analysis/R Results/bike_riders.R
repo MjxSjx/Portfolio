@@ -1,6 +1,5 @@
 ### Divvy_Exercise_Full_Year_Analysis ###
 
-
 # This analysis is based on the Divvy case study 
 # "'Sophisticated, Clear, and Polished’: Divvy and Data Visualization" 
 # written by Kevin Hartman 
@@ -10,12 +9,10 @@
 # answer the key question: “In what ways do members and casual riders use 
 # Divvy bikes differently?”
 
-
 # # # # # # # # # # # # # # # # # # # # # # # 
 # Install required packages
 # tidyverse for data import and wrangling
-# # # # # # # # # # # # # # # # # # # # # # #  
-
+# # # # # # # # # # # # # # # # # # # # # # #   
 
 library(tidyverse)  #helps wrangle data
 #library(lubridate)  #helps wrangle date attributes
@@ -226,4 +223,4 @@ file_path <- "Your_File_Destination/avg_ride_length.csv"
 
 write.csv(counts, file = file_path, row.names = FALSE)
 
-#You're done! Congratulations!
+# You're done! Congratulations!
