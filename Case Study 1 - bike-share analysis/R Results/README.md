@@ -445,7 +445,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 </details>
 
 <details>
-<summary><strong> Visualizations </strong></summary>
+<summary><strong> The Final Product: Visualizations </strong></summary>
   <em> These two images are the results the R instructions are seeking </em>
   
 * Total Annual Rides by Weekday Per Rider Type:
