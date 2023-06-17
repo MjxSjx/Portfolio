@@ -296,6 +296,8 @@
 * Exporting Data: "write.csv()", "write.json()", "write.xlsx()" and so on
 * Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
 
+
+
 <li> You need to choose your file path </li>
 
 * Inside your export function, use the parameter syntax file = "your destination",
