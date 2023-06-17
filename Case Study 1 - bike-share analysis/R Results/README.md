@@ -290,7 +290,8 @@
 <summary><strong>Total Annual Rides by Weekday Per Rider Type: </strong></summary>
 <em> The end visual products the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
 
-*all_trips_v2 %>%
+
+* all_trips_v2 %>%
   mutate(weekday = wday(started_at, label = TRUE)) %>%
   group_by(member_casual, weekday) %>%
   summarise(
