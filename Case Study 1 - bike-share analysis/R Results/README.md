@@ -162,6 +162,8 @@
   <summary><strong> Changing "ride_length" </strong></summary>
   <em> This was a pain. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. </em> 
 * all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
+
+</details>  
   
 <li> Inspecting the new table we've created. </li>  
 <details>
