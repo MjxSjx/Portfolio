@@ -197,7 +197,7 @@
 <li> Adding a "date" column.</li>     
 <details>
   <summary><strong>Adding Date</strong></summary>
-   <em> This too caused a headache for me, although not as severe. The standard instructions will not work. </em>
+   <em> This too caused a headache for me, although not as severe. The default instructions did not work for me. </em>
 
   <details>
   <summary><strong>Spoilers Ahead! </strong></summary>
