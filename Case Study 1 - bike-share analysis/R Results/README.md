@@ -244,6 +244,7 @@
 
 </details>
 
+
 <details>
 <summary><strong>Rider Type Summaries: </strong></summary>
 <em>Compare members and casual users</em>
@@ -263,43 +264,27 @@
 * all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 * aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = function(x) round(mean(x), 2))
 
-
-
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Exporting
+
+
+# Fin
+Per stakeholder request: 
+* We imported the previously cleaned CSV files in R.
+* We columns consistent then merged them into a single data frame.
+* We cleaned up "ride_length" discrepancies and added new columns: date, year, month and, day. 
+* We answered the questions the instructions set out to answer in graphical form.
+* Finally, we learned how to export summary files for further analysis.
+* 
+I hope you've found this R section guide helpful! There is lots more that R can do, but this covers just the case study 1 PDF instructions.
+
+Be sure to check out my Excel and SQL sections and future case studies!
+
+I am open to criticism. Please contact me via email or LinkedIn for any corrections, improvements, or suggestions.
+
+- [LinkedIn](https://www.linkedin.com/in/matt-johnson0304)
+- matt.johnson0304@gmail.com
+
+**Thank you** :bow:
