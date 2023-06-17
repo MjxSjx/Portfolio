@@ -160,7 +160,7 @@
 <li> Changing "ride_length" to coporate with us. </li> 
 <details>
   <summary><strong> Changing "ride_length" </strong></summary>
-  <em> This was a pain. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. Feel free to solve this yourself. The answer will always be here waiting for you. </em> 
+  <em> This was a pain.  The standard instructions will not work. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. Feel free to solve this yourself. The answer will always be here waiting for you. </em> 
 <details>
   <summary><strong> <em>Spoiler Ahead! </em></strong></summary>
   
@@ -172,7 +172,7 @@
 <li> Inspecting the new table we've created. </li>  
 <details>
   <summary><strong>Inspection Syntax</strong></summary>
-  <em> This is all important information about our dataframe. </em> 
+  <em> This is all important information about our data frame. </em> 
   
 * colnames(all_trips)  #List of column names
 * nrow(all_trips)  #How many rows are in data frame?
@@ -197,8 +197,15 @@
 <li> Adding columns that list the date, month, day, and year of each ride.</em>     
 <details>
   <summary><strong>Adding Columns</strong></summary>
+   <em> This too caused a headache for me, although not as severe. The standard instructions will not work. </em>
 
+  <details>
+  <summary><strong>Spoilers Ahead! </strong></summary>
+    
 * all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd
+  </details>
+
+  
 * all_trips$month <- format(as.Date(all_trips$date), "%m")
 * all_trips$day <- format(as.Date(all_trips$date), "%d")
 * all_trips$year <- format(as.Date(all_trips$date), "%Y")
