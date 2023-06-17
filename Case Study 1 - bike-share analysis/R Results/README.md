@@ -319,7 +319,7 @@ aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
 
 
 <details>
-<summary><strong>Average Ride Time by Day by User-Type: </strong></summary>
+<summary><strong>Average Ride Time by Day by User Type: </strong></summary>
 <em> First, we should put the days of the week in order. </em>
   
 ```
