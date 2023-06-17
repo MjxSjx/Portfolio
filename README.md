@@ -10,6 +10,6 @@ Email: matt.johnson0304@gmail.com
 
 ## Case Studies
 
-Case Study 1: How Does a Bike-Share Navigate Speedy Success?
+Case Study 1: How Does a Bike-Share Navigate Speedy Success? <em> I created a lengthy indepth guide on this case study. A walkthrough that even a complete novice to come to the same conclusions as a veteran.</em>
 
 Case Study 2: TBA 
