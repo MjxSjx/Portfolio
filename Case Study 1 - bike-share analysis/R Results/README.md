@@ -296,12 +296,11 @@
 * Exporting Data: "write.csv()", "write.json()", "write.xlsx()" and so on
 * Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
 
-  
-counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
+  <li> You need to choose your file path </li>
 
-file_path <- "D:/Merit/Merit Projects/Previous 12 months of trip data - CSV/avg_ride_length.csv"
-
-write.csv(counts, file = file_path, row.names = FALSE)
+* Inside your export function, use the parameter syntax file = "your destination",
+* write.csv(all_trips, file = "all_trips.csv", row.names = FALSE) <em> This will save to your current R directory </em>
+* write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) <em> This will save your file inside D > Merit </em>
 
 </ol>
 
