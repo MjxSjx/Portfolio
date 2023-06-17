@@ -201,14 +201,13 @@
 
   <details>
   <summary><strong>Spoilers Ahead! </strong></summary>
-    
-* all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd
+* all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
 
   </details>
 
 <li> Adding month, day, and year of each ride. </em>       
 <details>
- <summary><strong>Adding Columns. </strong></summary>
+ <summary><strong>Adding Columns </strong></summary>
   
 * all_trips$month <- format(as.Date(all_trips$date), "%m")
 * all_trips$day <- format(as.Date(all_trips$date), "%d")
