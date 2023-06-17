@@ -171,7 +171,7 @@
   
 </details>  
   
-<li> There is no need to use mutate() on "casual_member".</em> </li>   
+<li> There is no need to use mutate() on "casual_member" that only apply to data 2020 and older. </em> </li>   
 <details>
   <summary><strong>Checking Column "member_casual"</strong></summary>
     <em> Run this code to prove to yourself you're in the clear </em>
