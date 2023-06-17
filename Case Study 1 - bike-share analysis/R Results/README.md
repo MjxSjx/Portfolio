@@ -219,8 +219,9 @@
 
 <li> Removing Bad Data</li> 
 <details>
-  <summary><strong>Removing negative numbers</strong></summary>
-
+  <summary><strong>Removing Negative Numbers</strong></summary>
+   <em> We already took care of this in our Excel work. </em>
+  
 * all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$ride_length<0),]
 
 </details>
