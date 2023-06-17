@@ -54,7 +54,7 @@
 * <em> We do not need "lubridate" and "ggplot2" installed because "tidyverse" already comes with them. </em>
 </details>
   
-<li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the 3 lines 12-14 and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
+<li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the line that reads "library(tidyverse)" and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
   <details>
   <summary><strong>Load Packages</strong></summary>
     
