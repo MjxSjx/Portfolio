@@ -1,5 +1,5 @@
 # R Studio
-* This option has instructions; parts are dated, while other parts are outright wrong and not based on how the process steps add "ride_length," specifically the data type that the steps create. As a template, it is helpful, but if you don't know R very well or understand your data types and format types, the instructions just set you up for confusion. Which is where I was for a duration 😵.
+* This option has instructions; parts are dated, while other parts are outright wrong and not based on how the process steps add "ride_length," specifically the data type that the steps create. I still suggest you see if it works for you and or use it as a template, it is helpful in that way, but if you don't know R very well or understand your data types and format types, the instructions set me up for confusion 😵.
 * In truth, it may be possible to finish this just by using R. However, I use the IDE RStudio and suggest you do the same.
 * Here's the instructions: [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit). You don't need them but it doens't hurt to follow along with them as well.  
 
@@ -194,13 +194,11 @@
  <em> Notice your results are only "casual" and "member" </em>                     
 </details>  
 
-<li> Adding a "date" column.</em>     
+<li> Adding a "date" column.</li>     
 <details>
   <summary><strong>Adding Date</strong></summary>
    <em> This too caused a headache for me, although not as severe. The standard instructions will not work. </em>
 
-
- 
   <details>
   <summary><strong>Spoilers Ahead! </strong></summary>
 * all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
@@ -216,6 +214,14 @@
 * all_trips$day <- format(as.Date(all_trips$date), "%d")
 * all_trips$year <- format(as.Date(all_trips$date), "%Y")
 * all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
+
+</details>
+
+<li> Removing Bad Data</li> 
+<details>
+  <summary><strong>Removing negative numbers</strong></summary>
+
+* all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$ride_length<0),]
 
 </details>
 
