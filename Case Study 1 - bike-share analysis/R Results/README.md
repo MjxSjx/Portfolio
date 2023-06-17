@@ -298,8 +298,8 @@
 
 <li><strong> You need to choose the data your exporting: </strong></li>
 
-* write.csv(all_tripsv2) <em> This is what you're picking to export </em>
-* write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) <em> This is what you're picking to export </em>
+* write.csv(all_trips) <em> This is what you're picking to export </em>
+* write.csv(all_trips$ride_length) <em> This is what you're picking to export </em>
 
 <li><strong> You need to choose your file path: </strong></li>
 <em> Inside your export function, use the parameter syntax file = "your destination" </em>
@@ -309,7 +309,7 @@
 
 </ol>
 
-### You can export whenever you want to by using data.frame() for example:
+### You can export whenever you want. Although at times this envolves using data.frame() for example:
 
 <details>
 <summary><strong> Combining </strong></summary>
