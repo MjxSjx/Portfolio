@@ -203,8 +203,9 @@
   <summary><strong>Spoilers Ahead! </strong></summary>
     
 * all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd
-  </details>
 
+  </details>
+</details>
   
 * all_trips$month <- format(as.Date(all_trips$date), "%m")
 * all_trips$day <- format(as.Date(all_trips$date), "%d")
