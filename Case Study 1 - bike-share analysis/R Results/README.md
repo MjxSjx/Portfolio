@@ -160,9 +160,9 @@
 <li> Changing the numeric data type "ride_length" to the specific numeric data <em>format</em> required to make modern data operate. </li> 
 <details>
   <summary><strong> Changing "ride_length" </strong></summary>
-  <em> This was a pain. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. </em> 
+  <em> This was a pain. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. Feel free to solve this yourself. The answer will always be waiting for you. </em> 
 <details>
-  <summary><strong> <em>Spoiler Ahead</em>em </strong></summary>
+  <summary><strong> <em>Spoiler Ahead! </em></strong></summary>
   
 * all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
 
