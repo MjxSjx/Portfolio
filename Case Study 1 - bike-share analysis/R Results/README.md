@@ -233,7 +233,7 @@
 ## Analysis
 
 <details>
-<summary>"ride_length" Summaries </summary>
+<summary><strong>"ride_length" Summaries: </strong></summary>
 <em> Time for descriptive analysis on ride_length (all figures in seconds) </em>
 
 * mean(all_trips_v2$ride_length) 
@@ -245,7 +245,7 @@
 </details>
 
 <details>
-<summary>Rider Type Summaries </summary>
+<summary><strong>Rider Type Summaries: </strong></summary>
 <em>Compare members and casual users</em>
 
 * aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = mean)
