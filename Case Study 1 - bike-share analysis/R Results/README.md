@@ -199,13 +199,14 @@
   <summary><strong>Adding Date</strong></summary>
    <em> This too caused a headache for me, although not as severe. The standard instructions will not work. </em>
 
- </details>
+
  
   <details>
   <summary><strong>Spoilers Ahead! </strong></summary>
 * all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
 
-  </details>
+</details>
+ </details>
 
 <li> Adding month, day, and year of each ride. </em>       
 <details>
@@ -215,7 +216,6 @@
 * all_trips$year <- format(as.Date(all_trips$date), "%Y")
 * all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
 
- 
 </details>
 
 </ol>
