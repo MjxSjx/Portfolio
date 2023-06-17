@@ -411,19 +411,19 @@ all_trips_v2 %>%
 <ol>
 <li><strong> You need to choose your file format: </strong></li>
 
-Exporting Data examples:
+Exporting data examples:
 
 ```  
-"write.csv()", "write.json()", "write.xlsx()" and so on
+"write.csv()", "write.json()", "write.xlsx()," and so on
 ```
 
-Exporting Plot examples:
+Exporting plot examples:
 
 ```  
-"jpeg()" "pdf()", ".png()" and so on
+"jpeg()" "pdf()", ".png()," and so on
 ```
   
-<li><strong> You need to choose the data your exporting: </strong></li>
+<li><strong> You need to choose the data you're exporting: </strong></li>
 
 This is what you're picking to export
 
@@ -457,7 +457,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 </ol>
 
 
-<em> At times this involves first using data.frame() but you can export whatever you want. </em> for example: 
+<em> At times, this involves first using data.frame(), but you can export whatever you want. </em> for example: 
 
 <details>
 <summary><strong> Combining </strong></summary>
