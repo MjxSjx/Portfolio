@@ -194,9 +194,9 @@
  <em> Notice your results are only "casual" and "member" </em>                     
 </details>  
 
-<li> Adding columns that list the date, month, day, and year of each ride.</em>     
+<li> Adding a "date" column.</em>     
 <details>
-  <summary><strong>Adding Columns</strong></summary>
+  <summary><strong>Adding Date</strong></summary>
    <em> This too caused a headache for me, although not as severe. The standard instructions will not work. </em>
 
   <details>
@@ -205,13 +205,17 @@
 * all_trips$date <- as.Date(all_trips$started_at) #The default format is yyyy-mm-dd
 
   </details>
-</details>
+
+<li> Adding month, day, and year of each ride. </em>       
+<details>
+ <summary><strong>Adding Columns. </strong></summary>
   
 * all_trips$month <- format(as.Date(all_trips$date), "%m")
 * all_trips$day <- format(as.Date(all_trips$date), "%d")
 * all_trips$year <- format(as.Date(all_trips$date), "%Y")
 * all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
-  
+
+</details>  
 </details>
 
 </ol>
