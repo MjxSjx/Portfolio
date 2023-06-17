@@ -288,6 +288,22 @@
 
 ## Exporting
 
+### How to export: 
+
+<ol>
+  <li> You need to choose your file format </li>
+* Exporting Data: "write.csv()", "write.json()", "write.xlsx()" and so on
+* Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
+
+  
+counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
+
+file_path <- "D:/Merit/Merit Projects/Previous 12 months of trip data - CSV/avg_ride_length.csv"
+
+write.csv(counts, file = file_path, row.names = FALSE)
+
+</ol>
+
 ### You can export whenever you want to for example:
 
 <details>
