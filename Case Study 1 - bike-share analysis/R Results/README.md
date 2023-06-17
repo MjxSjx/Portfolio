@@ -106,7 +106,7 @@ db12 <- read_csv("202304-tripdata.csv")
 
 </details>
   
-<li> Check once again the all 12 column names are consistent. </li>
+<li> Check once again that all 12 column names are consistent. </li>
   <details>
     <summary><strong>Checking column names </strong></summary>
 
