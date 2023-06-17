@@ -336,15 +336,16 @@
 
 <details>
 <summary><strong> Visualizations </strong></summary>
+  <em> These two imamges are the results the R instructions are seeking </em>
   
 * Total Annual Rides by Weekday Per Rider Type:
-* ![Total Annual Rides by Weekday Per Rider Type](Total_Annual_Rides.png)
+![Total Annual Rides by Weekday Per Rider Type](Total_Annual_Rides.png)
 
 * Average Annual Ride Duration by Weekday Per Rider Type:
-* ![Average Annual Ride Duration - by Weekday Per Rider Type](Average_Annual_Ride_Duration.png)
+![Average Annual Ride Duration - by Weekday Per Rider Type](Average_Annual_Ride_Duration.png)
 
  
-* Or any number of visualizations you ask R to create!
+* However, you an do any number of visualizations with R!
 
 </details>
 
