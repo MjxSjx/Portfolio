@@ -520,7 +520,7 @@ Per stakeholder request:
 * We answered the questions the instructions set out to answer in graphical form.
 * Finally, we learned how to export summary files for further analysis.
 
-I hope you've found this R section guide helpful! There is lots more that R can do, but this covers just the case study 1 PDF instructions.
+I hope you've found this R-section guide helpful! There is lots more that R can do, but this covers just the case study 1 PDF instructions.
 
 Be sure to check out my Excel and SQL sections and future case studies!
 
