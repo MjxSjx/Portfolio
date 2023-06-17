@@ -313,7 +313,7 @@
 </ol>
 
 
-### You can export whatever you want. Although at times this involves using data.frame() for example:
+<em> You can export whatever you want. Although at times this involves using data.frame() </em> for example: 
 
 <details>
 <summary><strong> Combining </strong></summary>
@@ -339,7 +339,7 @@
   
 * Number of rides by rider 
 * Average ride duration per rider type
-* Or any number of visualizations you ask R to create
+* Or any number of visualizations you ask R to create!
 
 </details>
 
