@@ -268,7 +268,7 @@
 
 <details>
 <summary><strong>Rider Data By Type and Weekday: </strong></summary>
-<em> Another place where we must first format to utilize further investigations </em>
+<em> Another place where we must <strong>first</strong> format to utilize further investigations </em>
   
 * all_trips_v2 <- all_trips_v2 %>% mutate(started_at = as.POSIXct(started_at, format = "%m/%d/%Y %H:%M"))
 
