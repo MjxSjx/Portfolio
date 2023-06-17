@@ -291,12 +291,12 @@
 ### How to export: 
 
 <ol>
-  <li> You need to choose your file format </li>
+<li> You need to choose your file format </li>
   
 * Exporting Data: "write.csv()", "write.json()", "write.xlsx()" and so on
 * Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
 
-  <li> You need to choose your file path </li>
+<li> You need to choose your file path </li>
 
 * Inside your export function, use the parameter syntax file = "your destination",
 * write.csv(all_trips, file = "all_trips.csv", row.names = FALSE) <em> This will save to your current R directory </em>
