@@ -169,7 +169,7 @@ all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)
    
 <li> The .PDF instructions have us removing some columns. We don't <em>"need to"</em> though. Deeper investigations can be done if they are left, however they are investigations already covered in my SQL guide. </li>
 <details>
-  <summary><strong>Removing Columns</strong></summary>
+  <summary><strong>Removing columns</strong></summary>
   <em> birthyear and gender only apply to data 2020 and older and do not exist in our files. </em> 
 
 ```  
@@ -194,7 +194,7 @@ all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "
   
 <li> Inspecting the new table we've created. </li>  
 <details>
-  <summary><strong>Inspection Syntax</strong></summary>
+  <summary><strong>Inspection syntax</strong></summary>
   <em> This is all important information about our data frame. </em> 
 
 ```
@@ -222,7 +222,7 @@ summary(all_trips)
   
 <li> There is no need to use mutate() on "casual_member" that only apply to data 2020 and older. </em> </li>   
 <details>
-  <summary><strong>Checking Column "member_casual"</strong></summary>
+  <summary><strong>Checking column "member_casual"</strong></summary>
     <em> Run this code to prove to yourself you're in the clear </em>
 
 ```  
@@ -236,7 +236,7 @@ print(distinct_values)
 
 <li> Adding a "date" column.</li>     
 <details>
-  <summary><strong>Adding Date</strong></summary>
+  <summary><strong>Adding date</strong></summary>
    <em> This too caused a headache for me, although not as severe. The default instructions did not work for me. </em>
 
   <details>
@@ -249,9 +249,9 @@ all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
 </details>
  </details>
 
-<li> Adding Columns: month, day, and year of each ride. Plus altering the day_of_week column. </em>       
+<li> Adding columns: month, day, and year of each ride. Plus altering the day_of_week column. </em>       
 <details>
- <summary><strong>Adding Columns </strong></summary>
+ <summary><strong>Adding columns </strong></summary>
 
 ```  
 all_trips$month <- format(as.Date(all_trips$date), "%m")
@@ -265,9 +265,9 @@ all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
 
 </details>
 
-<li> Removing Bad Data.</li> 
+<li> Removing bad data.</li> 
 <details>
-  <summary><strong>Removing Negative Numbers</strong></summary>
+  <summary><strong>Removing negative numbers</strong></summary>
    <em> We already took care of this in our Excel work. </em>
 
 ```
