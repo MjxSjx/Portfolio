@@ -253,7 +253,7 @@ median(all_trips_v2$ride_length)
 max(all_trips_v2$ride_length) 
 min(all_trips_v2$ride_length) 
 summary(all_trips_v2$ride_length)
-``
+```
 
 </details>
 
