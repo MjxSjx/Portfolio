@@ -232,8 +232,6 @@
       
 ## Analysis
 
-<ol>
-<li> ride_length </li> 
 <details>
 <summary>ride_length summaries </summary>
 <em> Time for descriptive analysis on ride_length (all figures in seconds) </em>
@@ -246,8 +244,6 @@
 
 </details>
 
-
-</ol>
 
 
 
