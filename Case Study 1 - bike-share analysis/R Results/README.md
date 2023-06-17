@@ -46,7 +46,7 @@
   <summary><strong>Instructions</strong></summary>
   
 <ol>
-<li> We potentially need to install tidyverse. <em> It's likely you already have it, and if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
+<li> We potentially need to install tidyverse. <em> It's likely you already have it if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
 <details>
   <summary><strong>Install Packages</strong></summary>
   
