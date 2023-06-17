@@ -319,14 +319,14 @@ aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
 
 
 <details>
-<summary><strong>Average Ride Time By Day By User-Type: </strong></summary>
-<em> First we should put the days of the week in order. </em>
+<summary><strong>Average Ride Time by Day by User-Type: </strong></summary>
+<em> First, we should put the days of the week in order. </em>
   
 ```
 all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 ```
 
-<em> I also rounded up for visual appeal. </em>
+<em> I also rounded it up for visual appeal. </em>
   
 ```
 aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = function(x) round(mean(x), 2))
