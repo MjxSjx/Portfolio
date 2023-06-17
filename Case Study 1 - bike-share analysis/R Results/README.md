@@ -288,6 +288,14 @@
 
 ## Exporting
 
+### You can export whenever you want to for example:
+* When you combine your 12 sheets into 1 data frame.
+* When you finish any of your analysis with such things as
+* ride_length summaries
+* Rider Type summaries
+* Average Ride Time by day by user-type
+* Rider Data By Type and Weekday
+* Your two visualizations: Number of rides by rider. Average ride duration per rider type
 
 # Fin
 Per stakeholder request: 
