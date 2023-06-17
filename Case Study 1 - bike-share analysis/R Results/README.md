@@ -359,7 +359,7 @@ all_trips_v2 %>%
 
 <details>
 <summary><strong>Total Annual Rides by Weekday, per Rider Type: </strong></summary>
-<em> The first visual product the instructions seek to produce is from this code. I pasted my results in the exporting section.</em>
+<em> The first visual product the instructions seek to produce is this code. I pasted my results in the exporting section.</em>
 
 ```
 all_trips_v2 %>%
