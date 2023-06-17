@@ -206,7 +206,7 @@
 </details>
  </details>
 
-<li> Adding Columns: month, day, and year of each ride. </em>       
+<li> Adding Columns: month, day, and year of each ride. Plus altering the day_of_week column. </em>       
 <details>
  <summary><strong>Adding Columns </strong></summary>
   
