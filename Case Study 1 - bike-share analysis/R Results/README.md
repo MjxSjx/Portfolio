@@ -266,6 +266,22 @@
 
 </details>
 
+<details>
+<summary><strong>Rider Data By Type and Weekday: </strong></summary>
+<em> Another place where we must we must format to utilize further investigations </em>
+  
+* all_trips_v2 <- all_trips_v2 %>% mutate(started_at = as.POSIXct(started_at, format = "%m/%d/%Y %H:%M"))
+
+<em>This is the actual code:</em>
+* all_trips_v2 %>% 
+  mutate(weekday = wday(started_at, label = TRUE)) %>%  
+  group_by(member_casual, weekday) %>%  
+  summarise(number_of_rides = n(),  
+            average_duration = mean(ride_length)) %>%  
+  arrange(member_casual, weekday)
+  
+</details>
+
 
 ## Exporting
 
