@@ -55,7 +55,7 @@
 
 </details>
   
-<li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the line that reads "library(tidyverse)" and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
+<li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. Simply highlight the line that reads "library(tidyverse)" and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
   <details>
   <summary><strong>Load packages</strong></summary>
 
