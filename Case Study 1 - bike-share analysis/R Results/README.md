@@ -214,7 +214,7 @@
 * all_trips$year <- format(as.Date(all_trips$date), "%Y")
 * all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
 
-</details>  
+ 
 </details>
 
 </ol>
