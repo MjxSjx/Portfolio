@@ -151,7 +151,7 @@
 <li> The .PDF instructions have us removing some columns. We don't <em>"need to"</em> though. Deeper investigations can be done if they are left, however they are investigations already covered in my SQL guide. </li>
 <details>
   <summary><strong>Removing Columns</strong></summary>
-  <em> birthyear and gender do not exist in our files </em> 
+  <em> birthyear and gender only apply to data 2020 and older and do not exist in our files </em> 
   
 * all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
   
