@@ -232,8 +232,9 @@
       
 ## Analysis
 
+<li> ride_length </li> 
 <detail>
-<summary>ride_length</summary>
+<summary>ride_length summaries </summary>
 <em> Time for descriptive analysis on ride_length (all figures in seconds) </em>
 
 * mean(all_trips_v2$ride_length) #straight average (total ride length / rides)
