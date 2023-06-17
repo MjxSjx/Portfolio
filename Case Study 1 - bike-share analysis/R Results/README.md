@@ -309,7 +309,7 @@
 
 </ol>
 
-### You can export whenever you want. Although at times this involves using data.frame() for example:
+### You can export whatever you want. Although at times this involves using data.frame() for example:
 
 <details>
 <summary><strong> Combining </strong></summary>
