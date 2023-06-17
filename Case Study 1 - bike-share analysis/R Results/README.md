@@ -514,9 +514,9 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 # Fin
 Per stakeholder request: 
-* We imported the previously cleaned CSV files in R.
-* We columns consistent then merged them into a single data frame.
-* We cleaned up "ride_length" discrepancies and added new columns: date, year, month and, day. 
+* We imported the previously cleaned CSV files into R.
+* We made the columns consistent, then merged them into a single data frame.
+* We cleaned up "ride_length" discrepancies and added new columns: date, year, month, and day. 
 * We answered the questions the instructions set out to answer in graphical form.
 * Finally, we learned how to export summary files for further analysis.
 
