@@ -474,7 +474,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 * "ride_length" summaries
 * Rider-type summaries
 * Average Ride Time by Day by User Type
-* Rider Data By Type and Weekday
+* Rider Data by Type and Weekday
   
 </details>
 
