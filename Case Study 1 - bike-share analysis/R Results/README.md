@@ -48,7 +48,7 @@
 <ol>
 <li> We potentially need to install tidyverse. <em> It's likely you already have it installed if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
 <details>
-  <summary><strong>Install Packages</strong></summary>
+  <summary><strong>Install packages</strong></summary>
 
 * <em> We do not need "lubridate" and "ggplot2" installed because "tidyverse" already comes with them. </em>
 `install.packages("tidyverse")`
@@ -57,7 +57,7 @@
   
 <li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the line that reads "library(tidyverse)" and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
   <details>
-  <summary><strong>Load Packages</strong></summary>
+  <summary><strong>Load packages</strong></summary>
 
 * <em> We do not need "lubridate" and "ggplot2" loaded because "tidyverse" already does that for us. </em>    
 `library(tidyverse)`
@@ -67,7 +67,7 @@
 <li>Now we check and set the directory.</li>
   
   <details>
-    <summary><strong>Check and Set Directory</strong></summary>
+    <summary><strong>Check and set directory</strong></summary>
 
 ```
 # displays your working directory
@@ -84,7 +84,7 @@ getwd()
   
 <li> It's time to upload the CSV files we cleaned earlier. </li>
     <details>
-    <summary><strong>CSV Files</strong></summary>
+    <summary><strong>CSV files</strong></summary>
       <em>Simple file names mean less typing</em>
 
 ```      
@@ -108,7 +108,7 @@ db12 <- read_csv("202304-tripdata.csv")
   
 <li> Check once again the all 12 column names are consistent. </li>
   <details>
-    <summary><strong>Checking Column Names </strong></summary>
+    <summary><strong>Checking column names </strong></summary>
 
 ```  
 colnames(db1)
@@ -128,7 +128,7 @@ colnames(db12)
   
 <li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type" If you're using data post 2020. </li>
     <details>
- <summary><strong> Double Checking Column Names </strong></summary>
+ <summary><strong> Double checking column names </strong></summary>
   <em> Simply check the structure of each file </em>
 
 ``` 
@@ -146,7 +146,7 @@ str(db11)
 str(db12)
 ```
 
-<em>Notice all column names are already correct and both columns listed directly above are already labeled as "col_character()"</em>
+<em>Notice all column names are already correct, and both columns listed directly above are already labeled as "col_character()"</em>
 </ol>
   
 </details>
