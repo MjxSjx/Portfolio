@@ -173,13 +173,15 @@
 <details>
   <summary><strong>Inspection Syntax</strong></summary>
   <em> This is all important information about our data frame. </em> 
-  
-* colnames(all_trips)  #List of column names
-* nrow(all_trips)  #How many rows are in data frame?
-* dim(all_trips)  #Dimensions of the data frame?
-* head(all_trips)  #See the first 6 rows of data frame.  Also tail(all_trips)
-* str(all_trips)  #See list of columns and data types (numeric, character, etc)
-* summary(all_trips)  #Statistical summary of data. Mainly for numerics
+
+```  
+colnames(all_trips)  #List of column names
+nrow(all_trips)  #How many rows are in data frame?
+dim(all_trips)  #Dimensions of the data frame?
+head(all_trips)  #See the first 6 rows of data frame.  Also tail(all_trips)
+str(all_trips)  #See list of columns and data types (numeric, character, etc)
+summary(all_trips)  #Statistical summary of data. Mainly for numerics
+```
   
 </details>  
   
@@ -187,9 +189,11 @@
 <details>
   <summary><strong>Checking Column "member_casual"</strong></summary>
     <em> Run this code to prove to yourself you're in the clear </em>
-  
-* distinct_values <- unique(all_trips$member_casual)
-* print(distinct_values)
+
+```  
+distinct_values <- unique(all_trips$member_casual)
+print(distinct_values)
+```
 
  <em> Notice your results are only "casual" and "member" </em>                     
 </details>  
@@ -201,19 +205,24 @@
 
   <details>
   <summary><strong>Spoilers Ahead! </strong></summary>
-* all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
 
+```    
+all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
+```
+  
 </details>
  </details>
 
 <li> Adding Columns: month, day, and year of each ride. Plus altering the day_of_week column. </em>       
 <details>
  <summary><strong>Adding Columns </strong></summary>
-  
-* all_trips$month <- format(as.Date(all_trips$date), "%m")
-* all_trips$day <- format(as.Date(all_trips$date), "%d")
-* all_trips$year <- format(as.Date(all_trips$date), "%Y")
-* all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
+
+```  
+all_trips$month <- format(as.Date(all_trips$date), "%m")
+all_trips$day <- format(as.Date(all_trips$date), "%d")
+all_trips$year <- format(as.Date(all_trips$date), "%Y")
+all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
+```
 
 </details>
 
@@ -221,8 +230,10 @@
 <details>
   <summary><strong>Removing Negative Numbers</strong></summary>
    <em> We already took care of this in our Excel work. </em>
-  
-* all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$ride_length<0),]
+
+```
+all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$ride_length<0),]
+```
 
 </details>
 
@@ -236,11 +247,13 @@
 <summary><strong>"ride_length" Summaries: </strong></summary>
 <em> Time for descriptive analysis on ride_length (all figures in seconds) </em>
 
-* mean(all_trips_v2$ride_length) 
-* median(all_trips_v2$ride_length) 
-* max(all_trips_v2$ride_length) 
-* min(all_trips_v2$ride_length) 
-* summary(all_trips_v2$ride_length)
+```
+mean(all_trips_v2$ride_length) 
+median(all_trips_v2$ride_length) 
+max(all_trips_v2$ride_length) 
+min(all_trips_v2$ride_length) 
+summary(all_trips_v2$ride_length)
+``
 
 </details>
 
@@ -249,20 +262,27 @@
 <summary><strong>Rider Type Summaries: </strong></summary>
 <em>Compare members and casual users</em>
 
-* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = mean)
-* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = median)
-* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = max)
-* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
+```
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = mean)
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = median)
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = max)
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
+```
   
 </details>
 
 
 <details>
 <summary><strong>Average Ride Time By Day By User-Type: </strong></summary>
-<em> First we should put the days of the week in order. Also I rounded up for visual appeal </em>
-
-* all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
-* aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = function(x) round(mean(x), 2))
+<em> First we should put the days of the week in order. </em>
+```
+all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
+```
+<em> I also rounded up for visual appeal. </em>
+  
+```
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = function(x) round(mean(x), 2))
+```
 
 </details>
 
@@ -270,11 +290,14 @@
 <summary><strong>Rider Data By Type and Weekday: </strong></summary>
 <em> Another place where we must <strong>first</strong> format to utilize further investigations </em>
   
-* all_trips_v2 <- all_trips_v2 %>% mutate(started_at = as.POSIXct(started_at, format = "%m/%d/%Y %H:%M"))
+```  
+all_trips_v2 <- all_trips_v2 %>% mutate(started_at = as.POSIXct(started_at, format = "%m/%d/%Y %H:%M"))
+```
 
 <em>This is the actual code:</em>
 
-* all_trips_v2 %>%
+```
+all_trips_v2 %>%
   mutate(weekday = wday(started_at, label = TRUE)) %>%
   group_by(member_casual, weekday) %>%
   summarise(
@@ -282,7 +305,7 @@
     average_duration = mean(ride_length)
   ) %>%
   arrange(member_casual, weekday)
-  
+```  
 </details>
 
 
@@ -314,17 +337,26 @@ all_trips_v2 %>%
 
 <ol>
 <li><strong> You need to choose your file format: </strong></li>
-  
+
+* Exporting Data examples:   
 ```  
-* Exporting Data: "write.csv()", "write.json()", "write.xlsx()" and so on
-* Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
+"write.csv()", "write.json()", "write.xlsx()" and so on
+```
+
+* Exporting Plot examples: 
+```  
+"jpeg()" "pdf()", ".png()" and so on
 ```
   
 <li><strong> You need to choose the data your exporting: </strong></li>
-  
+* This is what you're picking to export
 ```
-* write.csv(all_trips) <em> This is what you're picking to export </em>
-* write.csv(all_trips$ride_length) <em> This is what you're picking to export </em>
+write.csv(all_trips)
+```
+
+* This is what you're picking to export
+```
+write.csv(all_trips$ride_length) 
 ```
 
 <li><strong> You need to choose your file path: </strong></li>
