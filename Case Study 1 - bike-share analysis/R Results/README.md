@@ -295,7 +295,7 @@
   
 * When you combine your 12 sheets into 1 data frame
 * If you make a custom data frame for detailed specifics
-* The list is endless
+* The list is endless! Think of the near 30 queues we made in SQL. All of those can be done in R plus more!
 
 </details>
 
@@ -306,7 +306,7 @@
 * Rider Type summaries
 * Average Ride Time by day by user-type
 * Rider Data By Type and Weekday
-* 
+  
 </details>
 
 <details>
