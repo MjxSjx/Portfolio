@@ -232,16 +232,17 @@
       
 ## Analysis
 
+<detail>
+<summary>ride_length</summary>
 <em> Time for descriptive analysis on ride_length (all figures in seconds) </em>
 
 * mean(all_trips_v2$ride_length) #straight average (total ride length / rides)
-
 * median(all_trips_v2$ride_length) #midpoint number in the ascending array of ride lengths
-
 * max(all_trips_v2$ride_length) #longest ride
-
 * min(all_trips_v2$ride_length) #shortest ride
+* summary(all_trips_v2$ride_length)
 
+</detail>
 
 
 
