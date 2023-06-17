@@ -479,7 +479,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 </details>
 
 <details>
-<summary><strong> What the Default Instructions Have you Export:</strong></summary>
+<summary><strong> What the Default Instructions Have You Export:</strong></summary>
   
 <em> counts is just the variable name for the data to export </em>
   
