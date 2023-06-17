@@ -294,15 +294,17 @@
 
 <details>
 <summary><strong> Analysis </strong></summary>
+  
 * "ride_length" summaries
 * Rider Type summaries
 * Average Ride Time by day by user-type
 * Rider Data By Type and Weekday
-
+* 
 </details>
 
 <details>
 <summary><strong> Visualizations </strong></summary>
+  
 * Number of rides by rider 
 * Average ride duration per rider type
 * Or any number of visualizations you ask R to create
