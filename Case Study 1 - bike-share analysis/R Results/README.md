@@ -292,6 +292,7 @@
 
 <ol>
   <li> You need to choose your file format </li>
+  
 * Exporting Data: "write.csv()", "write.json()", "write.xlsx()" and so on
 * Exporting Plots: "jpeg()" "pdf()", ".png()" and so on
 
