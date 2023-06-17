@@ -290,7 +290,11 @@
 
 ### You can export whenever you want to for example:
 
-* When you combine your 12 sheets into 1 data frame.
+<details>
+<summary><strong> Combining </strong></summary>
+* When you combine your 12 sheets into 1 data frame
+* If you make a custom data frame for detailed specifics
+* The list is endless
 
 <details>
 <summary><strong> Analysis </strong></summary>
