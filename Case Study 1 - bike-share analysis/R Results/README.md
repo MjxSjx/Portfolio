@@ -359,7 +359,7 @@ all_trips_v2 %>%
 
 <details>
 <summary><strong>Total Annual Rides by Weekday Per Rider Type: </strong></summary>
-<em> The 1st end visual product the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
+<em> The 1st visual product the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
 
 ```
 all_trips_v2 %>%
@@ -382,7 +382,7 @@ all_trips_v2 %>%
 
 <details>
 <summary><strong>Average Annual Ride Duration by Weekday Per Rider Type: </strong></summary>
-<em> The 2nd end visual product the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
+<em> The 2nd visual product the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
   
 ```
 all_trips_v2 %>%
