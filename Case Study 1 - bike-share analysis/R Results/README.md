@@ -50,7 +50,8 @@
 <details>
   <summary><strong>Install Packages</strong></summary>
   
-* install.packages("tidyverse")
+`install.packages("tidyverse")`
+
 * <em> We do not need "lubridate" and "ggplot2" installed because "tidyverse" already comes with them. </em>
 </details>
   
@@ -58,7 +59,8 @@
   <details>
   <summary><strong>Load Packages</strong></summary>
     
-* library(tidyverse) 
+`library(tidyverse)`
+
 * <em> We do not need "lubridate" and "ggplot2" loaded because "tidyverse" already does that for us. </em>
 </details>
 
@@ -67,12 +69,15 @@
   <details>
     <summary><strong>Check and Set Directory</strong></summary>
 
-```    
-getwd() <em># displays your working directory</em>
+```
+# displays your working directory
+getwd() 
 
-setwd("Your Directory location") <em># sets your working directory </em>
+# sets your working directory 
+setwd("Your Directory location") 
 
-getwd() <em># check you set your directory correctly</em>
+# check you set your directory correctly
+getwd() 
 ```
     
  </details>
@@ -98,10 +103,11 @@ db12 <- read_csv("202304-tripdata.csv")
 ```
 
 <em>Check your "Enviroment" tab that all 12 files are loaded in R Studio</em>
+
        </details>
   
-  <li> Check once again the all 12 column names are consistent. </li>
-      <details>
+<li> Check once again the all 12 column names are consistent. </li>
+  <details>
     <summary><strong>Checking Column Names </strong></summary>
 
 ```  
@@ -118,8 +124,7 @@ colnames(db10)
 colnames(db11)
 colnames(db12)
 ```
-
-    </details>
+</details>
   
 <li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type" If you're using data post 2020. </li>
     <details>
@@ -193,7 +198,7 @@ all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "
   <em> This is all important information about our data frame. </em> 
 
 ```
-#List of column names
+# List of column names
 colnames(all_trips)
 
 # How many rows are in data frame?
@@ -222,6 +227,7 @@ summary(all_trips)
 
 ```  
 distinct_values <- unique(all_trips$member_casual)
+
 print(distinct_values)
 ```
 
@@ -249,8 +255,11 @@ all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
 
 ```  
 all_trips$month <- format(as.Date(all_trips$date), "%m")
+
 all_trips$day <- format(as.Date(all_trips$date), "%d")
+
 all_trips$year <- format(as.Date(all_trips$date), "%Y")
+
 all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
 ```
 
