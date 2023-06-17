@@ -336,7 +336,7 @@
 
 <details>
 <summary><strong> Visualizations </strong></summary>
-  <em> These two immges are the results the R instructions are seeking </em>
+  <em> These two images are the results the R instructions are seeking </em>
   
 * Total Annual Rides by Weekday Per Rider Type:
 ![Total Annual Rides by Weekday Per Rider Type](Total_Annual_Rides.png)
