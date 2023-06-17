@@ -208,9 +208,10 @@
 </details>
  </details>
 
-<li> Adding month, day, and year of each ride. </em>       
+<li> Adding Columns: month, day, and year of each ride. </em>       
 <details>
  <summary><strong>Adding Columns </strong></summary>
+  
 * all_trips$month <- format(as.Date(all_trips$date), "%m")
 * all_trips$day <- format(as.Date(all_trips$date), "%d")
 * all_trips$year <- format(as.Date(all_trips$date), "%Y")
