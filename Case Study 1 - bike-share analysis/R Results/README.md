@@ -234,7 +234,7 @@
 
 <ol>
 <li> ride_length </li> 
-<detail>
+<details>
 <summary>ride_length summaries </summary>
 <em> Time for descriptive analysis on ride_length (all figures in seconds) </em>
 
@@ -244,7 +244,7 @@
 * min(all_trips_v2$ride_length) 
 * summary(all_trips_v2$ride_length)
 
-</detail>
+</details>
 
 
 </ol>
