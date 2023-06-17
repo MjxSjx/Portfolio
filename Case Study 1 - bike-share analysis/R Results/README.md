@@ -66,10 +66,14 @@
   
   <details>
     <summary><strong>Check and Set Directory</strong></summary>
-    
-* getwd() <em># displays your working directory</em>
-* setwd("Your Directory location") <em># sets your working directory </em>
-* getwd() <em># check you set your directory correctly</em>
+
+```    
+getwd() <em># displays your working directory</em>
+
+setwd("Your Directory location") <em># sets your working directory </em>
+
+getwd() <em># check you set your directory correctly</em>
+```
     
  </details>
   
@@ -77,19 +81,21 @@
     <details>
     <summary><strong>CSV Files</strong></summary>
       <em>Simple file names mean less typing</em>
-      
-* db1 <- read_csv("202205-tripdata.csv")
-* db2 <- read_csv("202206-tripdata.csv")
-* db3 <- read_csv("202207-tripdata.csv")
-* db4 <- read_csv("202208-tripdata.csv")
-* db5 <- read_csv("202209-tripdata.csv")
-* db6 <- read_csv("202210-tripdata.csv")
-* db7 <- read_csv("202211-tripdata.csv")
-* db8 <- read_csv("202212-tripdata.csv")
-* db9 <- read_csv("202301-tripdata.csv")
-* db10 <- read_csv("202302-tripdata.csv")
-* db11 <- read_csv("202303-tripdata.csv")
-* db12 <- read_csv("202304-tripdata.csv")
+
+```      
+db1 <- read_csv("202205-tripdata.csv")
+db2 <- read_csv("202206-tripdata.csv")
+db3 <- read_csv("202207-tripdata.csv")
+db4 <- read_csv("202208-tripdata.csv")
+db5 <- read_csv("202209-tripdata.csv")
+db6 <- read_csv("202210-tripdata.csv")
+db7 <- read_csv("202211-tripdata.csv")
+db8 <- read_csv("202212-tripdata.csv")
+db9 <- read_csv("202301-tripdata.csv")
+db10 <- read_csv("202302-tripdata.csv")
+db11 <- read_csv("202303-tripdata.csv")
+db12 <- read_csv("202304-tripdata.csv")
+```
 
 <em>Check your "Enviroment" tab that all 12 files are loaded in R Studio</em>
        </details>
@@ -97,39 +103,44 @@
   <li> Check once again the all 12 column names are consistent. </li>
       <details>
     <summary><strong>Checking Column Names </strong></summary>
-        
-* colnames(db1)
-* colnames(db2)
-* colnames(db3)
-* colnames(db4)
-* colnames(db5)
-* colnames(db6)
-* colnames(db7)
-* colnames(db8)
-* colnames(db9)
-* colnames(db10)
-* colnames(db11)
-* colnames(db12)
+
+```  
+colnames(db1)
+colnames(db2)
+colnames(db3)
+colnames(db4)
+colnames(db5)
+colnames(db6)
+colnames(db7)
+colnames(db8)
+colnames(db9)
+colnames(db10)
+colnames(db11)
+colnames(db12)
+```
+
     </details>
   
 <li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type" If you're using data post 2020. </li>
     <details>
  <summary><strong> Double Checking Column Names </strong></summary>
   <em> Simply check the structure of each file </em>
- 
-* str(db1)
-* str(db2)
-* str(db3)
-* str(db4)
-* str(db5)
-* str(db6)
-* str(db7)
-* str(db8)
-* str(db9)
-* str(db10)
-* str(db11)
-* str(db12)
-      
+
+``` 
+str(db1)
+str(db2)
+str(db3)
+str(db4)
+str(db5)
+str(db6)
+str(db7)
+str(db8)
+str(db9)
+str(db10)
+str(db11)
+str(db12)
+```
+
 <em>Notice all column names are already correct and both columns listed directly above are already labeled as "col_character()"</em>
 </ol>
   
@@ -145,15 +156,20 @@
  <details>
  <summary><strong>Combining</strong></summary>
 
-* all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)   
-  </details>
+```
+all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)   
+```
+
+</details>
    
 <li> The .PDF instructions have us removing some columns. We don't <em>"need to"</em> though. Deeper investigations can be done if they are left, however they are investigations already covered in my SQL guide. </li>
 <details>
   <summary><strong>Removing Columns</strong></summary>
   <em> birthyear and gender only apply to data 2020 and older and do not exist in our files. </em> 
-  
-* all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
+
+```  
+all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
+```
   
 </details>
 
@@ -163,8 +179,10 @@
   <em> This was a pain.  The default instructions did not work for me. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. Feel free to solve this yourself by using the default instructions listed at the very top. The answer will always be here waiting for you. </em> 
 <details>
   <summary><strong> <em>Spoiler Ahead! </em></strong></summary>
-  
-* all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
+
+```  
+all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
+```
 
 </details> 
 </details>  
@@ -174,13 +192,25 @@
   <summary><strong>Inspection Syntax</strong></summary>
   <em> This is all important information about our data frame. </em> 
 
-```  
-colnames(all_trips)  #List of column names
-nrow(all_trips)  #How many rows are in data frame?
-dim(all_trips)  #Dimensions of the data frame?
-head(all_trips)  #See the first 6 rows of data frame.  Also tail(all_trips)
-str(all_trips)  #See list of columns and data types (numeric, character, etc)
-summary(all_trips)  #Statistical summary of data. Mainly for numerics
+```
+#List of column names
+colnames(all_trips)
+
+# How many rows are in data frame?
+nrow(all_trips)
+
+# Dimensions of the data frame?
+dim(all_trips)
+
+# See the first 6 rows of data frame.  Also tail(all_trips)
+head(all_trips)
+
+# See list of columns and data types (numeric, character, etc)
+str(all_trips)
+
+# Statistical summary of data. Mainly for numerics
+summary(all_trips)
+
 ```
   
 </details>  
