@@ -338,23 +338,27 @@ all_trips_v2 %>%
 <ol>
 <li><strong> You need to choose your file format: </strong></li>
 
-* Exporting Data examples:   
+* Exporting Data examples:
+
 ```  
 "write.csv()", "write.json()", "write.xlsx()" and so on
 ```
 
-* Exporting Plot examples: 
+* Exporting Plot examples:
+
 ```  
 "jpeg()" "pdf()", ".png()" and so on
 ```
   
 <li><strong> You need to choose the data your exporting: </strong></li>
 * This is what you're picking to export
+
 ```
 write.csv(all_trips)
 ```
 
 * This is what you're picking to export
+
 ```
 write.csv(all_trips$ride_length) 
 ```
@@ -362,12 +366,14 @@ write.csv(all_trips$ride_length)
 <li><strong> You need to choose your file path: </strong></li>
 <em> Inside your export function, use the parameter syntax: file = "your destination" </em>
 
-* This will save to your current R directory  
+* This will save to your current R directory
+
 ```
 write.csv(all_trips, file = "all_trips.csv", row.names = FALSE)
 ```
 
 * This will save your file inside D > Merit
+
 ```
 write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) 
 ```
