@@ -104,7 +104,7 @@ db12 <- read_csv("202304-tripdata.csv")
 
 <em>Check your "Enviroment" tab that all 12 files are loaded in R Studio</em>
 
-       </details>
+</details>
   
 <li> Check once again the all 12 column names are consistent. </li>
   <details>
