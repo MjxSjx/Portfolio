@@ -126,7 +126,7 @@ colnames(db12)
 ```
 </details>
   
-<li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type" If you're using data post 2020. </li>
+<li> There is no need to rename columns or use mutate() on "ride_id" or "rideable_type" if you're using data after 2020. </li>
     <details>
  <summary><strong> Double checking column names </strong></summary>
   <em> Simply check the structure of each file </em>
