@@ -49,19 +49,19 @@
 <li> We potentially need to install tidyverse. <em> It's likely you already have it installed if you took the Coursera Google Data Analytics course and followed their instructions word for word, you installed tidyverse like 15 times 🤣. </em> </li>
 <details>
   <summary><strong>Install Packages</strong></summary>
-  
-`install.packages("tidyverse")`
 
 * <em> We do not need "lubridate" and "ggplot2" installed because "tidyverse" already comes with them. </em>
+`install.packages("tidyverse")`
+
 </details>
   
 <li> After installing the libraries, you still need to load them. This is where copying the instructions into an R script is so helpful. simply highlight the line that reads "library(tidyverse)" and then hold CTRL+ENTER or click the "Run" button at the top-right of the Script tab. </li>
   <details>
   <summary><strong>Load Packages</strong></summary>
-    
+
+* <em> We do not need "lubridate" and "ggplot2" loaded because "tidyverse" already does that for us. </em>    
 `library(tidyverse)`
 
-* <em> We do not need "lubridate" and "ggplot2" loaded because "tidyverse" already does that for us. </em>
 </details>
 
 <li>Now we check and set the directory.</li>
