@@ -329,10 +329,15 @@ all_trips_v2 %>%
 
 <li><strong> You need to choose your file path: </strong></li>
 <em> Inside your export function, use the parameter syntax: file = "your destination" </em>
-  
+
+<em> This will save to your current R directory </em>  
 ```
-* write.csv(all_trips, file = "all_trips.csv", row.names = FALSE) <em> This will save to your current R directory </em>
-* write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) <em> This will save your file inside D > Merit </em>
+write.csv(all_trips, file = "all_trips.csv", row.names = FALSE)
+```
+
+<em> This will save your file inside D > Merit </em>
+```
+write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) 
 ```
 
 </details>
