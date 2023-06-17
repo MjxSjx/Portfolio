@@ -289,7 +289,7 @@
 ## Exporting
 
 <details>
-<summary><strong>How to export:</strong></summary> 
+<summary><strong> How to export: </strong></summary> 
 
 <ol>
 <li><strong> You need to choose your file format: </strong></li>
@@ -309,7 +309,9 @@
 * write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE) <em> This will save your file inside D > Merit </em>
 
 </details>
+
 </ol>
+
 
 ### You can export whatever you want. Although at times this involves using data.frame() for example:
 
