@@ -339,8 +339,11 @@
   
 * Total Annual Rides by Weekday Per Rider Type:
 * 
-* ![Total Annual Rides by Weekday Per Rider Type](Average Annual Ride Duration - by Weekday Per Rider Type.png)
-* 
+*
+*
+![Total](AverageAnnualRideDuration-byWeekdayPerRiderType.png)
+
+
 * Average Annual Ride Duration by Weekday Per Rider Type:
 * Or any number of visualizations you ask R to create!
 
