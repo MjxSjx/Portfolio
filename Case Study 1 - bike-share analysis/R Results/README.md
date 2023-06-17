@@ -313,7 +313,7 @@
 </ol>
 
 
-<em> You can export whatever you want. Although at times this involves using data.frame() </em> for example: 
+<em> At times this involves first using data.frame() but you can export whatever you want. </em> for example: 
 
 <details>
 <summary><strong> Combining </strong></summary>
