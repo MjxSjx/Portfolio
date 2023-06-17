@@ -167,10 +167,10 @@ all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)
 
 </details>
    
-<li> The .PDF instructions have us removing some columns. We don't <em>"need to"</em> though. Deeper investigations can be done if they are left, however they are investigations already covered in my SQL guide. </li>
+<li> The PDF instructions have us removing some columns. We don't <em>"need to,"</em> though. Deeper investigations can be done if they are left; however, they are investigations already covered in my SQL guide. </li>
 <details>
   <summary><strong>Removing columns</strong></summary>
-  <em> birthyear and gender only apply to data 2020 and older and do not exist in our files. </em> 
+  <em> birthyear and gender only apply to data from 2020 and older and do not exist in our files. </em> 
 
 ```  
 all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
@@ -220,10 +220,10 @@ summary(all_trips)
   
 </details>  
   
-<li> There is no need to use mutate() on "casual_member" that only apply to data 2020 and older. </em> </li>   
+<li> There is no need to use mutate() on "casual_member" which only applies to data from 2020 and older. </em> </li>   
 <details>
   <summary><strong>Checking column "member_casual"</strong></summary>
-    <em> Run this code to prove to yourself you're in the clear </em>
+    <em> Run this code to prove to yourself that you're in the clear </em>
 
 ```  
 distinct_values <- unique(all_trips$member_casual)
@@ -249,7 +249,7 @@ all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M")
 </details>
  </details>
 
-<li> Adding columns: month, day, and year of each ride. Plus altering the day_of_week column. </em>       
+<li> Adding columns: month, day, and year of each ride. Plus, altering the day_of_week column. </em>       
 <details>
  <summary><strong>Adding columns </strong></summary>
 
