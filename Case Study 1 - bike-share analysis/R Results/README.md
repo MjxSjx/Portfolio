@@ -160,7 +160,7 @@
 <li> Changing "ride_length" to cooperate with us. </li> 
 <details>
   <summary><strong> Changing "ride_length" </strong></summary>
-  <em> This was a pain.  The standard instructions will not work. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. Feel free to solve this yourself by using the default instructions listed at the very top. The answer will always be here waiting for you. </em> 
+  <em> This was a pain.  The default instructions did not work for me. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. Feel free to solve this yourself by using the default instructions listed at the very top. The answer will always be here waiting for you. </em> 
 <details>
   <summary><strong> <em>Spoiler Ahead! </em></strong></summary>
   
