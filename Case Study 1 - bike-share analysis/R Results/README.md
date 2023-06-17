@@ -156,8 +156,14 @@
 * all_trips <- all_trips %>%  select(-c(start_lat, start_lng, end_lat, end_lng))
   
 </details>
+
+<li> Changing the numeric data type "ride_length" to the specific numeric data <em>format</em> required to make modern data operate. </li> 
+<details>
+  <summary><strong> Changing "ride_length" </strong></summary>
+  <em> This was a pain. The solution is simple but understanding how and why every other solution broke the syntax took me half a day. </em> 
+* all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
   
-<li> Inspecting the new table we've created.</em> </li>  
+<li> Inspecting the new table we've created. </li>  
 <details>
   <summary><strong>Inspection Syntax</strong></summary>
   <em> This is all important information </em> 
