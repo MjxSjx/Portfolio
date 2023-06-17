@@ -14,7 +14,7 @@
 * Run through the setup, keeping all the default settings.
 
 ### Click here ➡️ [R Studio](https://download1.rstudio.org/electron/windows/RStudio-2023.06.0-421.exe)
-* I created an auto-download link because why not.
+* I created an auto-download link because, why not.
 * Keep in mind that RStudio does not auto-update, nor do the libraries, but it will prompt you when updates are available. 
 * Run through the setup, keeping all the default settings.
   
