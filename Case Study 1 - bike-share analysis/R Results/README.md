@@ -148,7 +148,7 @@
 * all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)   
   </details>
    
-<li> The .PDF instructions have us removing some columns. We don't "need to" though. Deeper investigations can be done if they are left, however they are investigations already covered in my SQL guide. </li>
+<li> The .PDF instructions have us removing some columns. We don't <em>"need to"</em> though. Deeper investigations can be done if they are left, however they are investigations already covered in my SQL guide. </li>
 <details>
   <summary><strong>Removing Columns</strong></summary>
   <em> birthyear and gender do not exist in our files </em> 
