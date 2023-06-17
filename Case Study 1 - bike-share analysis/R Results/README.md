@@ -24,8 +24,8 @@
 <details>
   <summary><strong>Settings</strong></summary> 
   
-  * To change RStudio to nightmode: Tools > Global Options > appearance > Editor theme > "Tomorrow Night" is my current selection.
-  * I prefer this pane layout. I ask that you consider it yourself. To change it: View > Panes > Pane Layout However, it is all preference: 
+  * To change RStudio to nightmode: Tools > Global Options > Appearance > Editor theme > "Tomorrow Night" is my current selection.
+  * I prefer this pane layout. I ask that you consider it yourself. To change it: View > Panes > Pane Layout. However, it is all preference: 
   
 ![RStudio](RStudio.PNG)
   
