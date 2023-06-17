@@ -381,8 +381,8 @@ all_trips_v2 %>%
 
 
 <details>
-<summary><strong>Average Annual Ride Duration by Weekday Per Rider Type: </strong></summary>
-<em> The 2nd visual product the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
+<summary><strong>Average Annual Ride Duration by Weekday per Rider Type: </strong></summary>
+<em> The second visual product the instructions seek to produce is this code. I pasted my results in the exporting section.</em>
   
 ```
 all_trips_v2 %>%
@@ -398,7 +398,7 @@ all_trips_v2 %>%
   scale_y_continuous(labels = scales::comma) +
   labs(title = "Average Annual Ride Duration by Weekday", y = "Average Duration (minutes)")
 ```
-<em> I added some quality of life syntax: A title and better Y-axis scaling that transforms seconds into minutes. </em>
+<em> I added some quality-of-life syntax: A title and better Y-axis scaling that transforms seconds into minutes. </em>
 
 </details>
 
