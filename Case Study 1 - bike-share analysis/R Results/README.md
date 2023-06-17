@@ -59,8 +59,7 @@
   <summary><strong>Load Packages</strong></summary>
     
 * library(tidyverse) 
-* library(lubridate)  <em># This loads with tidyverse, I dunno why its listed either </em>
-* library(ggplot2)  <em># This loads with tidyverse, I dunno why its listed either </em>
+* <em> We do not need "lubridate" and "ggplot2" loaded because "tidyverse" already does that for us. </em>
 </details>
 
 <li>Now we check and set the directory.</li>
