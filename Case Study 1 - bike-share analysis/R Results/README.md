@@ -358,8 +358,8 @@ all_trips_v2 %>%
 
 
 <details>
-<summary><strong>Total Annual Rides by Weekday Per Rider Type: </strong></summary>
-<em> The 1st visual product the instructions seek to produce are from this code. I pasted my results in the Exporting section.</em>
+<summary><strong>Total Annual Rides by Weekday, per Rider Type: </strong></summary>
+<em> The first visual product the instructions seek to produce is from this code. I pasted my results in the exporting section.</em>
 
 ```
 all_trips_v2 %>%
@@ -375,7 +375,7 @@ all_trips_v2 %>%
   scale_y_continuous(labels = scales::comma) +
   labs(title = "Total Annual Rides by Weekday")
 ```
-<em> I added some quality of life syntax: A title and better Y-axis scaling </em>
+<em> I added some quality-of-life syntax: A title and better Y-axis scaling </em>
 
 </details>
 
