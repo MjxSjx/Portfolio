@@ -360,6 +360,7 @@ all_trips_v2 %>%
 ```
   
 <li><strong> You need to choose the data your exporting: </strong></li>
+
 * This is what you're picking to export
 
 ```
