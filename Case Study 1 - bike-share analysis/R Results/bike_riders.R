@@ -136,7 +136,7 @@ all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$
 #=====================================
 # Descriptive analysis on ride_length (all figures in seconds)
 
-mean(all_trips_v2$ride_length) #straight average (total ride length / rides) # doesn't currently work.
+mean(all_trips_v2$ride_length) #straight average (total ride length / rides) 
 
 median(all_trips_v2$ride_length) #midpoint number in the ascending array of ride lengths
 
