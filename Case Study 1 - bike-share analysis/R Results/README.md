@@ -508,10 +508,10 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 
 
-<em> This is the result the exported .csv file charted in Excel makes </em> 
+<em> This is the exported CSV file charted in Excel then converted into minutes results </em> 
 
 * R Export Summary File Results in Excel
-![R Export Summary File Results in Excel](R_Export_Summary_File_Results_in_Excel.png) 
+![R Export Summary File Results in Excel](R_Export_Summary_File_Results_in_Excel.PNG) 
  
 * However, you can do any number of visualizations with R!
 
