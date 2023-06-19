@@ -1,4 +1,4 @@
-# R Studio                                    
+# R Studio                                     
 * This option has instructions, which is what we will be covering; parts of the instructions are dated, while other parts are outright wrong and not based on how the "Process" steps for the CSV files. I still suggest you see if it works for you and/or use it as a template; it is helpful in that way. However, the instructions set me up for confusion 😵.
 * In truth, it may be possible to finish this just by using R. However, I use the IDE RStudio and suggest you do the same.
 * Here are the instructions: [R Script](https://docs.google.com/document/d/1TTj5KNKf4BWvEORGm10oNbpwTRk1hamsWJGj6qRWpuI/edit). You don't need them, but it doesn't hurt to try them solo or follow along with them as well.  
