@@ -506,6 +506,12 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 * Average Annual Ride Duration by Weekday per Rider Type:
 ![Average Annual Ride Duration - by Weekday Per Rider Type](Average_Annual_Ride_Duration.png)
 
+
+
+<em> This is the result the exported .csv file charted in Excel makes </em> 
+
+* R Export Summary File Results in Excel
+![R Export Summary File Results in Excel](R_Export_Summary_File_Results_in_Excel.png)
  
 * However, you can do any number of visualizations with R!
 
