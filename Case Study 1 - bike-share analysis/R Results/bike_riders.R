@@ -76,7 +76,7 @@ str(db11)
 str(db12)
 
 
-# Stack individual quarter's data frames into one big data frame
+# Stack individual data frames into one big data frame
 all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)
 
 # Remove lat and long
