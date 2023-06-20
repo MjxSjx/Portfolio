@@ -1,0 +1,171 @@
+---
+title: "Case Study 1 - Bike-share analysis"
+author: "Matt Johnson"
+email: "matt.johnson0304@gmail.com"
+date: "2023-06-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r Install package, include= FALSE}
+#install.packages("tidyverse")
+```
+
+
+```{r Load package, include= FALSE}
+library(tidyverse)
+```
+
+
+``` {r Upload datasets, include= FALSE}
+db1 <- read_csv("202205-tripdata.csv")
+db2 <- read_csv("202206-tripdata.csv")
+db3 <- read_csv("202207-tripdata.csv")
+db4 <- read_csv("202208-tripdata.csv")
+db5 <- read_csv("202209-tripdata.csv")
+db6 <- read_csv("202210-tripdata.csv")
+db7 <- read_csv("202211-tripdata.csv")
+db8 <- read_csv("202212-tripdata.csv")
+db9 <- read_csv("202301-tripdata.csv")
+db10 <- read_csv("202302-tripdata.csv")
+db11 <- read_csv("202303-tripdata.csv")
+db12 <- read_csv("202304-tripdata.csv")
+```
+
+
+``` {r Stack individual data frames into one big data frame}
+all_trips <- bind_rows(db1,db2,db3,db4,db5,db6,db7,db8,db9,db10,db11,db12)
+```
+
+
+``` {r Remove lat and long}
+all_trips <- all_trips %>% select(-c(start_lat, start_lng, end_lat, end_lng))
+```
+
+
+``` {r Making ride_length the col_type the instructions want}
+all_trips$ride_length <- as.numeric(as.POSIXlt(all_trips$ride_length, format = "%H:%M:%S"))
+```
+
+
+``` {r Inspect the new table that has been created}
+colnames(all_trips)  #List of column names
+nrow(all_trips)  #How many rows are in data frame?
+dim(all_trips)  #Dimensions of the data frame?
+head(all_trips)  #See the first 6 rows of data frame.  Also tail(all_trips)
+str(all_trips)  #See list of columns and data types (numeric, character, etc)
+summary(all_trips)  #Statistical summary of data. Mainly for numerics
+```
+
+
+```{r Add columns that list the date, month, day, and year of each ride}
+all_trips$date <- as.Date(all_trips$started_at, format = "%m/%d/%Y %H:%M") 
+all_trips$month <- format(as.Date(all_trips$date), "%m")
+all_trips$day <- format(as.Date(all_trips$date), "%d")
+all_trips$year <- format(as.Date(all_trips$date), "%Y")
+all_trips$day_of_week <- format(as.Date(all_trips$date), "%A")
+```
+
+
+``` {r Remove "bad" data}
+all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HQ QR" | all_trips$ride_length<0),]
+```
+
+
+``` {r Descriptive analysis on ride_length (all figures in seconds)}
+mean(all_trips_v2$ride_length) 
+median(all_trips_v2$ride_length) 
+max(all_trips_v2$ride_length) 
+min(all_trips_v2$ride_length)
+```
+
+
+``` {r You can condense the four lines above to one line using summary() on the specific attribute}
+summary(all_trips_v2$ride_length)
+```
+
+
+``` {r Compare members and casual users}
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = mean)
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = median)
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = max)
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
+```
+
+
+``` {r the days of the week are out of order. we must fix that.}
+all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, 
+  levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
+```
+
+
+``` {r See the average ride time by each day for members vs casual users rounded up to make it easier to understand} 
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = function(x) round(mean(x), 2))
+```
+
+
+``` {r we must format "started_at" to utilize further investigations}
+all_trips_v2 <- all_trips_v2 %>%
+  mutate(started_at = as.POSIXct(started_at, format = "%m/%d/%Y %H:%M"))
+```
+
+
+``` {r analyze ridership data by type and weekday}
+all_trips_v2 %>%
+  mutate(weekday = wday(started_at, label = TRUE)) %>%
+  group_by(member_casual, weekday) %>%
+  summarise(
+    number_of_rides = n(),
+    average_duration = mean(ride_length)
+  ) %>%
+  arrange(member_casual, weekday)
+```
+
+
+``` {r visualize the number of rides by rider type}
+all_trips_v2 %>%
+  mutate(weekday = wday(started_at, label = TRUE)) %>%
+  group_by(member_casual, weekday) %>%
+  summarise(
+    number_of_rides = n(),
+    average_duration = mean(ride_length)
+    ) %>%
+  arrange(member_casual, weekday) %>%
+  ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
+  geom_col(position = "dodge") +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Total Annual Rides by Weekday")
+```
+
+
+``` {r create a visualization for average duration in minutes}
+all_trips_v2 %>%
+  mutate(weekday = wday(started_at, label = TRUE)) %>%
+  group_by(member_casual, weekday) %>%
+  summarise(
+    number_of_rides = n(),
+    average_duration = mean(ride_length)
+    ) %>%
+  arrange(member_casual, weekday) %>%
+  ggplot(aes(x = weekday, y = average_duration / 60, fill = member_casual)) +
+  geom_col(position = "dodge") +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Average Annual Ride Duration by Weekday", y = "Average Duration (minutes)")
+```
+
+
+``` {r Create a csv file that we will visualize in Excel and Tableau}
+counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
+
+file_path <- "D:/Merit/Merit Projects/Previous 12 months of trip data - CSV/avg_ride_length.csv"
+
+write.csv(counts, file = file_path, row.names = FALSE)
+```
+
+
+# You're done! Congratulations!
+
