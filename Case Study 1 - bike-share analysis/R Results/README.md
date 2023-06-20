@@ -524,6 +524,8 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
   [Case_Study_1_-_Bike-share_analysis.Rmd]()
 </details>  
+
+
 # Fin
 Per stakeholder request: 
 * We imported the previously cleaned CSV files into R.
