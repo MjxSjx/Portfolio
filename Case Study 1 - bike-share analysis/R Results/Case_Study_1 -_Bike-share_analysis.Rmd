@@ -165,7 +165,3 @@ file_path <- "D:/Merit/Merit Projects/Previous 12 months of trip data - CSV/avg_
 
 write.csv(counts, file = file_path, row.names = FALSE)
 ```
-
-
-# You're done! Congratulations!
-
