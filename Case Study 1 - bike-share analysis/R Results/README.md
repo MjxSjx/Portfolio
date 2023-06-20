@@ -518,6 +518,12 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 </details>
 
 
+<details>
+<summary><strong> R Markdown file </strong></summary>
+ <em> I do not think this is necessary, but for completion sake, here is an Rmd file. They are simple and easy to make. If anyone would like instructions on how to create them, please scroll to the bottom of this page for contact information on how to reach me </em>
+
+  [Case_Study_1_-_Bike-share_analysis.Rmd]()
+</details>  
 # Fin
 Per stakeholder request: 
 * We imported the previously cleaned CSV files into R.
