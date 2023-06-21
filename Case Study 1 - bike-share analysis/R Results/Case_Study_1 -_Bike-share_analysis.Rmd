@@ -112,7 +112,6 @@ g. You can potentially connect with local businesses that may offer up perks if 
 7. Connect with the community.
 
 
-
 ### Excel Results
 https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results/Case%20Study%201%20-%20Excel%20Results.PNG
 
@@ -124,6 +123,14 @@ https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%
 
 ### Tableau Visualization Analysis
 https://public.tableau.com
+
+
+
+
+
+
+
+
 
 
 
@@ -276,6 +283,15 @@ all_trips_v2 %>%
   geom_col(position = "dodge") +
   scale_y_continuous(labels = scales::comma) +
   labs(title = "Average Annual Ride Duration by Weekday", y = "Average Duration (minutes)")
+```
+
+
+``` {r Create a csv file that we will visualize in Excel and Tableau,include=FALSE}
+counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
+
+file_path <- "D:/Merit/Merit Projects/Previous 12 months of trip data - CSV/avg_ride_length.csv"
+
+write.csv(counts, file = file_path, row.names = FALSE)
 ```
 
 
