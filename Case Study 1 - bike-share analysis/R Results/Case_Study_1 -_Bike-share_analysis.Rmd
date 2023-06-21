@@ -1,4 +1,4 @@
----
+--- 
 title: "Case Study 1 - Bike-share analysis"
 author: "Matt Johnson"
 email: "matt.johnson0304@gmail.com"
