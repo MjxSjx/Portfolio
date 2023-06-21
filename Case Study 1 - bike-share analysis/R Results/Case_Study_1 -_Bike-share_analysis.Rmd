@@ -161,7 +161,7 @@ all_trips_v2 %>%
 ``` {r Create a csv file that we will visualize in Excel and Tableau, include=FALSE}
 counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
 
-file_path <- " Your_destination/avg_ride_length.csv"
+file_path <- "Your_destination/avg_ride_length.csv"
 
 write.csv(counts, file = file_path, row.names = FALSE)
 ```
