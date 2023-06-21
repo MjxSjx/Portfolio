@@ -520,7 +520,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 <details>
 <summary><strong> R Markdown file </strong></summary>
- <em> I do not think this is necessary, but for completion sake, here is an Rmd file. They are simple and easy to make. If anyone would like instructions on how to create them, please scroll to the bottom of this page for contact information on how to reach me </em>
+ <em> I used the Rmd file as an opportunity to answer questions from the case study for completion sake. Rmd files are simple and easy to make. If anyone would like instructions on how to create them, please scroll to the bottom of this page for contact information on how to reach me </em>
 
 * The R Markdown file is where I choose to answer stakeholder questions and give my data-driven insights.
 
