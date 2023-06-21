@@ -3,26 +3,146 @@ title: "Case Study 1 - Bike-share analysis"
 author: "Matt Johnson"
 email: "matt.johnson0304@gmail.com"
 linkedin: "https://www.linkedin.com/in/matt-johnson0304/"
-date: "2023-06-21"
+date: "2023-06-23"
 output: html_document
 ---
+
+## Introduction:
+
+Welcome to the Cyclistic bike-share analysis case study! Here, we will tackle real-world challenges faced by Cyclistic, a bike-share company based in Chicago. Throughout this study, we will follow the data analysis process to answer key business questions and develop actionable insights.
+
+
+### Deliverables:
+
+The company's director of marketing, Lily Moreno, believes that the future success of Cyclistic relies on maximizing the number of annual memberships. To achieve this, we aim to understand the differences in behavior between casual riders and annual members and leverage these insights to design a new marketing strategy. We need to:
+
+<ol>
+
+<li>Gain a comprehensive understanding of the distinct behaviors and preferences exhibited by annual members and casual riders.</li>
+
+<li>Develop an innovative and targeted marketing strategy that effectively converts casual riders into loyal annual members.</li>
+
+<li>Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data visualizations.</li>
+
+</ol>
+
+<strong> Ultimately, our overarching goal is to drive the conversion of casual riders into devoted annual members, foster long-term loyalty, and maximize the growth of Cyclistic .</strong>
+
+* Our specific task is to answer <em>"How do annual members and casual riders use Cyclistic bikes differently?"</em>
+
+
+Assumptions and Theories:
+Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders exhibit distinct patterns in bike usage, ride duration, and frequency. It is plausible to theorize that annual members, being more committed, would have longer average ride durations and a higher usage frequency compared to casual riders. Additionally, we can speculate that factors such as cost-effectiveness, convenience, and exclusive benefits may motivate casual riders to transition into annual
+
+
+## Ask
+
+These three questions will guide the marketing program.
+
+1. How do annual members and casual riders use Cyclistic bikes differently?
+* The casual and rider differ regarding average ride length. The total average of the ride length for the members was about 3000 seconds less than the casual
+* The total Number of members comes out to a little over 61k while the casual is a little over 23k.
+* Favorite station to go from for members is at Latrobe Ave & Chicago Ave
+* Favorite station to go from for casuals is at Wabash Ave & Grand Ave.
+
+
+2. Why would casual riders buy Cyclistic annual memberships?
+* Casual riders would buy annual memberships if there were more incentives as an annual member. 
+
+
+3. How can Cyclistic Use digital media to influence casual riders to become members?
+* You can create certain marketing plans that allow the users to gain achievements the more they ride. 
+* Other plans could involve creating competitions as top riders which in turn receive rewards of some sort.
+
+
+ 
+#### My Report will produce the following deliverables:
+
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of your analysis
+5. Supporting visualizations and key findings
+6. Your top three recommendations based on your analysis
+
+### Guiding questions
+
+What is the problem you are trying to solve - I am trying to solve the
+problem of converting Cyclistic casual riders to annual members.
+
+How can my insights drive business decisions - I can depict the
+important KPIs. Report visuals that could track travel and purchase.
+behavior. Possibly incorporate incentives for when you ride certain.
+distances. Comparing and contrasting data regarding riding time and
+location of stations. How one might choose one station over another.
+Quality of neighborhood could have an impact. (Think in and out of this
+box. could possibly use outside data from other sources)
+
+### Business Task Statement
+
+The business task is to design marketing strategies aimed at converting.
+casual riders into annual members for Cyclistic, a bike-sharing program
+in Chicago. The marketing analyst team needs to understand the
+differences between annual members and casual riders, determine why.
+casual riders would purchase a membership and explore how digital media.
+could impact their marketing tactics. To achieve this, they plan to
+analyze the historical bike trip data from Cyclistic to identify trends.
+and insights.
+
+
+### Further Analysis
+(These points coincide with the recommendation points. For example, points (a & 1 coincide))
+
+a. We need to see the difference of distance between the causal and member users. This could play a big factor as to why some prefer casual over member and how to convert more annual members. So, think about what the average traveler’s distance from point A to B is and how that plays into their membership. There could be a correlation.
+b. As a consumer you must think the most users compare the price points with casual vs member. The annual membership should be sweet enough to where more than most casual riders will see that you might as well become an annual member. 
+c. You ultimately want users to bike as often as possible. This is where you can get creative with your users. Users should receive incentives more biking more or for reaching milestones in distance traveled. You can create competitions to where users achieve certain benefits for having the most miles or kilometers in a single month. This can go hand in hand with tracking calories.
+d. You need to create a cost benefit analysis on the stations that are getting used the least. There might be some that are in low volume areas where it’s not worth the cost of having it at that location. You might need Look into relocating stations as well. If there is a specific distance between certain stations, it could be cost-beneficial to the user, and this could ultimately convert more annual memberships.
+e. Attack the easiest customer base you have. This is your current users (Casuals). Market to the casual users and give them simple one or two analytics that show how they can save from switching over. Also, show them the benefit of becoming an annual member by enticing them with a free trial run and letting them see how it differs.
+f. Another way to potentially gain new customers is to find out where there is a lot of foot traffic with walking/ bike trails. You could possibly funnel new customers to becoming casual members. 
+g. You can potentially connect with local businesses that may offer up perks if you shop with them by using Bike share. For example, if a user gets $1 off a coffee at a shop 2-3 miles down the street this would be beneficial for both parties. 
+
+
+## Recommendations (Data/Business Analysis)
+1. Bike share needs data in regarding the distance traveled. 
+2. You need to make being a member worth the riders while.
+3. Create higher incentives for people to bike.
+4. Cost benefit analysis on stations that are not getting used. Low hanging fruit might have to be removed. (Think longer time horizon here)
+5. Market to casual users first then annual members second.
+6. Market Bike Share near high volume walking/ bike trails to add new customers.
+7. Connect with the community.
+
+
+
+### Excel Results
+https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results/Case%20Study%201%20-%20Excel%20Results.PNG
+
+### 30 SQL Query Results
+https://github.com/MjxSjx/Portfolio/tree/main/Case%20Study%201%20-%20bike-share%20analysis/SQL%20Results
+
+### Additional R Results graphed in Excel
+https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/R_Export_Summary_File_Results_in_Excel.PNG
+
+### Tableau Visualization Analysis
+https://public.tableau.com
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```{r Install package, include= FALSE}
+```{r Install package, include=FALSE}
 #install.packages("tidyverse")
 ```
 
 
-```{r Load package, include= FALSE}
+```{r Load package, include=FALSE}
 library(tidyverse)
 ```
 
 
-``` {r Upload datasets, include= FALSE}
+``` {r Upload datasets, include=FALSE}
 db1 <- read_csv("202205-tripdata.csv")
 db2 <- read_csv("202206-tripdata.csv")
 db3 <- read_csv("202207-tripdata.csv")
