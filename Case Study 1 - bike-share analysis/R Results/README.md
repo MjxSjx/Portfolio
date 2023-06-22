@@ -526,13 +526,13 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 * R Markdown is a Markdown file exclusively for R its syntax is akin to HTML. HTML is similar to SQL in that it's not a programming language. SQL is a query langauge. HTML is a markup language and the foundation off all websites.
 
-<ul>
+<ol>
   
 <li> Markdown files are easier to make than HTML and only have a few syntax. This is the page I used to create mine [Markdown Guide](https://www.markdownguide.org/cheat-sheet) </li>
   
 <li> This is the page I used to create the Rmd sections [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-15.html) </li>
 
-</ul>
+</0l>
 
 * The R Markdown file is where I choose to answer stakeholder questions and give my data-driven insights.
 
