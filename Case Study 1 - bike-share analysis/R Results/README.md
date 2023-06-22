@@ -526,13 +526,9 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 * R Markdown is a Markdown file exclusively for R. Markdown files are a lightweight markup language akin to HTML. HTML is very simple and similar to something we covered in SQL. Neither is a programming language. SQL is a query language. HTML is a markup language and the foundation of all websites.
 
-<ol>
-  
-<li> This is the page I used [Markdown Guide](https://www.markdownguide.org/cheat-sheet) </li>
-  
-<li> This is the page I used to create the Rmd sections [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-15.html) </li>
+* This is the site I used: [Markdown Guide](https://www.markdownguide.org)
 
-</ol>
+* This is the site I used to create the Rmd sections: [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-15.html)
 
 * My Rmd file: [Case Study 1 - Bike-share analysis.Rmd](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/Case_Study_1%20-_Bike-share_analysis.Rmd)
 
