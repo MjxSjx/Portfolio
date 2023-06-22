@@ -518,7 +518,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 </details>
 
 
-## R Markdown
+## R Markdown - Bringing it all together
 
 <details>
 <summary><strong> R Markdown file </strong></summary>
