@@ -1,5 +1,5 @@
--- May to October contain the majority of rides annually
--- November to March
+-- April to October contain the majority of rides annually
+-- November to March are the low points
 
 year_month	total_rides
 May 2022	  502543
