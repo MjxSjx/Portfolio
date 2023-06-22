@@ -464,7 +464,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
   
 * When you combine your 12 sheets into one data frame
 * If you make a custom data frame for detailed specifics
-* The list is endless! Think of the nearly 30 queues we made in SQL. All of those can be done in R, plus more!
+* The list is endless! Think of the over 30 queues we made in SQL. All of those can be done in R, plus more!
 
 </details>
 
