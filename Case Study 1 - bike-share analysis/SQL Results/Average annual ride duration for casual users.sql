@@ -1,8 +1,11 @@
 -- I had to use bigint to corral all the data.
--- The annual average ride duration for casual members is: 
+-- The annual average ride duration for casual members is: 23 minutes and 2 seconds.
 
+avg_rd_seconds
+1382 aka 23:02
+	
 SELECT 
-    AVG(CAST(DATEDIFF(SECOND, '00:00:00', CONVERT(time, ride_length)) AS bigint)) AS average_ride_duration_seconds
+    AVG(CAST(DATEDIFF(SECOND, '00:00:00', CONVERT(time, ride_length)) AS bigint)) AS avg_rd_seconds
 FROM (
     SELECT 
         ride_length
@@ -37,5 +40,30 @@ FROM (
 	    SELECT 
         ride_length
     FROM [202211-tripdata]		
+    WHERE member_casual = 'casual'
+	UNION ALL
+	    SELECT 
+        ride_length
+    FROM [202212-tripdata]		
+    WHERE member_casual = 'casual'
+	UNION ALL
+	    SELECT 
+        ride_length
+    FROM [202301-tripdata]		
+    WHERE member_casual = 'casual'
+	UNION ALL
+	    SELECT 
+        ride_length
+    FROM [202302-tripdata]		
+    WHERE member_casual = 'casual'
+	UNION ALL
+	    SELECT 
+        ride_length
+    FROM [202303-tripdata]		
+    WHERE member_casual = 'casual'
+	UNION ALL
+	    SELECT 
+        ride_length
+    FROM [202304-tripdata]		
     WHERE member_casual = 'casual'
 ) AS subquery;
