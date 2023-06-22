@@ -31,10 +31,6 @@ WHERE member_casual IN ('member', 'casual')
 GROUP BY day_of_week, member_casual
 ORDER BY totalRides DESC;
 
-peak_casual_users	peak_member_users
-    Saturday                 Wednesday
-    362746	              440373
-
 
 day_of_week  member_casual totalRides
 Wednesday	member	     440373
