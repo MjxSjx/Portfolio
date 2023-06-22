@@ -1,10 +1,10 @@
---- 
+---
 title: "Case Study 1 - Bike-share analysis"
 author: "Matt Johnson"
 email: "matt.johnson0304@gmail.com"
 linkedin: "https://www.linkedin.com/in/matt-johnson0304/"
-date: "2023-06-23"
-output: html_document  
+date: "2023-06-21"
+output: html_document
 ---
 
 ## Introduction:
@@ -26,33 +26,44 @@ The company's director of marketing, Lily Moreno, believes that the future succe
 
 </ol>
 
-<strong> Ultimately, our overarching goal is to drive the conversion of casual riders into devoted annual members, foster long-term loyalty, and maximize the growth of Cyclistic .</strong>
-
-* Our specific task is to answer <em>"How do annual members and casual riders use Cyclistic bikes differently?"</em>
+<strong> ****************Ultimately, our overarching goal is to drive the conversion of casual riders into devoted annual members, foster long-term loyalty, and maximize the growth of Cyclistic.***************</strong>
 
 
-Assumptions and Theories:
-Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders exhibit distinct patterns in bike usage, ride duration, and frequency. It is plausible to theorize that annual members, being more committed, would have longer average ride durations and a higher usage frequency compared to casual riders. Additionally, we can speculate that factors such as cost-effectiveness, convenience, and exclusive benefits may motivate casual riders to transition into annual
+
+### Assumptions and Theories:
+
+Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders exhibit distinct patterns in bike usage, ride duration, and frequency. Theorizing that annual members, being more committed, would have longer average ride durations and a higher usage frequency compared to casual riders, we can also speculate that factors such as cost-effectiveness, convenience, and exclusive benefits may motivate casual riders to transition into annual members.
 
 
-## Ask
+## Problems:
 
-These three questions will guide the marketing program.
-
-1. How do annual members and casual riders use Cyclistic bikes differently?
-* The casual and rider differ regarding average ride length. The total average of the ride length for the members was about 3000 seconds less than the casual
-* The total Number of members comes out to a little over 61k while the casual is a little over 23k.
-* Favorite station to go from for members is at Latrobe Ave & Chicago Ave
-* Favorite station to go from for casuals is at Wabash Ave & Grand Ave.
+* Our specifically assigned task is to answer <em>"How do annual members and casual riders use Cyclistic bikes differently?"</em>
 
 
-2. Why would casual riders buy Cyclistic annual memberships?
-* Casual riders would buy annual memberships if there were more incentives as an annual member. 
+### Ask:
+
+We will produce a report with the following deliverables:
+
+1. A clear statement of the business task
+
+Our overarching goal is to drive the conversion of casual riders into devoted annual members, foster long-term loyalty, and maximize the growth of Cyclistic.
+
+2. A description of all data sources used
+
+We will use Cyclistic’s historical trip data to analyze and identify trends. Our analysis will be based off the last annual cycle April 2022 - May 2023.The data has been made available by Motivate International Inc. under this [License](https://ride.divvybikes.com/data-license-agreement)
 
 
-3. How can Cyclistic Use digital media to influence casual riders to become members?
-* You can create certain marketing plans that allow the users to gain achievements the more they ride. 
-* Other plans could involve creating competitions as top riders which in turn receive rewards of some sort.
+3. Documentation of any cleaning or manipulation of data
+
+4. A summary of your analysis
+
+5. Supporting visualizations and key findings
+
+6. Your top three recommendations based on your analysis
+
+
+
+
 
 
  
@@ -110,6 +121,19 @@ g. You can potentially connect with local businesses that may offer up perks if 
 5. Market to casual users first then annual members second.
 6. Market Bike Share near high volume walking/ bike trails to add new customers.
 7. Connect with the community.
+
+## Solution:
+** The casual and rider differ regarding average ride length. The total average of the ride length for the members was about 3000 seconds less than the casual
+** The total Number of members comes out to a little over 61k while the casual is a little over 23k.
+** Favorite station to go from for members is at Latrobe Ave & Chicago Ave
+** Favorite station to go from for casuals is at Wabash Ave & Grand Ave.
+
+## Conclusion:
+
+
+## Next steps:
+
+
 
 
 ### Excel Results
