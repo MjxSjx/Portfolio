@@ -534,9 +534,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 </ol>
 
-* The R Markdown file is where I choose to answer stakeholder questions and give my data-driven insights.
-
-[Case Study 1 - Bike-share analysis.Rmd](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/Case_Study_1%20-_Bike-share_analysis.Rmd)
+* My Rmd file: [Case Study 1 - Bike-share analysis.Rmd](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/Case_Study_1%20-_Bike-share_analysis.Rmd)
 
 </details>  
 
