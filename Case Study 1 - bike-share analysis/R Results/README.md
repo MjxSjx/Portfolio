@@ -528,7 +528,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 <ul>
   
-<li> Markdown files are easier to make than HTML and only have a few syntax. This is the page I used to create mine [Markdown Guide](https://www.markdownguide.org/cheat-sheet) </ul>li>
+<li> Markdown files are easier to make than HTML and only have a few syntax. This is the page I used to create mine [Markdown Guide](https://www.markdownguide.org/cheat-sheet) </li>
   
 <li> This is the page I used to create the Rmd sections [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-15.html) </li>
 
