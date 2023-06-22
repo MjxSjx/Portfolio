@@ -10,7 +10,7 @@ Friday        	   261439	           385260
 Saturday       	   362746	         346960
 
 peak_casual_users	peak_member_users
-    Saturday                Wednesday
+    Saturday                 Wednesday
     362746	              440373
 
 SELECT
