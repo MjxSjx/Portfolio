@@ -532,7 +532,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
   
 <li> This is the page I used to create the Rmd sections [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-15.html) </li>
 
-</0l>
+</ol>
 
 * The R Markdown file is where I choose to answer stakeholder questions and give my data-driven insights.
 
