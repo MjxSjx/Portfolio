@@ -1,6 +1,6 @@
--- Casual users follow a similar combined data for total rides per month. The macro view of all riders is inside the folder "Individual Statistical Details"
--- May to October contain the majority of rides annually
--- November to April are the low points
+-- Casual users follow the same combined data for total rides per month. The macro view of all riders is inside the folder "Individual Statistical Details"
+-- April to October contain the majority of rides annually
+-- November to March are the low points
 -- July is the most popular month
 -- December is the least popular month
 
