@@ -3,7 +3,7 @@
 day_of_week    peak_casual_users    peak_member_users
 Sunday        	   301598	         310698
 Monday         	   210260	         385875
-Tuesday       	   204271             433727
+Tuesday       	   204271                433727
 Wednesday      	   212641	         440373
 Thursday       	   238110	         439959
 Friday        	   261439	         385260
