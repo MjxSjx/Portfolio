@@ -522,9 +522,11 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 <details>
 <summary><strong> R Markdown file </strong></summary>
- <em> I used the Rmd file as an opportunity to answer questions from the case study for completion sake. Rmd files are simple and easy to make. </em>
+ <em> I used an Rmd file as an opportunity to answer the questions from the case study and show my R syntax. </em>
 
-* R Markdown is a Markdown file exclusively for R its syntax is akin to HTML. HTML is similar to SQL in that it's not a programming language. SQL is a query langauge. HTML is a markup language and the foundation off all websites.
+* R Markdown is a Markdown file exclusively for R.
+* Markdown files are a lightweight markup language akin to HTML.
+* HTML is very simple and similar to something we covered in SQL in that it's not a programming language. SQL is a query language. HTML is a markup language and the foundation of all websites.
 
 <ol>
   
