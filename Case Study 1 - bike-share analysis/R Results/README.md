@@ -532,6 +532,8 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 * My Rmd file: [Case Study 1 - Bike-share analysis.Rmd](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/Case_Study_1%20-_Bike-share_analysis.Rmd)
 
+* Although Rmd files take time to create, they are worth the effort and if desired different formats can be applied creating distinct layouts. 
+
 </details>  
 
 
