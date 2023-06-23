@@ -52,11 +52,11 @@
    <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or Select N2 > press CTRL+C > in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste. </li>
    <li> Now we need to scroll down and find the last filled row + 1. Select that cell then hold CTRL+SHIFT+down-arrow key again to delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close to the bottom filled row).</li>
    
-   ### Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step, let's investigate using "Sort" and delete this rows. 
+   ### Some months *might* have faulty "ride_length" data filled with ####### which SQL will not allow. As analyst doing our process step, let's investigate using "Sort" and delete this rows. 
    
    ### Also, I suggest deleting all rows from "ride_length" with durations above 24:59:00. This is not a mandate, but depending on your SQL skill level, it may help.
    
-   <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ##### forever need their whole row deleted (mind your header row). The reason the cells are messed up and filled with ########## is that the "start_at" and "end_at" column data is reading backwards. We don't have the authority to flip them, so our only means is to delete. </li>
+   <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ####### need their whole row deleted (mind your header row). Then check from smallesty to largest for any cells filled with #######. The reason the cells are messed up and filled with ####### is that the "start_at" and "end_at" column data is reading backwards. We don't have the authority to flip them, so our only means is to delete. </li>
    
    * *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless.*
    
