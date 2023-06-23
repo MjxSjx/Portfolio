@@ -7,6 +7,7 @@ date: "2023-06-21"
 output: html_document
 ---
 
+
 ## Introduction:
 
 Welcome to my Cyclistic bike-share analysis case study. Here, we will tackle real-world challenges faced by Cyclistic, a bike-share company based in Chicago. Throughout this study, we will follow the data analysis process to answer key business questions and develop actionable insights.
@@ -16,15 +17,11 @@ Welcome to my Cyclistic bike-share analysis case study. Here, we will tackle rea
 
 The company's director of marketing, Lily Moreno, believes that the future success of Cyclistic relies on maximizing the number of annual memberships. To achieve this, we aim to understand the differences in behavior between casual riders and annual members and leverage these insights to design a new marketing strategy. We need to:
 
-<ol>
+1. Gain a comprehensive understanding of the distinct behaviors and preferences exhibited by annual members and casual riders.
 
-<li>Gain a comprehensive understanding of the distinct behaviors and preferences exhibited by annual members and casual riders.</li>
+2. Develop an innovative and targeted marketing strategy that effectively converts casual riders into loyal annual members.
 
-<li>Develop an innovative and targeted marketing strategy that effectively converts casual riders into loyal annual members.</li>
-
-<li>Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data visualizations.</li>
-
-</ol>
+3. Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data visualizations.
 
 
 ### Assumptions and Theories:
@@ -57,11 +54,9 @@ Our overarching goal is to drive the conversion of casual riders into devoted an
 
 We will use Cyclistic’s historical trip data to analyze and identify trends. Our analysis will be based on the last annual cycle, from April 2022 to May 2023. The data has been made available by Motivate International Inc. under this [License](https://ride.divvybikes.com/data-license-agreement).
 
-
 <strong> 3. Documentation of any cleaning or manipulation of data </strong>
 
 All Excel, SQL, and R cleaning and manipulation are found in the [GitHub Portfolio repository "Case Study 1: bike-share analysis"](https://github.com/MjxSjx/Portfolio/tree/main/Case%20Study%201%20-%20bike-share%20analysis) in extensive detail.
-
 
 <strong> 4. A summary of your analysis </strong>
 
@@ -75,15 +70,11 @@ All Excel, SQL, and R-supporting visualizations are found in the [GitHub Portfol
 
 <strong> 6. Your top three recommendations based on your analysis </strong>
 
-<ol>
-
 1. Focus on targeted marketing that increases awareness of membership benefits and offers special deals in locations where casual users are most prevalent, increasing marketing results while decreasing expenditure. 
   
 2. Create incentives to encourage casual riders to make the switch. With angles such as reducing one's carbon footprint, saving money, and increasing one's health span with low impact physical activity.
   
 3. Create targeted surveys for all user types to answer to gain more insight using data-driven user type hotspots.
-
-</ol>
 
 
 ## Solution:
@@ -123,7 +114,6 @@ Present in this Rmd file at the bottom of the page
 [Tableau](https://public.tableau.com)
 
 
-
 ## Conclusion:
 
 Analysis of the data gave us several key insights. Members ride more frequently than casual users, showing a clear preference for weekdays, which peak on Wednesdays. They also tend to ride during the late afternoon hours, indicating a commuting pattern. The top start and end stations for members are Kingsbury and Kinzie St., suggesting a concentrated area of member activity that gives us an opportunity to create targeted surveys to gain valuable insights specifically about what makes our services worth the annual membership to them.
@@ -137,10 +127,10 @@ All of these findings highlight the importance of understanding the distinct beh
 
 <ol>
 
-<li>  First, we should collaborate with the rest of the team and bring together their insights from the questions Lily Moreno assigned them. Then I would suggest we consider running promotions targeted at casual users and utilizing targeted advertising in their most frequent locations. </li>
+<li> We should collaborate with the rest of the team and bring together their insights from the questions Lily Moreno assigned them. Then I would suggest we consider running promotions targeted at casual users and utilizing targeted advertising in their most frequent locations. </li>
 
 
-<li>  Second, I would suggest gaining additional data from all users by creating surveys for each type that they receive via email or after a purchase, which would preferably include: </li>
+<li> I would suggest gaining additional data from all users by creating surveys for each type that they receive via email or after a purchase, which would preferably include: </li>
 
 * Preferred payment options: Investigate whether annual members and casual riders have preferences for specific payment options, such as credit cards, mobile apps, or in-person payments.
 
@@ -156,15 +146,14 @@ With all that new data, create user-specific marketing, such as:
 * Seasonal Promotions: Capitalize on the popularity of July by introducing special promotions, such as discounted membership rates, extended riding hours, or partnerships with local events and attractions. Additionally, for December, consider offering holiday-themed incentives, such as festive decorations, seasonal rides, or charity initiatives, to engage riders and increase usage.
 
 
-
 <li>  Lastly, I would continuously monitor and analyze rider data to identify emerging trends, patterns, and areas for improvement. This will enable the bike-sharing program to make informed decisions and adapt strategies to evolving user needs. </li>
 
 </ol>
 
 By implementing these recommendations, Cyclistic can foster a more personalized and enjoyable experience for both members and casual users. This tailored approach will not only attract new riders but also increase rider loyalty and engagement, leading to sustainable growth and a competitive edge in the market.
 
-
 The proposed solutions gained from data analysis aim to enhance marketing efficiency by utilizing targeted strategies in advertising and surveys for each respective user type. Cylistic can position itself for sustained growth while fostering a positive impact on the community and promoting sustainable transportation.
+
 
 
 
