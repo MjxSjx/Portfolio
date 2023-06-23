@@ -72,7 +72,7 @@
 <ol>
 <li> In your spreadsheet, create a column called "day_of_week." in Column O, row 1. </li>
 <li> In O2, enter "=WEEKDAY(C2,1)", 1 = Sunday, and 7 = Saturday. Later, if you prefer your column to have the actual weekday name, use "=TEXT(C2, "dddd")" but only after switching to XLSX. The only catch is =MODE() cannot use the TEXT data type. Workarounds include manually writing in the day name in your pivot tables or flipping the column formula when desired.</li>
-<li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or Select N2 > press CTRL+C > in O3, hold CTRL+SHIFT+down-arrow key > CTRL + V aka paste. </li> 
+<li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or Select O2 > press CTRL+C > in O3, hold CTRL+SHIFT+down-arrow key > CTRL + V aka paste. </li> 
  <li> Again we need to scroll down and find the last data filled row + 1. Select that cell then hold CTRL+SHIFT+down-arrow key again to delete the invalid entries (use PAGE UP and PAGE DOWN to move smoothly when close to the bottom filled row). </li>
  <li> Repeat these steps for all 12 sheets, and make sure to save your work. We're done with the CSV files until SQL and R. </li>
  </ol>
