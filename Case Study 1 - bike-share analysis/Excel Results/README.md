@@ -50,7 +50,7 @@
    <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze). </li>
    <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK. </li>
    <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or Select N2 > press CTRL+C > in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste. </li>
-   <li> Now we need to find the last filled row (hold CTRL+SHIFT+down-arrow key) + 1 select that cell hold CTRL+SHIFT+down-arrow key again and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
+   <li> Now we need to find the last filled row + 1 by holding CTRL+SHIFT+down-arrow key. Select that cell and delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close).</li>
    
    ### Some months *might* have faulty "ride_length" data filled with ####### forever, which SQL will not allow. As analyst doing our process step, let's investigate using "Sort" and delete this rows. 
    
