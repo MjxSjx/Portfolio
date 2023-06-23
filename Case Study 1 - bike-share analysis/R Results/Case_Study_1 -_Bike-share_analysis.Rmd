@@ -1,4 +1,4 @@
---- 
+---
 title: "Case Study 1: Bike-Share Analysis"
 author: "Matt Johnson"
 email: "matt.johnson0304@gmail.com"
@@ -159,12 +159,13 @@ With all that new data, create user-specific marketing, such as:
 
 <li>  Lastly, I would continuously monitor and analyze rider data to identify emerging trends, patterns, and areas for improvement. This will enable the bike-sharing program to make informed decisions and adapt strategies to evolving user needs. </li>
 
+</ol>
 
-By implementing these recommendations, the bike-sharing program can foster a more personalized and enjoyable experience for both members and casual users. This tailored approach will not only attract new riders but also increase rider loyalty and engagement, leading to sustainable growth and a competitive edge in the market.
+By implementing these recommendations, Cyclistic can foster a more personalized and enjoyable experience for both members and casual users. This tailored approach will not only attract new riders but also increase rider loyalty and engagement, leading to sustainable growth and a competitive edge in the market.
+
 
 The proposed solutions gained from data analysis aim to enhance marketing efficiency by utilizing targeted strategies in advertising and surveys for each respective user type. Cylistic can position itself for sustained growth while fostering a positive impact on the community and promoting sustainable transportation.
 
-</ol>
 
 
 
