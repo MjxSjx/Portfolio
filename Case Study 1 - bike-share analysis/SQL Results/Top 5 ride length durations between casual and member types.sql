@@ -1,6 +1,6 @@
 -- As can be seen: 
 -- Members use the bikes more often but in a shorter duration.
--- Casuals use the bikes less but for an average duration of 33% longer.
+-- Casuals use the bikes less, but for an average duration of 33% longer in this top 5 comparison specifically.
 
 ride_length  member_casual totalRides
 00:04:34      member	      3790
