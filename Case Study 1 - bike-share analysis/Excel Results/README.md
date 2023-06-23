@@ -114,7 +114,7 @@
   *Create these 3 pivot tables and graphs in both pre-selected opposite season tabs used earlier.* 
   
 <ol>
-<li> In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M and N > Existing Worksheet then OK. </li>
+<li> In cell Q11 click "Insert" on the top tab > Click "PivotTable" > select columns M and N together > Existing Worksheet then OK. </li>
 <li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. </li>
   
   * (blank) auto populates inside your pivot table, this is normal. Remove (blank) by clicking on cell Q11
