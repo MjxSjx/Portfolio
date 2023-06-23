@@ -76,35 +76,36 @@ All Excel, SQL, and R-supporting visualizations are found in the [GitHub Portfol
 <strong> 6. Your top three recommendations based on your analysis </strong>
 
 <ol>
-  1. Focus on targeted marketing in locations where casual users are most predominate, increasing marketing results while decreasing expenditure.
+
+1. Focus on targeted marketing that increases awareness of membership benefits and offers special deals in locations where casual users are most prevalent, increasing marketing results while decreasing expenditure. 
   
-  2. Increase awareness of membership benefits in highest use locations for casual users.
-  3. Create incentives to convert causal riders to make the switch. 
+2. Create incentives to encourage casual riders to make the switch. With angles such as reducing one's carbon footprint, saving money, and increasing one's health span with low impact physical activity.
   
-  4. Create a survey for all users to answer to gain more insight.
+3. Create targeted surveys for all user types to answer to gain more insight using data-driven user type hotspots.
+
 </ol>
 
 
 ## Solution:
 
-In truth the solution is beyond our assigned task. Any implications are nothing more than speculation without answers from the other two questions. However, what our question can tell you is facts about the difference between annual members and causal riders. With that said, from May 2022 - April 2023:
+In truth, the solution is beyond our assigned task. Any implications are nothing more than speculation without answering the other two stakeholder questions. However, what our question can tell you are facts about the difference between annual members and causal riders. With that said, from May 2022 to April 2023:
 
 * Members ride 34.7% more often than casual users
-* Members average annual ride duration was 12 minutes and 14 seconds 
-* Members most often ride on Wednesday and weekdays in general
-* Members most often ride between 3-6pm, casuals are the same 3-6pm
-* Members top start & end station is located at: Kingsbury & Kinzie St
-* Members prefer our classic bikes at a rate of 63.8% of all their rentals. A distant second is our electric bike at 36.2%
-* Casual users top start & end station is located at: Streeter Dr & Grand Ave
-* Casual users most often ride on Saturday and weekends in general
-* Casual users ride 33% longer than members
-* Casual users average annual ride duration was 23 minutes and 2 seconds
-* Casual users prefer the weekends; while members prefer the weekdays
-* Casual users prefer our classic bikes at a rate of 49.6% of all their rentals. A close second is our electric bikes at 41%
-* Both members and casual riders use our classic bike as their top rental 
-* Both members and casual riders prefer months between April to October 
+* Members average ride duration was 12 minutes and 14 seconds
+* Members most often ride from Tuesday to Thursday and weekdays in general
+* Members top start and end stations are located at Kingsbury and Kinzie St.
+* Members prefer our classic bikes at a rate of 63.8% of all their rentals. A distant second are electric bikes at 36.2%
+* Casual users top start and end stations are located at Streeter Dr. and Grand Ave.
+* Casual users most often ride on Saturdays and weekends in general
+* Casual users ride 53.1% longer than members on average
+* Casual users average ride duration was 23 minutes and 2 seconds
+* Casual users prefer the weekends, while members prefer the weekdays
+* Casual users prefer our classic bikes at a rate of 49.6% of all their rentals. A close second are electric bikes at 41%
+* Both members and casual users most often ride between 3-6 p.m
+* Both members and casual riders use our classic bike as their top rental
+* Both members and casual riders prefer the months between April and October
 * July was our most popular month, with December being the least popular
-* Annually Saturday was the most popular day of the week, with casual users just barely surpassing members in usage
+* Saturday was the most popular day of the week and the only day casual users exceeded members in usage, but just barely
 
 ### Excel Results
 [Excel](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results/Case%20Study%201%20-%20Excel%20Results.PNG)
@@ -113,7 +114,7 @@ In truth the solution is beyond our assigned task. Any implications are nothing 
 [SQL](https://github.com/MjxSjx/Portfolio/tree/main/Case%20Study%201%20-%20bike-share%20analysis/SQL%20Results)
 
 ### R Results
-Present in this Rmd file at the bottom on the page
+Present in this Rmd file at the bottom of the page
 
 ### Additional R Results graphed in Excel
 [R Results in Excel](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/R_Export_Summary_File_Results_in_Excel.PNG)
@@ -125,35 +126,45 @@ Present in this Rmd file at the bottom on the page
 
 ## Conclusion:
 
-In conclusion, the analysis of the provided data gave us several key insights. Members ride more frequently than casual users, showing a clear preference for weekdays which peak on Wednesdays. They also tend to ride during the late afternoon hours, indicating a commuting pattern. The top start and end station for members is Kingsbury & Kinzie St, suggest a concentrated area of member activity that gives us an opportunity to create targeted surveys to gain valuable insights specifically about what makes our services worth the annual membership.
+Analysis of the data gave us several key insights. Members ride more frequently than casual users, showing a clear preference for weekdays, which peak on Wednesdays. They also tend to ride during the late afternoon hours, indicating a commuting pattern. The top start and end stations for members are Kingsbury and Kinzie St., suggesting a concentrated area of member activity that gives us an opportunity to create targeted surveys to gain valuable insights specifically about what makes our services worth the annual membership to them.
 
-Casual users exhibit different preferences. They ride less frequently but for longer distances, with a preference for weekends which peak on Saturdays. Their top start and end station is located at Streeter Dr & Grand Ave, indicating a different area of interest compared to members. Allowing for targeted advertising to casual riders. 
+Casual users exhibit different preferences. They ride less frequently but for longer distances, with a preference for weekends, which peak on Saturdays. Their top start and end stations are located at Streeter Dr. and Grand Ave., indicating a different area of interest compared to annual members. Also, allowing for targeted advertising to casual riders.
 
-All of these findings highlight the importance of understanding the distinct behaviors and preferences of members and casual users. By discovering this information, Cyclistic can tailor our strategies to better serve these different user types. Cyclistic can Optimize station placements, adjust operational schedules to accommodate peak times, and design targeted marketing campaigns to attract and retain both member and casual riders. All of this can enhance the overall user experience and lead to greater customer satisfaction, while bringing Cyclistic sustain growth. The data-driven approach used in this analysis demonstrates the power of leveraging information to make informed decisions and drive the success of Cyclistic.
+All of these findings highlight the importance of understanding the distinct behaviors and preferences of members and casual users. By discovering this information, Cyclistic can tailor our strategies to better serve these different user types. Cyclistic can optimize station placements, adjust operational schedules to accommodate peak times, and design targeted marketing campaigns to attract and retain both annual members and casual riders. All of this can enhance the overall user experience and lead to greater customer satisfaction while bringing Cyclistic sustain growth. This data-driven analysis demonstrates the power of leveraging information to make informed decisions, driving continual growth, and ensuring the success of Cyclistic.
 
 
 ## Next steps:
 
-We should collaborate with the rest of the team and find out what insights they gathered from the assignment Lily Moreno assigned them to. We should, consider gaining additional data from things like surveys and utilize targeted advertising to casual rider dense locations that preferably include: 
+<ol>
 
-Preferred payment options: Investigate whether annual members and casual riders have preferences for specific payment options, such as credit card, mobile apps, or in-person payments.
-
-Demographic factors: Explore if there are any demographic differences between annual members and casual riders, such as age, gender, or income level, that could influence their bike usage behavior.
-
-Purpose of rides: Examine the purpose of bike rides for annual members and casual riders. Do annual members primarily use bikes for commuting, while casual riders use them for leisure or recreational purposes?
+<li>  First, we should collaborate with the rest of the team and bring together their insights from the questions Lily Moreno assigned them. Then I would suggest we consider running promotions targeted at casual users and utilizing targeted advertising in their most frequent locations. </li>
 
 
-Casual user-Specific Marketing: Develop targeted marketing campaigns for members and casual users separately. Highlight the convenience, cost-effectiveness, and environmental benefits of membership for attracting and retaining members. For casual users, emphasize the flexibility, leisurely experience, and weekday  promotions to encourage weekend ridership.
+<li>  Second, I would suggest gaining additional data from all users by creating surveys for each type that they receive via email or after a purchase, which would preferably include: </li>
+
+* Preferred payment options: Investigate whether annual members and casual riders have preferences for specific payment options, such as credit cards, mobile apps, or in-person payments.
+
+* Demographic factors: Explore if there are any demographic differences between annual members and casual riders, such as age, gender, or income level, that could influence their bike usage behavior.
+
+* Purpose of rides: Examine the purpose of bike rides for annual members and casual riders. Do annual members primarily use bikes for commuting, while casual riders use them for leisure or recreational purposes?
 
 
-4. Seasonal Promotions: Capitalize on the popularity of July by introducing special promotions, such as discounted membership rates, extended riding hours, or partnerships with local events and attractions. Additionally, for December, consider offering holiday-themed incentives, such as festive decorations, seasonal rides, or charity initiatives to engage riders and increase usage.
+With all that new data, create user-specific marketing, such as:
 
-5. Data-Driven Decision Making: Continuously monitor and analyze rider data to identify emerging trends, patterns, and areas of improvement. This will enable the bike-sharing program to make informed decisions and adapt strategies to evolving user needs.
+* Develop targeted marketing campaigns for members and casual users separately. Highlight the convenience, cost-effectiveness, and environmental benefits of membership to attract and retain members. For casual users, emphasize the flexibility and leisurely experience and create promotions to encourage weekday ridership.
+
+* Seasonal Promotions: Capitalize on the popularity of July by introducing special promotions, such as discounted membership rates, extended riding hours, or partnerships with local events and attractions. Additionally, for December, consider offering holiday-themed incentives, such as festive decorations, seasonal rides, or charity initiatives, to engage riders and increase usage.
+
+
+
+<li>  Lastly, I would continuously monitor and analyze rider data to identify emerging trends, patterns, and areas for improvement. This will enable the bike-sharing program to make informed decisions and adapt strategies to evolving user needs. </li>
+
 
 By implementing these recommendations, the bike-sharing program can foster a more personalized and enjoyable experience for both members and casual users. This tailored approach will not only attract new riders but also increase rider loyalty and engagement, leading to sustainable growth and a competitive edge in the market.
 
+The proposed solutions gained from data analysis aim to enhance marketing efficiency by utilizing targeted strategies in advertising and surveys for each respective user type. Cylistic can position itself for sustained growth while fostering a positive impact on the community and promoting sustainable transportation.
 
-The proposed solutions gained by data analysis aim to enhance marketing efficiency, by utilizing targeted strategies in advertising and surveys to each respective user type. Cylistic can position itself for sustained growth while fostering a positive impact on the community and promoting sustainable transportation.
+</ol>
 
 
 
