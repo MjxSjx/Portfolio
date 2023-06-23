@@ -49,8 +49,8 @@
    <li> Your result will be a data type called "float". We need to change that into the time format of HH:MM:SS. </li>
    <li> Select N2 > right click > A window pop up will appear select "Format Cells" (again Excel may freeze). </li>
    <li> While in the "Number" tab find "Category:" and change it to "Time" > Type: > "37:30:55" > hit OK. </li>
-   <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or Select N2 > press CTRL+C > in N3 hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste. </li>
-   <li> Now we need to scroll down and find the last filled row + 1. Select that cell then hold CTRL+SHIFT+down-arrow key again to delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close to the bottom filled row).</li>
+   <li> Select N2 > press CTRL+C > use macros to autofill the column (web search) or Select N2 > press CTRL+C > in N3, hold CTRL+SHIFT+down-arrow key > CTRL+V aka paste. </li>
+   <li> Now we need to scroll down and find the last data filled row + 1. Select that cell then hold CTRL+SHIFT+down-arrow key again to delete the invalid entries (Use PAGE UP & DOWN to move smoothly when close to the bottom filled row).</li>
    
    ### Some months *might* have faulty "ride_length" data filled with ####### which SQL will not allow. As analyst doing our process step, let's investigate using "Sort" and delete this rows. 
    
@@ -72,8 +72,8 @@
 <ol>
 <li> In your spreadsheet, create a column called "day_of_week." in Column O, row 1. </li>
 <li> In O2, enter "=WEEKDAY(C2,1)", 1 = Sunday, and 7 = Saturday. Later, if you prefer your column to have the actual weekday name, use "=TEXT(C2, "dddd")" but only after switching to XLSX. The only catch is =MODE() cannot use the TEXT data type. Workarounds include manually writing in the day name in your pivot tables or flipping the column formula when desired.</li>
-<li> Select O2 > press CTRL+C > use macros to autofill the column (web search), or in O3, hold CTRL+SHIFT+down-arrow key > paste, then find the last naturally filled row + 1 select that cell, hold CTRL+SHIFT+the down key again, and delete the invalid entries (use PAGE UP and PAGE DOWN to move smoothly when close). </li>
- <li> Now repeat these steps for all 12 sheets, and make sure to save your work. We're done with the CSV files until SQL and R. </li>
+<li> Select O2 > press CTRL+C > use macros to autofill the column (web search) or Select N2 > press CTRL+C > in O3, hold CTRL+SHIFT+down-arrow key > CTRL + V aka paste. </li> Again we need to scroll down and find the last data filled row + 1. Select that cell then hold CTRL+SHIFT+the down key again to delete the invalid entries (use PAGE UP and PAGE DOWN to move smoothly when close). </li>
+ <li> Again repeat these steps for all 12 sheets, and make sure to save your work. We're done with the CSV files until SQL and R. </li>
  </ol>
 </details>
 
