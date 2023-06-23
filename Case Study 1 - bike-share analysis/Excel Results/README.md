@@ -129,7 +129,7 @@
 <details>
 <summary> Calculate the average ride_length for users by day_of_week </summary>
 <ol>
-<li> In cell Q29, click "Insert" on the top tab > Click "PivotTable" > select columns M, N and O > Existing Worksheet then OK. </li>
+<li> In cell Q29, click "Insert" on the top tab > Click "PivotTable" > select columns M, N and O together > Existing Worksheet then OK. </li>
 <li> Drag member_casual in the Rows area and ride_length in the Values area > left-click it and choose "Value Field Settings" change Count to Average. Finally, drag day_of_week into the Columns area. </li>
   
  * (blank) auto populates inside your pivot table; this is normal. Remove (blank) by clicking on cell Q31
@@ -146,7 +146,7 @@
   
 *This one is a little tricky.* 
 <ol>
-<li> In cell T3, click "Insert" on the top tab > Click "PivotTable" > select columns A, M and O > Existing worksheet, then OK. </li>
+<li> In cell T3, click "Insert" on the top tab > Click "PivotTable" > select columns A, M and O together > Existing worksheet, then OK. </li>
 <li> Drag ride_id into the Value area and make sure its "Value Field Setting is set to Count. Then drag member_casual and day_of_week to the Rows area. </li>
   
    * (blank) auto-populates inside your pivot table; this is normal. Remove (blank) by clicking on cell T3
