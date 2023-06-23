@@ -79,14 +79,14 @@
 </details>
 
 <details>
-  <summary> Combining all files </summary> 
+  <summary> Combining all files into one sheet </summary> 
   
   *<strong>NOW</strong> we are going to copy and convert all the files to XLSX inside a new folder with XLSX in the title.*
   
 <ol>
 <li> Open the first clean CSV file. </li>
 <li> File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all 12. </li>
-<li> Use Power Query (Google search) or simply copy and paste each sheet with CTRL+A > CTRL+C > then paste in a new tab in the original first sheet with CTRL+V. </li> 
+<li> Use Power Query (Google search) to merge or simply copy and paste each sheet with CTRL+A > CTRL+C > then paste in a new tab in the original first sheet with CTRL+V. Your original sheet will have 12 tabs. </li> 
 <li> Do this for all 12. Be mindful to keep your sheet names consistent if you're copying and pasting. They won't auto populate. </li> 
 </ol>
   
