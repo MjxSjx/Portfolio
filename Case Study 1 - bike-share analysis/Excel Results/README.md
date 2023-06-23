@@ -56,7 +56,7 @@
    
    ### Also, I suggest deleting all rows from "ride_length" with durations above 24:59:00. This is not a mandate, but depending on your SQL skill level, it may help.
    
-   <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ####### need their whole row deleted (mind your header row). Then check from smallesty to largest for any cells filled with #######. The reason the cells are messed up and filled with ####### is that the "start_at" and "end_at" column data is reading backwards. We don't have the authority to flip them, so our only means is to delete. </li>
+   <li> Select <strong>ALL</strong> columns and click on the "Data" tab at the top of the sheet > click Sort > Sort by ride_length > Order Largest to Smallest. Any cells in "ride_length" filled with ####### need their whole row deleted (mind your header row). Then check from smallest to largest for any cells filled with #######. The reason the cells are messed up and filled with ####### is that the "start_at" and "end_at" column data is reading backwards. We don't have the authority to flip them, so our only means is to delete. </li>
    
    * *Excel is a mess when sorting. It doesn't have the ability to use a primary key to sort all of the fields based on one column. If you forget to sort by <strong>all</strong> columns, your data will be wrong. Also, filtering is limited to 10,000 unique items; with files of this size, filtering for what we need to accomplish is useless.*
    
