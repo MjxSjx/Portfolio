@@ -86,8 +86,8 @@
 <ol>
 <li> Open the first clean CSV file. </li>
 <li> File > Save As > Browse > Your XLSX folder location > Save as type: Excel Workbook. Do this for all 12. </li>
-<li> Use Power Query (Google search) to merge or simply copy and paste each sheet with CTRL+A > CTRL+C > then paste in a new tab in the original first sheet with CTRL+V. Your original sheet will have 12 tabs. </li> 
-<li> Do this for all 12. Be mindful to keep your sheet names consistent if you're copying and pasting. They won't auto populate. </li> 
+<li> We are going to merge the 11 other sheets into the first sheet by creating new tabs at the bottom by using Power Query (Google search) or simply copying and pasting each sheet with CTRL+A > CTRL+C > then pasting into a new tab in the first sheet with CTRL+V. Your first sheet will have 12 tabs when finished. </li> 
+<li> Do this for all 12. Be mindful to keep your sheet tab names consistent if you're copying and pasting. They won't auto populate. </li> 
 </ol>
   
 *Notice all your files sizes are smaller now and you now have a mega file too :clap:.*
