@@ -19,7 +19,7 @@
     <li> Open the first file. Select all fields (including column names) by clicking and dragging over all columns or by clicking the utmost upper-left from the field section of the sheet. Aka, above row 1 and to the left of column A. </li>
     <li> After selecting all fields, press F5 or hold down CTRL+G until a "Go To" window pops up > Select "Special" > Click "Blanks" > Hit OK. This may take minutes to finish running. </li>
     <li> Once finished, scroll down until you see a highlighted cell or chunk of cells. Right-click when hovered over one and choose "Delete," then choose "Entire row" (you may get a warning; hit OK). This will take minutes, and your sheet may freeze; that's normal. </li>
-    <li> Unfortunately, you must do all of these steps on all sheets as many times as it takes (usually 2) until your results land you at the bottom of the sheet. The benefit of checking one too many times is you get the last row number. This information is useful.</li>
+    <li> Unfortunately, you must do all of these steps on your current sheet and following sheets as many times as it takes (usually 2) until your results land you at the bottom of the sheet. The benefit of checking one too many times is you get the last row number. This information is useful.</li>
   </ol>
   <ul>
     <li> Normally you sort and filter each column depending on the data type looking for anomalies or any number of error values </li>
