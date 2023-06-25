@@ -1,5 +1,4 @@
--- Another situation where the variable data type needed to be coerced for SQL to operate, May had the longest ride length at 19:32. 
--- The annual average was 16:02 
+-- Another situation where the variable data type needed to be coerced for SQL to operate, May had the longest ride length at 19:32.  
 
 SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202205-tripdata];
 MeanRL
