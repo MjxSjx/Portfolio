@@ -1,8 +1,8 @@
 -- I had to use bigint to corral all the data.
--- The annual average ride duration for all users is: 15 minutes and 0 seconds.
+-- The annual average ride duration for all users is: 15 minutes and 03 seconds.
 
 avg_rd_seconds
-900 aka 15:00
+903 aka 15:03
 
 SELECT 
     AVG(CAST(DATEDIFF(SECOND, '00:00:00', CONVERT(time, ride_length)) AS bigint)) AS avg_rd_seconds
