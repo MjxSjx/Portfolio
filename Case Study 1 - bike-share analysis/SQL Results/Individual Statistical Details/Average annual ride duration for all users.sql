@@ -1,5 +1,5 @@
 -- I had to use bigint to corral all the data.
--- The annual average ride duration for all users is: 16 minutes and 30 seconds.
+-- The annual average ride duration for all users is: 15 minutes and 0 seconds.
 
 avg_rd_seconds
 990 aka 16:30
