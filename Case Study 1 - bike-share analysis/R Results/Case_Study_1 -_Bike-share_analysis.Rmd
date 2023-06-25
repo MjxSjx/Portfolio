@@ -83,7 +83,8 @@ members in usage.
 
 <strong> 5. Supporting visualizations and key findings </strong>
 
-All Excel, SQL, and R-supporting visualizations are found in the [GitHub Portfolio repository "Case Study 1: bike-share analysis"](https://github.com/MjxSjx/Portfolio/tree/main/Case%20Study%201%20-%20bike-share%20analysis) in extensive detail, and Tableau at [Case Study 1: Bike-share analysis](https://public.tableau.com)
+All Excel, SQL, and R-supporting visualizations are found in the [GitHub Portfolio repository "Case Study 1: bike-share analysis"](https://github.com/MjxSjx/Portfolio/tree/main/Case%20Study%201%20-%20bike-share%20analysis)
+in extensive detail, and Tableau at [Case Study 1: Bike-share analysis](https://public.tableau.com)
 
 <strong> 6. Your top three recommendations based on your analysis </strong>
 
