@@ -1,5 +1,5 @@
 -- I had to use bigint to corral all the data.
--- The annual average ride duration for casual members is: 12 minutes and 14 seconds.
+-- The annual average ride duration for members is: 12 minutes and 14 seconds.
 
 avg_rd_seconds
 734 aka 12:14
