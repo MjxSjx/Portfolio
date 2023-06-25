@@ -10,12 +10,16 @@ output: html_document
 
 ## Introduction:
 
-Welcome to my Cyclistic bike-share analysis case study. Here, we will tackle real-world challenges faced by Cyclistic, a bike-share company based in Chicago. Throughout this study, we will follow the data analysis process to answer key business questions and develop actionable insights.
+Welcome to my Cyclistic bike-share analysis case study. Here, we will tackle real-world challenges faced by Cyclistic, a bike-share company
+based in Chicago. Throughout this study, we will follow the data analysis process to answer key business questions and develop actionable
+insights.
 
 
 ### Deliverables:
 
-The company's director of marketing, Lily Moreno, believes that the future success of Cyclistic relies on maximizing the number of annual memberships. To achieve this, we aim to understand the differences in behavior between casual riders and annual members, then leverage these insights to design a new marketing strategy. We need to:
+The company's director of marketing, Lily Moreno, believes that the future success of Cyclistic relies on maximizing the number of annual
+memberships. To achieve this, we aim to understand the differences in behavior between casual riders and annual members, then leverage these
+insights to design a new marketing strategy. We need to:
 
 1. Gain a comprehensive understanding of the distinct behaviors and preferences exhibited by annual members and casual riders.
 
@@ -26,7 +30,11 @@ The company's director of marketing, Lily Moreno, believes that the future succe
 
 ### Assumptions and Theories:
 
-Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders exhibit distinct patterns in bike usage, ride duration, and frequency. Theorizing that annual members, being more committed, would have longer average ride durations and a higher usage frequency. Compared to casual riders, we also speculate that factors such as cost-effectiveness, convenience, carbon footprint awareness, and exclusive benefits may motivate casual riders to transition into annual members.
+Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders
+exhibit distinct patterns in bike usage, ride duration, and frequency. Theorizing that annual members, being more committed, would have
+longer average ride durations and a higher usage frequency compared to casual riders, we also speculate that factors such as 
+cost-effectiveness, convenience, carbon footprint awareness, and exclusive benefits may motivate casual riders to transition 
+into annual members.
 
 
 ## Problem:
@@ -39,7 +47,8 @@ Three questions will guide the future marketing program:
 
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
-<strong>Our specifically assigned task is only to answer question number one. <em>"How do annual members and casual riders use Cyclistic bikes differently?"</em> The rest are handled by other team members </strong>
+<strong>Our specifically assigned task is only to answer question number one. <em>"How do annual members and casual riders use Cyclistic
+bikes differently?"</em> The rest are handled by other team members </strong>
 
 
 ### Ask:
@@ -48,11 +57,13 @@ We will produce a report with the following deliverables:
 
 <strong> 1. A clear statement of the business task </strong>
 
-Our overarching goal is to drive the conversion of casual riders into devoted annual members, foster long-term loyalty, and maximize the growth of Cyclistic.
+Our overarching goal is to drive the conversion of casual riders into devoted annual members, foster long-term loyalty, and maximize the
+growth of Cyclistic.
 
 <strong> 2. A description of all data sources used </strong>
 
-We will use Cyclistic’s historical trip data to analyze and identify trends. Our analysis will be based on the last annual cycle, from April 2022 to May 2023. The data has been made available by Motivate International Inc. under this [License](https://ride.divvybikes.com/data-license-agreement).
+We will use Cyclistic’s historical trip data to analyze and identify trends. Our analysis will be based on the last annual cycle, 
+from April 2022 to May 2023. The data has been made available by Motivate International Inc. under this [License](https://ride.divvybikes.com/data-license-agreement).
 
 <strong> 3. Documentation of any cleaning or manipulation of data </strong>
 
@@ -116,9 +127,9 @@ Present in this Rmd file at the bottom of the page
 
 ## Conclusion:
 
-Analysis of the data gave us several key insights. Members ride more frequently than casual users, showing a clear preference for weekdays, which peak on Wednesdays. They also tend to ride during the late afternoon hours, indicating a commuting pattern. The top start and end stations for members are Kingsbury and Kinzie St., suggesting a concentrated area of member activity. That gives us an opportunity to create targeted surveys to gain valuable insights specifically about what makes our services worth the annual membership to them.
+The analysis of the data gave us several key insights. Members ride more frequently than casual users, showing a clear preference for weekdays, which peak on Wednesdays. They also tend to ride during the late afternoon hours, indicating a commuting pattern. The top start and end stations for members are Kingsbury and Kinzie St., suggesting a concentrated area of member activity. That gives us an opportunity to create targeted surveys to gain valuable insights specifically about what makes our services worth their annual membership.
 
-Casual users exhibit different preferences. They ride less frequently but for longer distances, with a preference for weekends, which peak on Saturdays. Their top start and end stations are located at Streeter Dr. and Grand Ave., indicating a different area of interest compared to annual members. Also, allowing for targeted advertising to casual riders.
+Casual users exhibit different preferences. They ride less frequently but for longer distances, with a preference for weekends, which peak on Saturdays. Their top start and end stations are located at Streeter Dr. and Grand Ave., indicating a different area of interest compared to annual members, allowing for targeted advertising to casual riders.
 
 All of these findings highlight the importance of understanding the distinct behaviors and preferences of members and casual users. By discovering this information, Cyclistic can tailor our strategies to better serve these different user types. Cyclistic can optimize station placements, adjust operational schedules to accommodate peak times, and design targeted marketing campaigns to attract and retain both annual members and casual riders. All of this can enhance the overall user experience and lead to greater customer satisfaction while bringing Cyclistic sustain growth. This data-driven analysis demonstrates the power of leveraging information to make informed decisions, driving continual growth, and ensuring the success of Cyclistic.
 
