@@ -17,16 +17,15 @@ actionable insights.
 
 ### Deliverables:
 
-The company's director of marketing, Lily Moreno, believes that the future success of Cyclistic relies on maximizing the number of annual
-memberships. To achieve this, we aim to understand the differences in behavior between casual riders and annual members and leverage 
-these insights to design a new marketing strategy. We need to:
+The company's director of marketing, Lily Moreno, believes that the future success of Cyclistic relies on maximizing the number of 
+annual memberships. To achieve this, we aim to understand the differences in behavior between casual riders and annual members, 
+then leverage these insights to design a new marketing strategy. We need to:
 
 1. Gain a comprehensive understanding of the distinct behaviors and preferences exhibited by annual members and casual riders.
 
 2. Develop an innovative and targeted marketing strategy that effectively converts casual riders into loyal annual members.
 
-3. Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data 
-visualizations.
+3. Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data visualizations.
 
 
 ### Assumptions and Theories:
