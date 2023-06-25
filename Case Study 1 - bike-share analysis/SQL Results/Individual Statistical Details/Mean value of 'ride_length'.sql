@@ -46,4 +46,4 @@ MeanRL
 
 SELECT AVG(DATEDIFF(second, '00:00:00', ride_length)) AS MeanRL FROM [202304-tripdata];
 MeanRL
-935 aka 15:35
+919 aka 15:19
