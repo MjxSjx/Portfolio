@@ -72,8 +72,8 @@ GROUP BY LEFT(table_name, 6);
 
 Month    Minutes   AvgRL
 May-22   0:19:35   1175
-June-22  0:19:01   1141
 July-22  0:19:02   1142
+June-22  0:19:01   1141
 Aug-22   0:17:38   1058
 Sept-22  0:16:25   985
 Apr-23   0:15:19   919
