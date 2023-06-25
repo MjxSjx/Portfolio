@@ -2,7 +2,7 @@
 -- The annual average ride duration for all users is: 15 minutes and 0 seconds.
 
 avg_rd_seconds
-990 aka 16:30
+900 aka 15:00
 
 SELECT 
     AVG(CAST(DATEDIFF(SECOND, '00:00:00', CONVERT(time, ride_length)) AS bigint)) AS avg_rd_seconds
