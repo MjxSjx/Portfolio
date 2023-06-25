@@ -25,12 +25,17 @@ these insights to design a new marketing strategy. We need to:
 
 2. Develop an innovative and targeted marketing strategy that effectively converts casual riders into loyal annual members.
 
-3. Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data visualizations.
+3. Strengthen our thesis and marketing recommendations by supporting them with compelling data insights and professional data 
+visualizations.
 
 
 ### Assumptions and Theories:
 
-Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders exhibit distinct patterns in bike usage, ride duration, and frequency. Theorizing that annual members, being more committed, would have longer average ride durations and a higher usage frequency compared to casual riders, we also speculate that factors such as cost-effectiveness, convenience, carbon footprint awareness, and exclusive benefits may motivate casual riders to transition into annual members.
+Based on the information provided, we can make some initial assumptions and theories. We may assume that annual members and casual riders 
+exhibit distinct patterns in bike usage, ride duration, and frequency. Theorizing that annual members, being more committed, would have 
+longer average ride durations and a higher usage frequency compared to casual riders, we also speculate that factors such as 
+cost-effectiveness, convenience, carbon footprint awareness, and exclusive benefits may motivate casual riders to transition 
+into annual members.
 
 
 ## Problem:
