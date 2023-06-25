@@ -10,7 +10,9 @@ output: html_document
 
 ## Introduction:
 
-Welcome to my Cyclistic bike-share analysis case study. Here, we will tackle real-world challenges faced by Cyclistic, a bike-share company based in Chicago. Throughout this study, we will follow the data analysis process to answer key business questions and develop actionable insights.
+Welcome to my Cyclistic bike-share analysis case study. Here, we will tackle real-world challenges faced by Cyclistic, a bike-share 
+company based in Chicago. Throughout this study, we will follow the data analysis process to answer key business questions and develop 
+actionable insights.
 
 
 ### Deliverables:
