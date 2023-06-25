@@ -1,5 +1,6 @@
 -- The mean is affected by outlier field entries that contain 24 hours. No dynamic version, as its end result was consistently wrong.
-   
+-- Keep in mind that these results are skewed by many repair entries that are within or exceed 24 hours.'
+
 SELECT AVG(CONVERT(BIGINT, DATEDIFF(SECOND, CAST('00:00:00' AS TIME), TRY_CONVERT(TIME, ride_length)))) AS MeanRL
 FROM (
     SELECT ride_length FROM [202205-tripdata]
