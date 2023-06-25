@@ -1,8 +1,8 @@
 -- I had to use bigint to corral all the data.
--- The annual average ride duration for casual riders is: 23 minutes and 2 seconds.
+-- The annual average ride duration for casual riders is: 20 minutes and 35 seconds.
 
 avg_rd_seconds
-1382 aka 23:02
+1235 aka 20:35
 	
 SELECT 
     AVG(CAST(DATEDIFF(SECOND, '00:00:00', CONVERT(time, ride_length)) AS bigint)) AS avg_rd_seconds
