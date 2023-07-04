@@ -18,6 +18,7 @@ Those five questions covered the entirety of all the other sub-questions I asked
 
 
 * The page loads annual data and has a slider in the upper-right to cycle through each month. All seven sheets are linked to the slider.
+* My associated Rmd file: [Case Study 1 - Bike-share analysis Rmd file](https://rpubs.com/matt_johnson0304/1059960)
 
 
 [Tableau results link](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
