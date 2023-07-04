@@ -175,9 +175,9 @@ Due to the amount of content, the summary is too large to post on GitHub; a .PNG
 
 <details>
   
-<summary> Excel results photo</summary>
+<summary> Excel photo results</summary>
 
-![Excel results]([Case Study 1 - Excel Results.PNG](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results/Case%20Study%201%20-%20Excel%20Results.PNG))
+![Excel results](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results/Case%20Study%201%20-%20Excel%20Results.PNG)
 
 </details>
 
