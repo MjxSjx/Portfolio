@@ -14,4 +14,4 @@ In what ways can I compare the rider types?
 Those five questions covered the entirety of all the other sub-questions I asked myself.
 
 
-[Tableau](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
+[Tableau results](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
