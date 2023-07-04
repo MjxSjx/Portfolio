@@ -14,12 +14,15 @@ In what ways can I compare the rider types?
 Those five questions covered the entirety of all the other sub-questions I asked myself.
 
 
-[Tableau results](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
+[Tableau results link](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
 
 
 <details>
-<summary> Tableau results phtot</summary>
+  
+<summary> Tableau results photo</summary>
+
 ![Tableau results](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Tableau%20Results/Case%20Study%201%20-%20Tableau.PNG)
+
 </details>
 
 
