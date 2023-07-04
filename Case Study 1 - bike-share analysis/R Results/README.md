@@ -530,7 +530,7 @@ write.csv(all_trips, file = "D:/Merit/all_trips.csv", row.names = FALSE)
 
 * This is the site I used to create the Rmd sections: [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-15.html)
 
-* My Rmd file: [Case Study 1 - Bike-share analysis.Rmd](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/Case_Study_1%20-_Bike-share_analysis.Rmd)
+* My Rmd file: [Case Study 1 - Bike-share analysis.Rmd](https://rpubs.com/matt_johnson0304/1059960)
 
 * Although Rmd files take time to create, they are worth the effort, and if desired, different formats can be applied, creating distinct fonts and layouts. 
 
