@@ -16,4 +16,4 @@ Those five questions covered the entirety of all the other sub-questions I asked
 
 [Tableau results](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
 
-![Tableau results](Case Study 1 - Tableau.PNG)
+![Tableau results](Case Study 1 - Tableau.PNG) 
