@@ -133,7 +133,7 @@ Present in this Rmd file at the bottom of the page
 [R Results in Excel](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/R%20Results/R_Export_Summary_File_Results_in_Excel.PNG)
 
 ### Tableau Visualization Analysis
-[Tableau](https://public.tableau.com)
+[Tableau](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy1_16884106053400/CaseStudy1)
 
 
 ## Conclusion:
