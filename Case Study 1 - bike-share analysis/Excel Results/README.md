@@ -173,6 +173,15 @@
 
 Due to the amount of content, the summary is too large to post on GitHub; a .PNG file has to do.
 
+<details>
+  
+<summary> Excel results photo</summary>
+
+![Excel results]([Case Study 1 - Excel Results.PNG](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Excel%20Results/Case%20Study%201%20-%20Excel%20Results.PNG))
+
+</details>
+
+
 # Fin 
 Per stakeholder request: 
 * We downloaded, cleaned, sorted and converted the CSV files with **NO** error values allowed
