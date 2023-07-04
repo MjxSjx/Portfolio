@@ -25,7 +25,7 @@ Those five questions covered the entirety of all the other sub-questions I asked
 
 <details>
   
-<summary> Tableau results photo</summary>
+<summary> Tableau photo results</summary>
 
 ![Tableau results](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Tableau%20Results/Case%20Study%201%20-%20Tableau.PNG)
 
