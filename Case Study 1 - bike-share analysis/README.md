@@ -6,3 +6,6 @@ I cleaned the data, documented the total number of rows, distinct values, minimu
 
 ## R:
 I imported the data. Made columns consistent and merged them into a single dataframe. Then I cleaned up and added data to prepare for analysis. Conducted a descriptive analysis and exported a summary file for stakeholder deliverables. 
+
+## Tableau:
+I created data visualization using Tableau. I focused my data viz on answering every possible question that branches from the intial assigned stakeholder question; “How do annual members and casual riders use Cyclistic bikes differently?” 
