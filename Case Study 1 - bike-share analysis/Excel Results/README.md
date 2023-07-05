@@ -1,10 +1,10 @@
 # The Excel Process - From Dirty to Clean:                                       
 
-*Google Sheets won't open files of these sizes. The instructions for Google Sheets are unfortunately pointless:frowning:.*
+*Google Sheets won't open files of these sizes. Excel is your only option to open the data. The instructions for Google Sheets are unfortunately pointless:frowning:.*
 
 * Download the most recent annual data here: https://divvy-tripdata.s3.amazonaws.com/index.html.
 * Unzip all 12 files and place them in a specially named folder with CSV in the title for clarification.
-* Place that folder in a location relevant to the material. The CSV files will be used for SQL and R later.
+* Place that folder in a location relevant to the material. The CSV files will be used for SQL, R, and Tableau later.
 * <strong>AFTER</strong> we clean the data, <strong>THEN</strong> we will copy and convert all the files to XLSX inside a new folder with XLSX in the title. Copying now, like the instructions state, leaves you doing the same work twice:unamused:. CSV files cannot save multiple sheets in one file.
 
 *XLSX files can store more data and have a better compression algorithm, saving you space.*
