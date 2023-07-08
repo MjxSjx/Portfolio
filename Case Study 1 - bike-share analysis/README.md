@@ -1,3 +1,7 @@
+# Please be sure to check out the Google set of instructions before starting my guide as a foundation to your project
+
+* [Case Study 1 - bike-share analysis.PDF](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Case%20Study%201%20-%20bike-share%20analysis.pdf)
+
 ## Excel: 
 I cleaned the data, then combined it and created new columns. Most of the 12 sheets, totaling over 1 GB of data, were of no interest. I used pivot tables to sort, filter, and condense only the essential information, then generated graphs and pivot tables to achieve stakeholder deliverables. They are to be used in tandem with a presentation, as the information is too dense on one sheet. 
 
