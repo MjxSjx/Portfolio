@@ -12,4 +12,4 @@ Email: matt.johnson0304@gmail.com
 
 Case Study 1: How Does a Bike-Share Navigate Speedy Success? <em> I created an in-depth guide on this case study. A walkthrough designed to facilitate completion regardless of a persons current understanding of data analysis.</em>
 
-Case Study 2: TBA 
+Case Study 2: How Can a Wellness Technology Company Play It Smart?
