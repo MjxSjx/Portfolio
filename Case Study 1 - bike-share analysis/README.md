@@ -1,4 +1,4 @@
-# Please be sure to check out the Google set of instructions before starting my guide as a foundation to your project
+# Please be sure to check out the Google set of instructions before starting my guide as a foundation for your project, linked right below.
 
 * [Case Study 1 - bike-share analysis](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%201%20-%20bike-share%20analysis/Case%20Study%201%20-%20bike-share%20analysis.pdf)
 
