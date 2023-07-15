@@ -1,6 +1,6 @@
 # R Markdown
 
-I used Rpubs to publish my findings.
+I used RPubs to publish my findings.
 
 ### I utilized <em> all 6 steps </em> of data analysis and also included:
 
@@ -20,4 +20,4 @@ I used Rpubs to publish my findings.
   * The best solution and proposed recommendations for the client or business to take
  
 ### The results of my analysis using R:
-My Rmd file: [Case Study 2: Bellabeat analysis Rmd file](https://rpubs.com/matt_johnson0304/1062979)
+My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](https://rpubs.com/matt_johnson0304/1062979)
