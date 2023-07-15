@@ -2,7 +2,7 @@
 
 I used Rpubs to publish my findings.
 
-### I utilized <strong> all 6 steps </strong> of data analysis and also included:
+### I utilized <em> all 6 steps </em> of data analysis and also included:
 
 * An introduction
   * Stating the purpose of the case study
