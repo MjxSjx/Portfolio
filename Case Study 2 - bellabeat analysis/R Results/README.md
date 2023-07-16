@@ -21,6 +21,7 @@ I used RPubs to publish my findings.
  
 ### The results of my analysis using R:
 My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](http://rpubs.com/matt_johnson0304/1063207)
+
 A Jupyter Notebook version (same data, different viewing format): []()
 
 ## If you just want to see the pretty pictures, here they are:
