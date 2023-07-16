@@ -21,3 +21,8 @@ I used RPubs to publish my findings.
  
 ### The results of my analysis using R:
 My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](https://rpubs.com/matt_johnson0304/1062979)
+
+## If you just want to see the pretty pictures, here they are:
+
+* Daily Sleep Plot
+![Daily Sleep Plot](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%202%20-%20bellabeat%20analysis/R%20Results/Daily%20Sleep%20Plot.png)
