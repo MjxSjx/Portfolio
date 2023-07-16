@@ -394,7 +394,7 @@ ggplot(data = daily_activity_avg, aes(x = day_of_week, y = avg_steps)) +
 * The avg total steps is 7608.43
 ``` {r }
 # Showing the average daily steps in DESC order by day
-head(arrange(daily_activity_avg , desc(daily_activity_avg)), 7)
+head(arrange(daily_activity_avg, desc(avg_steps)), 7)
 ```
 
 
