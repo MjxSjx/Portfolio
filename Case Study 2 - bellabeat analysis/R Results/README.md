@@ -1,6 +1,6 @@
 # R Markdown 
 
-I used RPubs to publish my findings.
+I used RPubs and Jupyter Notebook to publish my findings. I prefer RPubs but to each their own.
 
 ### I utilized <em> all 6 steps </em> of data analysis and also included:
 
