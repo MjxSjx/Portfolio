@@ -25,5 +25,9 @@ My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](https://rpubs
 ## If you just want to see the pretty pictures, here they are:
 
 * Daily Sleep Plot
-
+<details>
+<summary> Daily Sleep Plot </summary> 
+ 
 ![Daily Sleep Plot](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%202%20-%20bellabeat%20analysis/R%20Results/Daily%20Sleep%20Plot.png)
+
+</details>
