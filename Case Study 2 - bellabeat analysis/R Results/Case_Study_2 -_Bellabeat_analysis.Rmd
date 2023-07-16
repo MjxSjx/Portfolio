@@ -223,7 +223,7 @@ head(weight_log)
 
 
 * Now our data is clean
-``` {r removing the missingValues object}
+``` {r removing the extra object}
 rm(duplicates)
 ```
 
