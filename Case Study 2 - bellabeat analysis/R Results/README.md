@@ -20,7 +20,7 @@ I used RPubs to publish my findings.
   * The best solution and proposed recommendations for the client or business to take
  
 ### The results of my analysis using R:
-My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](https://rpubs.com/matt_johnson0304/1062979)
+My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](http://rpubs.com/matt_johnson0304/1063207)
 
 ## If you just want to see the pretty pictures, here they are:
 
