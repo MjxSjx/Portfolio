@@ -210,21 +210,20 @@ any(is.na(weight_log))
 * Only 2 rows of the entire column "Fat" have data. In this situation, without 
 any actual stakeholders to communicate with; our only solution is to remove 
 the whole column. If we remove every row with empty data, we'll be left with 2.
-``` {r displaying a tibble that contains the missing values}
-missingValues <- weight_log[which(is.na(weight_log)), ]
-View(weight_log)
+``` {r displaying the tibble that contains the missing values}
+head(weight_log)
 ```
 
 
 * We went from 8 columns to 7. Column "Fat" has been removed
 ``` {r removing the column "Fat" from weight_log}
 weight_log <- weight_log[, -which(names(weight_log) == "Fat")]
+head(weight_log)
 ```
 
 
 * Now our data is clean
 ``` {r removing the missingValues object}
-rm(missingValues)
 rm(duplicates)
 ```
 
