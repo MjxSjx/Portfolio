@@ -21,7 +21,7 @@ I used Kaggle, Jupyter, and RPubs to publish my findings. I prefer RPubs but to 
  
 ### The results of my analysis using R:
 
-My Kaggle version (same data, different viewing format): [Case Study 2: Bellabeat analysis kaggle](https://www.kaggle.com/mattjohnson0304/case-study-2-bellabeat-analysis-matt-johnson)
+My Kaggle version (same data, different viewing format): [Case Study 2: Bellabeat analysis Kaggle](https://www.kaggle.com/mattjohnson0304/case-study-2-bellabeat-analysis-matt-johnson)
 
 A Jupyter Notebook version (same data, different viewing format): [Case Study 2: Bellabeat analysis Jupyter Notebook](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%202%20-%20bellabeat%20analysis/R%20Results/Case%20Study%202%20-%20bellabeat%20analysis.ipynb)
 
