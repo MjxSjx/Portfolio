@@ -1,6 +1,6 @@
 # R Markdown 
 
-I used RPubs and Jupyter Notebook to publish my findings. I prefer RPubs but to each their own.
+I used Kaggle, Jupyter, and RPubs to publish my findings. I prefer RPubs but to each their own.
 
 ### I utilized <em> all 6 steps </em> of data analysis and also included:
 
@@ -20,9 +20,12 @@ I used RPubs and Jupyter Notebook to publish my findings. I prefer RPubs but to 
   * The best solution and proposed recommendations for the client or business to take
  
 ### The results of my analysis using R:
-My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](http://rpubs.com/matt_johnson0304/1063207)
+
+My Kaggle version (same data, different viewing format): [Case Study 2: Bellabeat analysis kaggle](https://www.kaggle.com/mattjohnson0304/case-study-2-bellabeat-analysis-matt-johnson)
 
 A Jupyter Notebook version (same data, different viewing format): [Case Study 2: Bellabeat analysis Jupyter Notebook](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%202%20-%20bellabeat%20analysis/R%20Results/Case%20Study%202%20-%20bellabeat%20analysis.ipynb)
+
+My RPubs Rmd findings: [Case Study 2: Bellabeat analysis Rmd file](http://rpubs.com/matt_johnson0304/1063207)
 
 ## If you just want to see the pretty pictures, here they are:
 
