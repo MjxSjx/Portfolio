@@ -2,7 +2,7 @@ Coming Soon!
 
 Is unfettered capitalism eating itself?
 
-low birth rates / worker wages 
+low fertility rates / worker wages 
 
 Is there a correlation?
 
