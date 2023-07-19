@@ -14,4 +14,4 @@ Case Study 1: How Does a Bike-Share Navigate Speedy Success? <em> I created an i
 
 Case Study 2: How Can a Wellness Technology Company Play It Smart?
 
-Case Study 3: Choose Your Own Adventure
+Case Study 3: Choose Your Own Adventure - Is unfettered capitalism eating itself?
