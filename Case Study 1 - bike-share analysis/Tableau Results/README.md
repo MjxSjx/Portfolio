@@ -1,6 +1,6 @@
 # Tableau
 
-I decided to focus my data visualization on the question assigned by the stakeholders.
+I decided to focus my data visualization on the question assigned by the stakeholders. My Tableau results all filter in tandem by months but default to all months, aka annual data.
 
 ### <strong>"How do annual members and casual riders use Cyclistic bikes differently?"</strong>
 
