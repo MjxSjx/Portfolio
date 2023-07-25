@@ -13,6 +13,6 @@ So I asked myself <em>Is there a correlation?</em>
 
 * Github Results click [Here](https://github.com/MjxSjx/Portfolio/blob/main/Case%20Study%203%20-%20Choose%20Your%20Own%20Adventure/Case%20Study%203%20-%20Is%20Unfettered%20Capitalism%20Eating%20Itself.ipynb) or just click the .ipynb listed above
 * Kaggle Results click [Here](https://www.kaggle.com/mattjohnson0304/case-study-3-is-unfettered-capitalism-eating)
-* Tableau Results click [Here](https://public.tableau.com/views/CaseStudy3IsUnfetteredCapitalismEatingItself/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+* Tableau Results click [Here](https://public.tableau.com/app/profile/matt.johnson.0304/viz/CaseStudy3IsUnfetteredCapitalismEatingItself/Dashboard1)
 
 Thank you for your time.
