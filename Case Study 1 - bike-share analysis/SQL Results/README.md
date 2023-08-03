@@ -1,7 +1,9 @@
 <em> "Individual Statistical Details" folder: A collection of simpler queries about the data.</em> 
 
 # SQL - Installation and Importing:                                      
-*These instructions are for Windows OS and only intended to be applied after the data is cleaned in Excel. Follow Excel guide until the formulas section using all 12 cleaned CSV files in SQL*
+*These instructions are for Windows OS and only intended to be applied after the data is cleaned in Excel. Follow Excel guide until the formulas section then use all 12 cleaned CSV files in SQL*
+
+Note: Only Tableau Desktop can utilize .sql files.
 
 <details>
 <summary> Installing the program </summary>
@@ -108,7 +110,7 @@ I highly recommend the free course to anyone intrigued by Computer Science! </em
 Per stakeholder request: 
 * We imported the previously cleaned CSV files **without allowing NULLs** by changing data types in SQL 💪.
 * We utilized deep SQL queries using CASE, CREATE, DISTINCT, JOIN, SUBQUERY, UNION, and so on while showing our work.
-* We answered every possible question using data-driven decision-making and created files that are ripe for exporting to be used in summary visualizations. Note: Only Tableau Desktop can utilize .sql files.
+* We answered every possible question using data-driven decision-making and created files that are ripe for exporting to be used in summary visualizations. 
 
 I hope you've found this SQL section guide helpful!
 
