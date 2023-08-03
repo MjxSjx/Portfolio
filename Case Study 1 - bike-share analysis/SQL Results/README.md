@@ -1,7 +1,7 @@
 <em> "Individual Statistical Details" folder: A collection of simpler queries about the data.</em> 
 
 # SQL - Installation and Importing:                                      
-*These instructions are for Windows OS only*
+*These instructions are for Windows OS and only intended to be applied after the data is cleaned in the Excel guide using the 12 CSV files*
 
 <details>
 <summary> Installing the program </summary>
