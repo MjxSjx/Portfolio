@@ -1,7 +1,7 @@
 <em> "Individual Statistical Details" folder: A collection of simpler queries about the data.</em> 
 
 # SQL - Installation and Importing:                                      
-*These instructions are for Windows OS and only intended to be applied after the data is cleaned in Excel. Follow Excel guide until the formulas section then use all 12 cleaned CSV files in SQL*
+*These instructions are for the Windows OS and are only intended to be applied after the data is cleaned in Excel. Follow the Excel guide until the formulas section, then use all 12 cleaned CSV files in SQL*
 
 <strong>Note:</strong> Only Tableau Desktop aka the paid version can utilize .sql files to create charts.
 
