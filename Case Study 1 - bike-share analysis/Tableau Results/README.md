@@ -2,7 +2,8 @@
 
 I decided to focus my data visualization on the question assigned by the stakeholders. My Tableau results all filter in tandem by months but default to all months, aka annual data.
 
-<strong>Note:</strong> Tableau is only intended to be used after the data is cleaned in Excel. Follow the Excel guide until the formulas section, then use all 12 cleaned CSV files in Tableau
+<strong>Note:</strong> <em>Tableau is only intended to be used after the data is cleaned in Excel. Follow the Excel guide until the formulas section, then use all 12 cleaned CSV files in Tableau </em>
+
 ### <strong>"How do annual members and casual riders use Cyclistic bikes differently?"</strong>
 
 I then asked myself:
