@@ -3,7 +3,7 @@
 # SQL - Installation and Importing:                                      
 *These instructions are for Windows OS and only intended to be applied after the data is cleaned in Excel. Follow Excel guide until the formulas section then use all 12 cleaned CSV files in SQL*
 
-Note: Only Tableau Desktop can utilize .sql files.
+<strong>Note:</strong> Only Tableau Desktop aka the paid version can utilize .sql files to create charts.
 
 <details>
 <summary> Installing the program </summary>
